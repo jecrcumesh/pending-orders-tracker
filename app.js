@@ -46,7 +46,7 @@ const LEGEND = [
   ["Cancelled", "var(--c-cancelled)"],
 ];
 
-const STORAGE_KEY = "expectedDeliveryDates";
+const STORAGE_KEY = "expectedDeliveryDates"; // legacy, browser-only dates from an earlier version
 const GH_CONFIG_KEY = "ghConfig"; // { token, owner, repo, branch, path }
 
 let rawData = [];
@@ -61,14 +61,14 @@ let currentPage = 1;
 let pageSize = 25;
 
 function loadDeliveryDates() {
+  // Only used as a one-time fallback for dates set in an earlier version of
+  // this app (before edits were saved to orders.json). Edits now always
+  // commit straight to orders.json via GitHub.
   try {
     return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
   } catch (e) {
     return {};
   }
-}
-function saveDeliveryDates(map) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
 }
 
 /* ---------------- GitHub login / persistence ---------------- */
@@ -445,7 +445,7 @@ async function handleAddOrderSubmit(e) {
     }
   } finally {
     submitBtn.disabled = false;
-    submitBtn.textContent = "Save to orders.json";
+    submitBtn.textContent = "Save";
   }
 }
 
@@ -480,6 +480,156 @@ function exportToExcel(rows, filenameBase) {
   XLSX.utils.book_append_sheet(wb, ws, "Orders");
   const stamp = new Date().toISOString().slice(0, 10);
   XLSX.writeFile(wb, `${filenameBase}_${stamp}.xlsx`);
+}
+
+/* ---------------- inline cell editing ---------------- */
+
+function displayValue(col, row) {
+  let val = row[col.key];
+  if (col.key === "% Dispatched" && val !== "" && val !== undefined && val !== null) {
+    val = (parseFloat(val) * 100).toFixed(1) + "%";
+  }
+  return val === "" || val === null || val === undefined ? "—" : val;
+}
+
+function renderCellStatic(td, row, col) {
+  td.innerHTML = "";
+  td.classList.remove("editing");
+  const span = document.createElement("span");
+  span.className = "cell-text";
+  span.textContent = displayValue(col, row);
+  td.title = String(row[col.key] ?? "");
+  td.appendChild(span);
+}
+
+function buildFieldFor(col, currentVal) {
+  let field;
+  if (col.formType === "yesno") {
+    field = document.createElement("select");
+    field.innerHTML =
+      '<option value=""></option><option value="Yes">Yes</option><option value="No">No</option>';
+  } else if (col.formType === "status") {
+    field = document.createElement("select");
+    field.innerHTML = LEGEND.map(([s]) => `<option value="${s}">${s}</option>`).join("");
+  } else if (col.formType === "unit") {
+    field = document.createElement("input");
+    field.type = "text";
+    field.setAttribute("list", "unitOptions");
+  } else if (col.formType === "number") {
+    field = document.createElement("input");
+    field.type = "number";
+    field.step = "any";
+  } else if (col.type === "date" || col.type === "editdate" || col.formType === "date") {
+    field = document.createElement("input");
+    field.type = "date";
+  } else if (col.formType === "textarea") {
+    field = document.createElement("textarea");
+    field.rows = 2;
+  } else {
+    field = document.createElement("input");
+    field.type = "text";
+  }
+  field.className = "cell-edit-input";
+  field.value = currentVal ?? "";
+  return field;
+}
+
+function makeEditableCell(td, row, col) {
+  renderCellStatic(td, row, col);
+  td.classList.add("editable-cell");
+  td.title = (td.title ? td.title + " — " : "") + "Click to edit";
+  td.addEventListener("click", () => startEditingCell(td, row, col));
+}
+
+function startEditingCell(td, row, col) {
+  if (td.classList.contains("editing")) return;
+  td.classList.add("editing");
+  td.innerHTML = "";
+
+  const currentVal = row[col.key] ?? "";
+  const field = buildFieldFor(col, currentVal);
+  td.appendChild(field);
+  field.focus();
+  if (field.select) field.select();
+
+  let finished = false;
+  const cancel = () => {
+    if (finished) return;
+    finished = true;
+    renderCellStatic(td, row, col);
+  };
+  const commit = () => {
+    if (finished) return;
+    finished = true;
+    saveCellEdit(row, col, field.value, td);
+  };
+
+  field.addEventListener("blur", commit);
+  field.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && field.tagName !== "TEXTAREA") {
+      e.preventDefault();
+      field.blur();
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      field.removeEventListener("blur", commit);
+      cancel();
+    }
+  });
+  if (field.tagName === "SELECT") {
+    field.addEventListener("change", () => field.blur());
+  }
+}
+
+function recomputeDependents(row, changedKey) {
+  if (changedKey === "Order Qty" || changedKey === "Dispatched Qty") {
+    const oq = parseFloat(row["Order Qty"]) || 0;
+    const dq = parseFloat(row["Dispatched Qty"]) || 0;
+    row["Balance Qty"] = oq - dq;
+    row["% Dispatched"] = oq > 0 ? dq / oq : 0;
+  }
+  if (changedKey === "Order Date") {
+    row["Days Since Order"] = daysSince(row["Order Date"]);
+  }
+}
+
+async function saveCellEdit(row, col, rawValue, td) {
+  const previous = row[col.key];
+  const newValue = typeof rawValue === "string" ? rawValue.trim() : rawValue;
+
+  if (String(newValue) === String(previous ?? "")) {
+    renderCellStatic(td, row, col);
+    return;
+  }
+
+  if ((col.key === "Customer Name" || col.key === "Material Name") && !newValue) {
+    alert(`${col.label} cannot be empty.`);
+    renderCellStatic(td, row, col);
+    return;
+  }
+
+  if (!isConnected()) {
+    alert("Sign in with your GitHub token first so this edit can be saved to orders.json.");
+    renderCellStatic(td, row, col);
+    openConnectModal();
+    return;
+  }
+
+  row[col.key] = newValue;
+  recomputeDependents(row, col.key);
+
+  td.classList.add("cell-saving");
+  const ok = await commitOrdersToGitHub(`Update ${col.label} for Sr. No. ${row["Sr. No."]}`);
+  td.classList.remove("cell-saving");
+
+  if (!ok) {
+    row[col.key] = previous;
+    recomputeDependents(row, col.key);
+  }
+
+  // Full re-render keeps computed columns (Balance Qty, % Dispatched, Days
+  // Since Order) and filter/select option lists in sync with the edit.
+  buildFilterRow();
+  applyAll();
 }
 
 function buildLegend() {
@@ -704,25 +854,10 @@ function renderBody() {
         del.textContent = "🗑";
         del.addEventListener("click", () => deleteOrder(row["Sr. No."]));
         td.appendChild(del);
-      } else if (col.key === "Expected Delivery Date") {
-        const input = document.createElement("input");
-        input.type = "date";
-        input.className = "edit-date";
-        input.value = row[col.key] || "";
-        input.addEventListener("change", (e) => {
-          row[col.key] = e.target.value;
-          const map = loadDeliveryDates();
-          map[row["Sr. No."]] = e.target.value;
-          saveDeliveryDates(map);
-        });
-        td.appendChild(input);
+      } else if (col.computed) {
+        renderCellStatic(td, row, col);
       } else {
-        let val = row[col.key];
-        if (col.type === "number" && col.key === "% Dispatched" && val !== "") {
-          val = (parseFloat(val) * 100).toFixed(1) + "%";
-        }
-        td.textContent = val === "" || val === null || val === undefined ? "—" : val;
-        td.title = String(val ?? "");
+        makeEditableCell(td, row, col);
       }
       tr.appendChild(td);
     });

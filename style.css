@@ -202,18 +202,38 @@ tr.status-completed td { background: var(--c-completed); }
 tr.status-cancelled td { background: var(--c-cancelled); }
 tr.status-blank td { background: var(--c-blank); }
 
-.edit-date {
-  width: 100%;
-  border: 1px solid transparent;
-  background: transparent;
-  font-size: 12px;
-  font-family: inherit;
-  padding: 3px 4px;
-  border-radius: 4px;
+.editable-cell {
+  cursor: text;
 }
-.edit-date:hover, .edit-date:focus {
-  border-color: var(--border);
+.editable-cell:hover {
+  outline: 1px dashed #8a96a3;
+  outline-offset: -2px;
+  background: rgba(31, 111, 235, 0.06);
+}
+.editable-cell.editing {
+  padding: 3px 5px;
+  outline: 2px solid #1f6feb;
+  outline-offset: -2px;
   background: #fff;
+}
+.editable-cell.cell-saving {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.cell-edit-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  font-family: inherit;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+textarea.cell-edit-input {
+  min-height: 44px;
+  resize: vertical;
 }
 
 .pagination {
