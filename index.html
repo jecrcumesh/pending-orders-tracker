@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pending Orders Tracker</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>Pending Orders Tracker</h1>
+      <div class="topbar-controls">
+        <input id="globalSearch" type="text" placeholder="Search all columns…" />
+        <button id="clearFilters" title="Clear all column filters and search">Clear filters</button>
+        <span id="rowCount" class="row-count"></span>
+      </div>
+    </header>
+
+    <div class="legend" id="legend"></div>
+
+    <div class="table-wrap" id="tableWrap">
+      <table id="ordersTable">
+        <thead>
+          <tr id="headerRow"></tr>
+          <tr id="filterRow" class="filter-row"></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <footer class="pagination">
+      <div class="page-size">
+        Rows per page:
+        <select id="pageSize">
+          <option value="10">10</option>
+          <option value="25" selected>25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="all">All</option>
+        </select>
+      </div>
+      <div class="page-nav">
+        <button id="firstPage">&laquo;</button>
+        <button id="prevPage">&lsaquo; Prev</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage">Next &rsaquo;</button>
+        <button id="lastPage">&raquo;</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
