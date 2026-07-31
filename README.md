@@ -26,16 +26,19 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
 - Pick 10 / 25 / 50 / 100 / All rows per page, with page navigation controls.
 - **Every field is editable in place.** Click any cell (except Sr. No. and
   the calculated columns — Balance Qty, % Dispatched, Days Since Order) to
-  edit it. Press Enter or click away to save, or Escape to cancel. As soon
-  as you save, the change commits straight to `orders.json` in your GitHub
-  repo — it's not just kept in your browser. Balance Qty, % Dispatched, and
+  edit it. Press Enter or click away to save, or Escape to cancel. The
+  change appears in the table immediately. Balance Qty, % Dispatched, and
   Days Since Order recalculate automatically when you edit Order Qty,
   Dispatched Qty, or Order Date.
-- **Add / delete records for real.** Click **"+ Add Order"** to add a new
-  record, or the 🗑 icon on any row to delete it. Both commit the change
-  directly to `orders.json` — a status message appears right in the modal
-  (or next to the row) so you can see immediately whether the save
-  succeeded or failed.
+- **Add / delete records.** Click **"+ Add Order"** to add a new record, or
+  the 🗑 icon on any row to delete it — both update the list right away.
+- **One "💾 Save Changes" button commits everything.** Edits, adds, and
+  deletes are kept in the browser until you click **"💾 Save Changes"** in
+  the top bar (it turns green and pulses whenever there's something
+  unsaved). One click writes the entire current list to `orders.json` in a
+  single commit — much simpler than saving each change separately, and you
+  always see exactly what will be saved before you save it. If you try to
+  close the tab with unsaved changes, the browser will warn you.
 - **Export to Excel.** "⬇ Export All" downloads every order; "⬇ Export
   Filtered" downloads only the rows currently matching your search/filters —
   handy for sharing a specific slice (e.g. one customer, or one status).
@@ -44,10 +47,10 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
   Expected Delivery Date is today, tomorrow, or the day after, grouped by
   day, so you can plan deliveries at a glance. Has its own Excel export too.
 
-## Sign in with a GitHub token (required to edit/add/delete)
-Editing a cell, adding, or deleting a record writes straight to
-`orders.json` in your repo via the GitHub API, so the app needs a token
-with write access:
+## Sign in with a GitHub token (required to click "Save Changes")
+Editing, adding, and deleting work locally without signing in — you only
+need a token when you're ready to click **"💾 Save Changes"**, which writes
+straight to `orders.json` in your repo via the GitHub API:
 
 1. On GitHub, go to **Settings → Developer settings → Personal access
    tokens → Fine-grained tokens → Generate new token**.
@@ -59,19 +62,21 @@ with write access:
    - repo name
    - branch (defaults to `main`)
    - file path (defaults to `orders.json`)
-4. Click **Connect**. The app verifies it can read the file, then any edit,
-   Add, or Delete you do afterwards commits directly to that file.
+4. Click **Connect**. The app verifies it can read the file. From then on,
+   clicking **"💾 Save Changes"** writes your pending edits directly to
+   that file. If you click it before signing in, it opens this same dialog
+   first — your pending changes are not lost.
 
 **Security note:** the token is stored only in your browser's
 `localStorage` and is sent only to `api.github.com`. Anyone with access to
 that browser (or its dev tools) could read it, so use a token scoped to
 this one repo, and sign out ("GitHub settings" → "Sign out") on shared
-computers. Viewing/sorting/filtering the table never requires signing in —
-only editing, adding, and deleting do.
+computers.
 
 Because the write goes straight to the repo, GitHub Pages will take about a
 minute to redeploy after a save before other visitors see the change; your
-own browser updates immediately.
+own browser already shows the up-to-date list since it's editing its local
+copy directly.
 
 ## Run locally
 No build step needed. From this folder:
@@ -98,8 +103,8 @@ Then open http://localhost:8000 in a browser.
 
 ## Updating the data later
 You have two options:
-- **In the app**: sign in with a GitHub token (above), then use "+ Add Order"
-  or the 🗑 delete icon — changes commit straight to `orders.json`.
+- **In the app**: make your edits/adds/deletes, then sign in with a GitHub
+  token if you haven't already, then click **"💾 Save Changes"**.
 - **Manually**: re-export your Excel sheet, regenerate `orders.json` in the
   same shape (array of objects, one per order row, using the same column
   names as in `app.js`'s `COLUMNS` list), then commit and push.

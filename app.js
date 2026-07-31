@@ -53,6 +53,7 @@ let rawData = [];
 let ghConfig = null;
 let ghLatestSha = null;
 let ghBusy = false;
+let unsavedChanges = false;
 let filtered = [];
 let sortState = { key: null, dir: 0 }; // dir: 1 asc, -1 desc, 0 none
 let colFilters = {}; // key -> filter string/value
@@ -205,6 +206,39 @@ async function commitOrdersToGitHub(message) {
   }
 }
 
+/* ---------------- unsaved-changes / Save Changes button ---------------- */
+
+function markDirty() {
+  unsavedChanges = true;
+  updateSaveChangesButton();
+}
+
+function updateSaveChangesButton() {
+  const btn = document.getElementById("saveChangesBtn");
+  if (!btn) return;
+  btn.disabled = !unsavedChanges;
+  btn.textContent = unsavedChanges ? "💾 Save Changes" : "✓ All changes saved";
+  btn.classList.toggle("has-changes", unsavedChanges);
+}
+
+async function handleSaveChangesClick() {
+  const btn = document.getElementById("saveChangesBtn");
+  btn.disabled = true;
+  btn.textContent = "Saving…";
+  const ok = await commitOrdersToGitHub(`Update orders — ${new Date().toLocaleString()}`);
+  if (ok) {
+    unsavedChanges = false;
+  }
+  updateSaveChangesButton();
+}
+
+window.addEventListener("beforeunload", (e) => {
+  if (unsavedChanges) {
+    e.preventDefault();
+    e.returnValue = "";
+  }
+});
+
 function setSaveStatus(text, kind) {
   // Update every status element on the page (topbar + any open modal) so the
   // message is visible no matter what's currently in front.
@@ -300,6 +334,7 @@ function init() {
       wireGlobalControls();
       buildAddOrderForm();
       updateGhStatus();
+      updateSaveChangesButton();
     })
     .catch((err) => {
       document.getElementById("tableBody").innerHTML =
@@ -324,25 +359,13 @@ function daysSince(dateStr) {
   return diff < 0 ? 0 : diff;
 }
 
-async function deleteOrder(srNo) {
-  if (!isConnected()) {
-    alert("Sign in with your GitHub token first so the deletion can be saved to orders.json.");
-    openConnectModal();
-    return;
-  }
-  if (!confirm("Delete this order from orders.json? This cannot be undone.")) return;
+function deleteOrder(srNo) {
+  if (!confirm("Remove this order from the list? Click \"Save Changes\" afterwards to make it permanent in orders.json.")) return;
 
-  const backup = rawData;
   rawData = rawData.filter((r) => r["Sr. No."] !== srNo);
+  markDirty();
   buildFilterRow();
   applyAll();
-
-  const ok = await commitOrdersToGitHub(`Delete order Sr. No. ${srNo}`);
-  if (!ok) {
-    rawData = backup; // revert on failure
-    buildFilterRow();
-    applyAll();
-  }
 }
 
 function buildAddOrderForm() {
@@ -398,14 +421,8 @@ function closeAddOrderModal() {
   document.getElementById("addOrderModal").classList.remove("open");
 }
 
-async function handleAddOrderSubmit(e) {
+function handleAddOrderSubmit(e) {
   e.preventDefault();
-
-  if (!isConnected()) {
-    alert("Sign in with your GitHub token first so the new order can be saved to orders.json.");
-    openConnectModal();
-    return;
-  }
 
   const form = e.target;
   const fd = new FormData(form);
@@ -426,27 +443,14 @@ async function handleAddOrderSubmit(e) {
   row["% Dispatched"] = orderQty > 0 ? dispatchedQty / orderQty : 0;
   row["Days Since Order"] = daysSince(row["Order Date"]);
 
-  const backup = rawData;
+  // Add locally and reflect it right away — click "Save Changes" in the top
+  // bar afterwards to commit it (and any other pending edits) to orders.json.
   rawData = rawData.concat([row]);
+  markDirty();
 
-  const submitBtn = form.querySelector('button[type="submit"]');
-  submitBtn.disabled = true;
-  submitBtn.textContent = "Saving…";
-  try {
-    const ok = await commitOrdersToGitHub(
-      `Add order for ${row["Customer Name"]} (Sr. No. ${row["Sr. No."]})`
-    );
-    if (ok) {
-      closeAddOrderModal();
-      buildFilterRow();
-      applyAll();
-    } else {
-      rawData = backup; // revert on failure, keep modal open so user can retry
-    }
-  } finally {
-    submitBtn.disabled = false;
-    submitBtn.textContent = "Save";
-  }
+  closeAddOrderModal();
+  buildFilterRow();
+  applyAll();
 }
 
 /* ---------------- export to Excel ---------------- */
@@ -592,7 +596,7 @@ function recomputeDependents(row, changedKey) {
   }
 }
 
-async function saveCellEdit(row, col, rawValue, td) {
+function saveCellEdit(row, col, rawValue, td) {
   const previous = row[col.key];
   const newValue = typeof rawValue === "string" ? rawValue.trim() : rawValue;
 
@@ -607,27 +611,13 @@ async function saveCellEdit(row, col, rawValue, td) {
     return;
   }
 
-  if (!isConnected()) {
-    alert("Sign in with your GitHub token first so this edit can be saved to orders.json.");
-    renderCellStatic(td, row, col);
-    openConnectModal();
-    return;
-  }
-
+  // Apply the edit locally and re-render immediately — this is what makes
+  // the change show up right away. It is NOT written to orders.json yet;
+  // click "Save Changes" in the top bar to commit everything at once.
   row[col.key] = newValue;
   recomputeDependents(row, col.key);
+  markDirty();
 
-  td.classList.add("cell-saving");
-  const ok = await commitOrdersToGitHub(`Update ${col.label} for Sr. No. ${row["Sr. No."]}`);
-  td.classList.remove("cell-saving");
-
-  if (!ok) {
-    row[col.key] = previous;
-    recomputeDependents(row, col.key);
-  }
-
-  // Full re-render keeps computed columns (Balance Qty, % Dispatched, Days
-  // Since Order) and filter/select option lists in sync with the edit.
   buildFilterRow();
   applyAll();
 }
@@ -948,6 +938,8 @@ function wireGlobalControls() {
   document.getElementById("exportFilteredBtn").addEventListener("click", () => {
     exportToExcel(filtered, "orders_filtered");
   });
+
+  document.getElementById("saveChangesBtn").addEventListener("click", handleSaveChangesClick);
 }
 
 document.addEventListener("DOMContentLoaded", init);

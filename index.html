@@ -15,6 +15,7 @@
         <input id="globalSearch" type="text" placeholder="Search all columns…" />
         <button id="clearFilters" title="Clear all column filters and search">Clear filters</button>
         <button id="addOrderBtn" class="primary-btn">+ Add Order</button>
+        <button id="saveChangesBtn" class="primary-btn save-changes-btn" disabled title="Commit every pending edit, add, and delete to orders.json">✓ All changes saved</button>
         <button id="connectGithubBtn" class="secondary-btn">Sign in with GitHub token</button>
         <button id="exportAllBtn" class="secondary-btn" title="Export the whole dataset to Excel">⬇ Export All</button>
         <button id="exportFilteredBtn" class="secondary-btn" title="Export only the currently filtered/searched rows">⬇ Export Filtered</button>
@@ -69,6 +70,10 @@
       </div>
       <form id="addOrderForm">
         <div class="modal-body" id="addOrderFields"></div>
+        <p class="modal-help" style="margin: 0 18px 14px;">
+          This adds the order to the list. Click <strong>"💾 Save Changes"</strong> in the top bar
+          afterwards to write it (and any other pending edits) to <code>orders.json</code>.
+        </p>
         <div class="modal-footer">
           <span class="save-status modal-status"></span>
           <button type="button" id="cancelAddOrder" class="secondary-btn">Cancel</button>
