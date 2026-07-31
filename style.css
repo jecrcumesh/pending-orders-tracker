@@ -410,3 +410,46 @@ tr.status-blank td { background: var(--c-blank); }
 .save-status.info { color: #1f6feb; }
 .save-status.success { color: #1a7f37; }
 .save-status.error { color: #cf222e; }
+
+.modal-status {
+  margin-right: auto;
+  font-size: 12.5px;
+}
+
+.link-btn {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.plan-group {
+  margin-bottom: 26px;
+}
+
+.plan-group-heading {
+  font-size: 16px;
+  margin: 0 0 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.plan-date {
+  font-size: 13px;
+  font-weight: normal;
+  color: #52606d;
+}
+
+.plan-count {
+  font-size: 12px;
+  font-weight: 600;
+  background: #eef1f4;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2px 9px;
+}
+
+.plan-table-wrap {
+  max-height: none;
+}

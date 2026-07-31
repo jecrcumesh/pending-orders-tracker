@@ -5,9 +5,11 @@ Built from `Pending_Order__Organized__1 (1).xlsx` — all 165 valid order rows,
 all original 20 columns preserved, plus a new **Expected Delivery Date** column.
 
 ## Files
-- `index.html` — page structure
-- `style.css` — styling, frozen columns, status colors
-- `app.js` — all logic (sort, filter, pagination, editing)
+- `index.html` — main tracker page
+- `delivery-plan.html` — delivery planner page (today / tomorrow / day after)
+- `style.css` — shared styling, frozen columns, status colors
+- `app.js` — main tracker logic (sort, filter, pagination, editing, GitHub save, export)
+- `delivery-plan.js` — delivery planner logic
 - `orders.json` — your order data (edit this file, or regenerate from a fresh
   export, to update the app's data)
 
@@ -26,9 +28,18 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
   There was no delivery-date data in the source spreadsheet, so this column
   starts empty.
 - **Add / delete records for real.** Click **"+ Add Order"** to add a new
-  record, or the 🗑 icon on any row to delete it. Both actions commit the
-  change directly to `orders.json` in your GitHub repo (see below) — they
-  are not just saved in your browser.
+  record, or the 🗑 icon on any row to delete it. Both use the **"Save to
+  orders.json"** / confirm action to commit the change directly to
+  `orders.json` in your GitHub repo (see below) — they are not just saved
+  in your browser. A status message appears in the modal itself, so you can
+  see immediately whether the save succeeded or failed.
+- **Export to Excel.** "⬇ Export All" downloads every order; "⬇ Export
+  Filtered" downloads only the rows currently matching your search/filters —
+  handy for sharing a specific slice (e.g. one customer, or one status).
+- **Delivery Planner page** (📅 button, opens in a new tab). Separate from
+  the main list — shows only active orders (not Completed/Cancelled) whose
+  Expected Delivery Date is today, tomorrow, or the day after, grouped by
+  day, so you can plan deliveries at a glance. Has its own Excel export too.
 
 ## Sign in with a GitHub token (required to add/delete)
 Adding or deleting a record writes straight to `orders.json` in your repo

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Pending Orders Tracker</title>
 <link rel="stylesheet" href="style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 <body>
   <div class="app">
@@ -15,6 +16,9 @@
         <button id="clearFilters" title="Clear all column filters and search">Clear filters</button>
         <button id="addOrderBtn" class="primary-btn">+ Add Order</button>
         <button id="connectGithubBtn" class="secondary-btn">Sign in with GitHub token</button>
+        <button id="exportAllBtn" class="secondary-btn" title="Export the whole dataset to Excel">⬇ Export All</button>
+        <button id="exportFilteredBtn" class="secondary-btn" title="Export only the currently filtered/searched rows">⬇ Export Filtered</button>
+        <a href="delivery-plan.html" target="_blank" class="secondary-btn link-btn">📅 Delivery Planner</a>
         <span id="rowCount" class="row-count"></span>
       </div>
     </header>
@@ -66,8 +70,9 @@
       <form id="addOrderForm">
         <div class="modal-body" id="addOrderFields"></div>
         <div class="modal-footer">
+          <span class="save-status modal-status"></span>
           <button type="button" id="cancelAddOrder" class="secondary-btn">Cancel</button>
-          <button type="submit" class="primary-btn">Save Order</button>
+          <button type="submit" class="primary-btn">Save to orders.json</button>
         </div>
       </form>
     </div>
@@ -112,6 +117,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" id="disconnectGithub" class="secondary-btn" style="display:none; margin-right:auto;">Sign out</button>
+          <span class="save-status modal-status"></span>
           <button type="button" id="cancelConnect" class="secondary-btn">Cancel</button>
           <button type="submit" class="primary-btn">Connect</button>
         </div>

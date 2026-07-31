@@ -206,14 +206,19 @@ async function commitOrdersToGitHub(message) {
 }
 
 function setSaveStatus(text, kind) {
-  const el = document.getElementById("saveStatus");
-  el.textContent = text;
-  el.className = "save-status " + (kind || "");
+  // Update every status element on the page (topbar + any open modal) so the
+  // message is visible no matter what's currently in front.
+  document.querySelectorAll(".save-status").forEach((el) => {
+    el.textContent = text;
+    el.className = "save-status " + (kind || "");
+  });
   if (kind === "success") {
     clearTimeout(setSaveStatus._t);
     setSaveStatus._t = setTimeout(() => {
-      el.textContent = "";
-      el.className = "save-status";
+      document.querySelectorAll(".save-status").forEach((el) => {
+        el.textContent = "";
+        el.className = "save-status";
+      });
     }, 6000);
   }
 }
@@ -424,14 +429,57 @@ async function handleAddOrderSubmit(e) {
   const backup = rawData;
   rawData = rawData.concat([row]);
 
-  const ok = await commitOrdersToGitHub(`Add order for ${row["Customer Name"]} (Sr. No. ${row["Sr. No."]})`);
-  if (ok) {
-    closeAddOrderModal();
-    buildFilterRow();
-    applyAll();
-  } else {
-    rawData = backup; // revert on failure, keep modal open so user can retry
+  const submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.disabled = true;
+  submitBtn.textContent = "Saving…";
+  try {
+    const ok = await commitOrdersToGitHub(
+      `Add order for ${row["Customer Name"]} (Sr. No. ${row["Sr. No."]})`
+    );
+    if (ok) {
+      closeAddOrderModal();
+      buildFilterRow();
+      applyAll();
+    } else {
+      rawData = backup; // revert on failure, keep modal open so user can retry
+    }
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = "Save to orders.json";
   }
+}
+
+/* ---------------- export to Excel ---------------- */
+
+function exportToExcel(rows, filenameBase) {
+  if (typeof XLSX === "undefined") {
+    alert("The Excel export library didn't load (check your internet connection) — please try again.");
+    return;
+  }
+  if (!rows.length) {
+    alert("Nothing to export.");
+    return;
+  }
+  const exportCols = COLUMNS.filter((c) => c.type !== "actions");
+  const plainRows = rows.map((row) => {
+    const out = {};
+    exportCols.forEach((col) => {
+      let v = row[col.key];
+      if (v === undefined || v === null) v = "";
+      if (col.key === "% Dispatched" && v !== "") {
+        v = (parseFloat(v) * 100).toFixed(1) + "%";
+      }
+      out[col.label] = v;
+    });
+    return out;
+  });
+  const ws = XLSX.utils.json_to_sheet(plainRows, {
+    header: exportCols.map((c) => c.label),
+  });
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Orders");
+  const stamp = new Date().toISOString().slice(0, 10);
+  XLSX.writeFile(wb, `${filenameBase}_${stamp}.xlsx`);
 }
 
 function buildLegend() {
@@ -758,6 +806,13 @@ function wireGlobalControls() {
   });
   document.getElementById("connectForm").addEventListener("submit", handleConnectSubmit);
   document.getElementById("disconnectGithub").addEventListener("click", handleDisconnect);
+
+  document.getElementById("exportAllBtn").addEventListener("click", () => {
+    exportToExcel(rawData, "orders_all");
+  });
+  document.getElementById("exportFilteredBtn").addEventListener("click", () => {
+    exportToExcel(filtered, "orders_filtered");
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);

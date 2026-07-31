@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delivery Planner — Pending Orders Tracker</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>Delivery Planner — Next 3 Days</h1>
+      <div class="topbar-controls">
+        <button id="exportPlanBtn" class="secondary-btn">⬇ Export This List</button>
+        <a href="index.html" class="secondary-btn link-btn">← Back to Orders</a>
+      </div>
+    </header>
+
+    <p class="modal-help" style="margin: 0 0 16px;">
+      Shows every order that isn't Completed or Cancelled and has an
+      <strong>Expected Delivery Date</strong> set to today, tomorrow, or the day after.
+      Set that date on an order's row in the main tracker to have it show up here.
+    </p>
+
+    <div id="planGroups"></div>
+  </div>
+
+  <script src="delivery-plan.js"></script>
+</body>
+</html>
