@@ -369,8 +369,14 @@ function init() {
     .then((fetchedData) => {
       const data = resolveInitialData(fetchedData);
       const deliveryMap = loadDeliveryDates();
-      rawData = data.map((row) => ({
+      // _id is an internal, never-saved row identifier used for edit/delete.
+      // Sr. No. is NOT guaranteed unique in the source spreadsheet (a few
+      // rows share the same Sr. No.), so it can't safely be used to look up
+      // "the row" on its own — using Sr. No. for delete would risk removing
+      // the wrong one of two duplicates.
+      rawData = data.map((row, idx) => ({
         ...row,
+        _id: "row-" + idx + "-" + Date.now(),
         "Expected Delivery Date": row["Expected Delivery Date"] || deliveryMap[row["Sr. No."]] || "",
       }));
       buildLegend();
@@ -405,10 +411,10 @@ function daysSince(dateStr) {
   return diff < 0 ? 0 : diff;
 }
 
-function deleteOrder(srNo) {
+function deleteOrder(id) {
   if (!confirm("Remove this order from the list? Click \"Save Changes\" afterwards to make it permanent in orders.json.")) return;
 
-  rawData = rawData.filter((r) => r["Sr. No."] !== srNo);
+  rawData = rawData.filter((r) => r._id !== id);
   markDirty();
   buildFilterRow();
   applyAll();
@@ -483,6 +489,7 @@ function handleAddOrderSubmit(e) {
   }
 
   row["Sr. No."] = nextSrNo();
+  row._id = "new-" + Date.now() + "-" + Math.random().toString(36).slice(2);
   const orderQty = parseFloat(row["Order Qty"]) || 0;
   const dispatchedQty = parseFloat(row["Dispatched Qty"]) || 0;
   row["Balance Qty"] = orderQty - dispatchedQty;
@@ -888,7 +895,7 @@ function renderBody() {
         del.className = "row-delete";
         del.title = "Delete this order";
         del.textContent = "🗑";
-        del.addEventListener("click", () => deleteOrder(row["Sr. No."]));
+        del.addEventListener("click", () => deleteOrder(row._id));
         td.appendChild(del);
       } else if (col.computed) {
         renderCellStatic(td, row, col);
