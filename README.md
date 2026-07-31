@@ -24,8 +24,39 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
 - Pick 10 / 25 / 50 / 100 / All rows per page, with page navigation controls.
 - **Expected Delivery Date** is editable — click a cell and pick a date.
   There was no delivery-date data in the source spreadsheet, so this column
-  starts empty; values you enter are saved in the browser (`localStorage`),
-  per visitor/browser — not synced to the spreadsheet.
+  starts empty.
+- **Add / delete records for real.** Click **"+ Add Order"** to add a new
+  record, or the 🗑 icon on any row to delete it. Both actions commit the
+  change directly to `orders.json` in your GitHub repo (see below) — they
+  are not just saved in your browser.
+
+## Sign in with a GitHub token (required to add/delete)
+Adding or deleting a record writes straight to `orders.json` in your repo
+via the GitHub API, so the app needs a token with write access:
+
+1. On GitHub, go to **Settings → Developer settings → Personal access
+   tokens → Fine-grained tokens → Generate new token**.
+2. Scope it to just this repository, and under **Repository permissions**
+   set **Contents: Read and write**.
+3. In the app, click **"Sign in with GitHub token"** in the top bar and fill in:
+   - the token you just created
+   - repo owner (your GitHub username or org)
+   - repo name
+   - branch (defaults to `main`)
+   - file path (defaults to `orders.json`)
+4. Click **Connect**. The app verifies it can read the file, then any
+   Add/Delete you do afterwards commits directly to that file.
+
+**Security note:** the token is stored only in your browser's
+`localStorage` and is sent only to `api.github.com`. Anyone with access to
+that browser (or its dev tools) could read it, so use a token scoped to
+this one repo, and sign out ("GitHub settings" → "Sign out") on shared
+computers. Viewing/sorting/filtering the table never requires signing in —
+only Add and Delete do.
+
+Because the write goes straight to the repo, GitHub Pages will take about a
+minute to redeploy after a save before other visitors see the change; your
+own browser updates immediately.
 
 ## Run locally
 No build step needed. From this folder:
@@ -51,9 +82,9 @@ Then open http://localhost:8000 in a browser.
    `https://<your-username>.github.io/<your-repo>/`
 
 ## Updating the data later
-Re-export your Excel sheet and regenerate `orders.json` in the same shape
-(array of objects, one per order row, using the same column names as in
-`app.js`'s `COLUMNS` list), then commit and push — GitHub Pages will pick it
-up automatically. If you add the "Expected Delivery Date" column properly to
-the spreadsheet later, you can drop the `localStorage`-based editing and just
-include that field in `orders.json` directly.
+You have two options:
+- **In the app**: sign in with a GitHub token (above), then use "+ Add Order"
+  or the 🗑 delete icon — changes commit straight to `orders.json`.
+- **Manually**: re-export your Excel sheet, regenerate `orders.json` in the
+  same shape (array of objects, one per order row, using the same column
+  names as in `app.js`'s `COLUMNS` list), then commit and push.

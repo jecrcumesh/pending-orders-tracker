@@ -13,9 +13,16 @@
       <div class="topbar-controls">
         <input id="globalSearch" type="text" placeholder="Search all columns…" />
         <button id="clearFilters" title="Clear all column filters and search">Clear filters</button>
+        <button id="addOrderBtn" class="primary-btn">+ Add Order</button>
+        <button id="connectGithubBtn" class="secondary-btn">Sign in with GitHub token</button>
         <span id="rowCount" class="row-count"></span>
       </div>
     </header>
+
+    <div class="status-bar">
+      <span id="ghStatus" class="gh-status">⚪ Not connected — sign in to save changes</span>
+      <span id="saveStatus" class="save-status"></span>
+    </div>
 
     <div class="legend" id="legend"></div>
 
@@ -48,6 +55,68 @@
         <button id="lastPage">&raquo;</button>
       </div>
     </footer>
+  </div>
+
+  <div class="modal-overlay" id="addOrderModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Add New Order</h2>
+        <button id="closeAddOrderModal" class="icon-btn" title="Close">&times;</button>
+      </div>
+      <form id="addOrderForm">
+        <div class="modal-body" id="addOrderFields"></div>
+        <div class="modal-footer">
+          <button type="button" id="cancelAddOrder" class="secondary-btn">Cancel</button>
+          <button type="submit" class="primary-btn">Save Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <datalist id="unitOptions"></datalist>
+
+  <div class="modal-overlay" id="connectModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Sign in with GitHub token</h2>
+        <button id="closeConnectModal" class="icon-btn" title="Close">&times;</button>
+      </div>
+      <form id="connectForm">
+        <div class="modal-body modal-body-single">
+          <p class="modal-help">
+            Create a GitHub <strong>fine-grained personal access token</strong> scoped to this
+            repository with <strong>Contents: Read and write</strong> permission
+            (github.com → Settings → Developer settings → Personal access tokens).
+            The token is stored only in this browser's local storage and is used to
+            commit changes directly to <code>orders.json</code> in your repo.
+          </p>
+          <label class="form-field form-field-wide">
+            Personal access token
+            <input type="password" name="token" autocomplete="off" required />
+          </label>
+          <label class="form-field">
+            Repo owner (username/org)
+            <input type="text" name="owner" required />
+          </label>
+          <label class="form-field">
+            Repo name
+            <input type="text" name="repo" required />
+          </label>
+          <label class="form-field">
+            Branch
+            <input type="text" name="branch" value="main" />
+          </label>
+          <label class="form-field">
+            File path
+            <input type="text" name="path" value="orders.json" />
+          </label>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="disconnectGithub" class="secondary-btn" style="display:none; margin-right:auto;">Sign out</button>
+          <button type="button" id="cancelConnect" class="secondary-btn">Cancel</button>
+          <button type="submit" class="primary-btn">Connect</button>
+        </div>
+      </form>
+    </div>
   </div>
 
   <script src="app.js"></script>
