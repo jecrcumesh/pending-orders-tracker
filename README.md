@@ -74,9 +74,13 @@ this one repo, and sign out ("GitHub settings" → "Sign out") on shared
 computers.
 
 Because the write goes straight to the repo, GitHub Pages will take about a
-minute to redeploy after a save before other visitors see the change; your
-own browser already shows the up-to-date list since it's editing its local
-copy directly.
+minute to redeploy after a save before other visitors — or this same
+browser, if you refresh — see the change from the server. To avoid that
+looking like the save "didn't work" if you refresh too soon, the app
+remembers exactly what you last saved (in `localStorage`, for 5 minutes)
+and will show that instead of a stale server copy until GitHub Pages
+catches up. The Delivery Planner page checks the same local record, so a
+date you just saved shows up there too even before Pages has redeployed.
 
 ## Run locally
 No build step needed. From this folder:

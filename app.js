@@ -181,6 +181,19 @@ function cleanRowForSave(row) {
   return out;
 }
 
+const LAST_SAVED_KEY = "lastSavedSnapshot"; // shared with delivery-plan.js
+
+function stashLastSavedSnapshot(rows) {
+  try {
+    localStorage.setItem(
+      LAST_SAVED_KEY,
+      JSON.stringify({ savedAt: Date.now(), rows })
+    );
+  } catch (e) {
+    /* ignore quota errors */
+  }
+}
+
 async function commitOrdersToGitHub(message) {
   if (!isConnected()) {
     openConnectModal();
@@ -196,6 +209,12 @@ async function commitOrdersToGitHub(message) {
     const payload = rawData.map(cleanRowForSave);
     const result = await ghPutFile(ghConfig, payload, message, ghLatestSha);
     ghLatestSha = result.content ? result.content.sha : null;
+    // Remember exactly what we just saved. GitHub Pages can take up to a
+    // couple of minutes to redeploy, so if this page (or the Delivery
+    // Planner) is reloaded before that happens, the server would still
+    // serve the OLD orders.json — this snapshot lets us show the correct,
+    // just-saved data anyway instead of appearing to have "lost" it.
+    stashLastSavedSnapshot(payload);
     setSaveStatus("Saved to orders.json ✓ (GitHub Pages will redeploy shortly)", "success");
     return true;
   } catch (err) {
@@ -316,12 +335,39 @@ function handleDisconnect() {
 
 /* ---------------- init ---------------- */
 
+const SNAPSHOT_FRESH_WINDOW_MS = 5 * 60 * 1000; // 5 minutes
+
+function resolveInitialData(fetchedData) {
+  let cache;
+  try {
+    cache = JSON.parse(localStorage.getItem(LAST_SAVED_KEY) || "null");
+  } catch (e) {
+    cache = null;
+  }
+  if (!cache || !Array.isArray(cache.rows)) return fetchedData;
+
+  const isFresh = Date.now() - cache.savedAt < SNAPSHOT_FRESH_WINDOW_MS;
+  const matches = JSON.stringify(cache.rows) === JSON.stringify(fetchedData);
+  if (isFresh && !matches) {
+    // We saved something recently, but the server is still returning the
+    // older file — GitHub Pages hasn't finished redeploying yet. Show what
+    // we know we just saved instead of appearing to have lost it.
+    setSaveStatus(
+      "Showing your last saved changes — GitHub Pages is still redeploying (usually under a minute). Refresh again shortly to confirm.",
+      "info"
+    );
+    return cache.rows;
+  }
+  return fetchedData;
+}
+
 function init() {
   ghConfig = loadGhConfig();
 
-  fetch("orders.json")
+  fetch(`orders.json?t=${Date.now()}`, { cache: "no-store" })
     .then((r) => r.json())
-    .then((data) => {
+    .then((fetchedData) => {
+      const data = resolveInitialData(fetchedData);
       const deliveryMap = loadDeliveryDates();
       rawData = data.map((row) => ({
         ...row,

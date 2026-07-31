@@ -5,6 +5,8 @@
 */
 
 const STORAGE_KEY = "expectedDeliveryDates";
+const LAST_SAVED_KEY = "lastSavedSnapshot"; // written by app.js after a successful GitHub save
+const SNAPSHOT_FRESH_WINDOW_MS = 5 * 60 * 1000; // 5 minutes
 
 const DISPLAY_COLUMNS = [
   { key: "Sr. No.", label: "Sr. No." },
@@ -57,22 +59,58 @@ function escapeHtml(s) {
 
 let planRows = []; // rows currently shown across all three buckets, for export
 
-function init() {
-  fetch("orders.json")
+function resolveData(fetchedData) {
+  let cache;
+  try {
+    cache = JSON.parse(localStorage.getItem(LAST_SAVED_KEY) || "null");
+  } catch (e) {
+    cache = null;
+  }
+  if (!cache || !Array.isArray(cache.rows)) return { data: fetchedData, usedCache: false };
+
+  const isFresh = Date.now() - cache.savedAt < SNAPSHOT_FRESH_WINDOW_MS;
+  const matches = JSON.stringify(cache.rows) === JSON.stringify(fetchedData);
+  if (isFresh && !matches) {
+    // A save happened recently (in this browser) but GitHub Pages hasn't
+    // finished redeploying orders.json yet — use what was actually saved
+    // instead of showing the older, still-live file.
+    return { data: cache.rows, usedCache: true };
+  }
+  return { data: fetchedData, usedCache: false };
+}
+
+function loadOrders() {
+  // Cache-bust so a stale, browser- or CDN-cached copy of orders.json
+  // is never shown after a recent save.
+  return fetch(`orders.json?t=${Date.now()}`, { cache: "no-store" })
     .then((r) => r.json())
-    .then((data) => {
+    .then((fetchedData) => {
+      const { data, usedCache } = resolveData(fetchedData);
       const deliveryMap = loadDeliveryDates();
       const rows = data.map((row) => ({
         ...row,
         "Expected Delivery Date": row["Expected Delivery Date"] || deliveryMap[row["Sr. No."]] || "",
       }));
       render(rows);
-      wireControls();
+      setLoadedAt(usedCache);
     })
     .catch((err) => {
       document.getElementById("planGroups").innerHTML =
         `<p class="no-results">Failed to load orders.json — ${escapeHtml(err.message || err)}</p>`;
     });
+}
+
+function setLoadedAt(usedCache) {
+  const el = document.getElementById("loadedAt");
+  if (!el) return;
+  el.textContent = usedCache
+    ? "Showing your last saved changes (GitHub Pages still redeploying) — " + new Date().toLocaleTimeString()
+    : "Data as of " + new Date().toLocaleTimeString();
+}
+
+function init() {
+  loadOrders();
+  wireControls();
 }
 
 function render(rows) {
@@ -179,6 +217,7 @@ function exportPlan() {
 
 function wireControls() {
   document.getElementById("exportPlanBtn").addEventListener("click", exportPlan);
+  document.getElementById("refreshPlanBtn").addEventListener("click", () => loadOrders());
 }
 
 document.addEventListener("DOMContentLoaded", init);

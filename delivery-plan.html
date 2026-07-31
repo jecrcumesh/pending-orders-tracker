@@ -12,15 +12,20 @@
     <header class="topbar">
       <h1>Delivery Planner — Next 3 Days</h1>
       <div class="topbar-controls">
+        <button id="refreshPlanBtn" class="secondary-btn">🔄 Refresh</button>
         <button id="exportPlanBtn" class="secondary-btn">⬇ Export This List</button>
         <a href="index.html" class="secondary-btn link-btn">← Back to Orders</a>
+        <span id="loadedAt" class="row-count"></span>
       </div>
     </header>
 
     <p class="modal-help" style="margin: 0 0 16px;">
       Shows every order that isn't Completed or Cancelled and has an
       <strong>Expected Delivery Date</strong> set to today, tomorrow, or the day after.
-      Set that date on an order's row in the main tracker to have it show up here.
+      This page reads the saved <code>orders.json</code> file — it will only show a date
+      change after you've clicked <strong>"💾 Save Changes"</strong> on the main tracker
+      page (and, once deployed, given GitHub Pages about a minute to redeploy). Click
+      <strong>🔄 Refresh</strong> above to re-check without reloading the page.
     </p>
 
     <div id="planGroups"></div>
