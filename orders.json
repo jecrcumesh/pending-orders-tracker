@@ -3908,5 +3908,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om JI Confirm Date This Material Which Date Has Go On Site",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 173,
+  "Order Date": "2026-07-30",
+  "Customer Name": "Aananda Seren ( Bunglow No 29 )",
+  "Material Name": "R - Black",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 600,
+  "Dispatched Qty": 0,
+  "Balance Qty": 600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 600,
+  "Available Qty": 0,
+  "Order Status": "In Process",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-08-02",
+  "Remarks / Notes": "This material Deliverd to Rk Gota To Anandna Woodland Direct On Site",
+  "Contact Number": ""
  }
 ]
