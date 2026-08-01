@@ -88,7 +88,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "( Dr Sir Confirm This\n order )",
+  "Remarks / Notes": "( Dr Sir Confirm This\n order ) ( Lot - 206 )",
   "Contact Number": 8511305158
  },
  {
@@ -157,7 +157,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 22,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Done",
   "Contact Number": 9825582998
  },
  {
@@ -180,7 +180,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 86,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Ravi Sir Confirmed This Material Dispatch In Site",
   "Contact Number": 9825582998
  },
  {
@@ -686,7 +686,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 24,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "500 Sft Material Ready On 2nd No Stock Area Skpl Site Eng. Done To Material Then Om JI Process Material On Outside",
   "Contact Number": "Dhruv Sir - 7574969105"
  },
  {
@@ -1556,11 +1556,11 @@
   "Stock Yard Available": "Partially Available",
   "To Be Ordered Qty": 960,
   "Available Qty": 140,
-  "Order Status": "Pending",
+  "Order Status": "On Hold",
   "Machine Processing Required": "No",
   "Days Since Order": 4,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Dr Sir Given Order",
+  "Remarks / Notes": "As Per Dr Clint Told This Material Hold",
   "Contact Number": "Parth Sir - 9429540194"
  },
  {
@@ -1579,11 +1579,11 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 260,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "On Hold",
   "Machine Processing Required": "No",
   "Days Since Order": 4,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Dr Sir Given Order",
+  "Remarks / Notes": "As Per Dr Clint Told This Material Hold",
   "Contact Number": "Parth Sir - 9429540194"
  },
  {
@@ -1743,8 +1743,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 10,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Reay To Deliverd",
+  "Expected Delivery Date": "2026-08-02",
+  "Remarks / Notes": "Material Dispatch 2 Aug",
   "Contact Number": "z"
  },
  {
@@ -2844,7 +2844,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 28,
   "Expected Delivery Date": "",
@@ -2867,7 +2867,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 28,
   "Expected Delivery Date": "",
@@ -2890,7 +2890,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 28,
   "Expected Delivery Date": "",
@@ -2913,7 +2913,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 28,
   "Expected Delivery Date": "",
@@ -3121,10 +3121,10 @@
   "To Be Ordered Qty": 14794,
   "Available Qty": "",
   "Order Status": "Pending",
-  "Machine Processing Required": "Yes",
+  "Machine Processing Required": "No",
   "Days Since Order": 39,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "Direct On Site Unloding Vehical Dr Sir And Om Ji Order This Material",
   "Contact Number": ""
  },
  {
@@ -3144,10 +3144,10 @@
   "To Be Ordered Qty": 22176,
   "Available Qty": "",
   "Order Status": "Pending",
-  "Machine Processing Required": "Yes",
+  "Machine Processing Required": "No",
   "Days Since Order": 39,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "Direct On Site Unloding Vehical Dr Sir And Om Ji Order This Material",
   "Contact Number": ""
  },
  {
@@ -3189,11 +3189,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 29,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "22 July along with Arush Sir",
+  "Remarks / Notes": "Material Ready ( Make A Table White Travertine Need A Frama After Making Table Then Material Dispatch )",
   "Contact Number": ""
  },
  {
@@ -3262,7 +3262,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 10,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Deliverd To Next Week May Be 28 July",
+  "Remarks / Notes": "Cll The Clint And TAke A Dispatch Plan",
   "Contact Number": ""
  },
  {
@@ -3285,7 +3285,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 10,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Dj Will Bi Confirm And 05 Aug Take IT process",
+  "Remarks / Notes": "Material  Process In Machine So Ready For 2 Aug",
   "Contact Number": ""
  },
  {
@@ -3580,11 +3580,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 10,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "28 July Dispatch On Site",
+  "Remarks / Notes": "Material Ready On Stock But Rain Issue Not Deliverd Expct Delievrd 2 Aug",
   "Contact Number": ""
  },
  {
@@ -3722,7 +3722,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 57,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "As per OM, Truck will be come at Wed-Thur",
+  "Remarks / Notes": "As per OM, Truck will be come at Site",
   "Contact Number": ""
  },
  {
@@ -3745,7 +3745,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 57,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "As per OM, First Confirm with Client.",
+  "Remarks / Notes": "Material Have Come To Stondge 2 & 3 Days In Stock Then Material Dispatch On Site",
   "Contact Number": ""
  },
  {
@@ -3768,7 +3768,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 57,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Done",
+  "Remarks / Notes": "",
   "Contact Number": ""
  },
  {
@@ -3788,10 +3788,10 @@
   "To Be Ordered Qty": 175,
   "Available Qty": "",
   "Order Status": "Pending",
-  "Machine Processing Required": "No",
+  "Machine Processing Required": "Yes",
   "Days Since Order": 33,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "( Order By DR Sir ) ( 6.5 To 8 Feet )",
+  "Remarks / Notes": "( 2nd No Stock Area Om Ji Confirm Lot Mahesh Ji Procss Material I Take Plan Today ) ( 6.5 To 8 Feet )",
   "Contact Number": ""
  },
  {
@@ -3814,7 +3814,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 33,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "( Ordre By DR Sir ) ( 6.5 To 8 Feet )",
+  "Remarks / Notes": "( MAterial Come To Site 3 & Days After Come Material Then I Plan Dispatch On Site )   ( 6.5 To 8 Feet )",
   "Contact Number": ""
  },
  {
@@ -3837,7 +3837,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Done",
   "Contact Number": ""
  },
  {
@@ -3860,7 +3860,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "Hold By Site Eng",
   "Contact Number": ""
  },
  {
@@ -3883,7 +3883,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "Hold By Site Eng.",
   "Contact Number": ""
  }
 ]
