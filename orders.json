@@ -3885,28 +3885,5 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Hold By Site Eng.",
   "Contact Number": ""
- },
- {
-  "Sr. No.": 171,
-  "Order Date": "2026-08-01",
-  "Customer Name": "Demo",
-  "Material Name": "Test",
-  "Finish / Surface": "Polish",
-  "Is New Customer": "Yes",
-  "Unit": "PCS",
-  "Order Qty": 3,
-  "Dispatched Qty": 1,
-  "Balance Qty": 2,
-  "% Dispatched": 0.3333333333333333,
-  "Rate (per Unit)": 100,
-  "Stock Yard Available": "Yes",
-  "To Be Ordered Qty": "",
-  "Available Qty": "",
-  "Order Status": "Pending",
-  "Machine Processing Required": "Yes",
-  "Days Since Order": 0,
-  "Expected Delivery Date": "2026-08-08",
-  "Remarks / Notes": "Will deliver next week",
-  "Contact Number": "8875520123"
  }
 ]
