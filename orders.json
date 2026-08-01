@@ -3954,5 +3954,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Dj Sir confirm To Lot On Process Then I Have Confirmed To Anil The Material Process ( This Qty to Pending Group 70 To 80 Sft )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 175,
+  "Order Date": "2026-08-01",
+  "Customer Name": "Darshan Bhai",
+  "Material Name": "Rosso Lavnte",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "",
+  "Order Qty": 220,
+  "Dispatched Qty": "",
+  "Balance Qty": 220,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Dj Confim Date And I Will Send Material As Per  Plan",
+  "Contact Number": ""
  }
 ]
