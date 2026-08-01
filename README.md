@@ -7,9 +7,12 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
 ## Files
 - `index.html` — main tracker page
 - `delivery-plan.html` — delivery planner page (today / tomorrow / day after)
+- `dispatch-sheet.html` — printable Material Dispatch Sheet
 - `style.css` — shared styling, frozen columns, status colors
+- `dispatch-sheet.css` — dispatch sheet layout + print (A4 landscape) styling
 - `app.js` — main tracker logic (sort, filter, pagination, editing, GitHub save, export)
 - `delivery-plan.js` — delivery planner logic
+- `dispatch-sheet.js` — dispatch sheet logic (autocomplete, rows, print)
 - `orders.json` — your order data (edit this file, or regenerate from a fresh
   export, to update the app's data)
 
@@ -46,6 +49,16 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
   the main list — shows only active orders (not Completed/Cancelled) whose
   Expected Delivery Date is today, tomorrow, or the day after, grouped by
   day, so you can plan deliveries at a glance. Has its own Excel export too.
+- **Material Dispatch Sheet page** (📄 button, opens in a new tab). A
+  printable, A4-landscape sheet matching the paper Stonedge dispatch form.
+  Type a Customer Name and pick from the autocomplete suggestions (pulled
+  from `orders.json`); Material Name then only suggests materials that
+  customer has actually ordered, and Finish / Surface only suggests
+  finishes seen for that exact customer + material — the same cascading
+  logic as picking a real order line. Delivery Address, Challan No., Qty,
+  Expected Delivery Time, and Remarks are always blank for manual entry
+  (on screen or by hand after printing), same as the paper form. Use
+  "+ Add Row" / "− Remove Row" to size the sheet, then **"🖨 Print"**.
 
 ## Sign in with a GitHub token (required to click "Save Changes")
 Editing, adding, and deleting work locally without signing in — you only

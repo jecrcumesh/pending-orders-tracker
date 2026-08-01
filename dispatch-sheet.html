@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Material Dispatch Sheet — Pending Orders Tracker</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="dispatch-sheet.css" />
+</head>
+<body>
+  <div class="app no-print">
+    <header class="topbar">
+      <h1>Material Dispatch Sheet</h1>
+      <div class="topbar-controls">
+        <button id="addRowBtn" class="secondary-btn">+ Add Row</button>
+        <button id="removeRowBtn" class="secondary-btn">− Remove Row</button>
+        <button id="clearSheetBtn" class="secondary-btn">Clear Sheet</button>
+        <button id="printBtn" class="primary-btn">🖨 Print</button>
+        <a href="index.html" class="secondary-btn link-btn">← Back to Orders</a>
+      </div>
+    </header>
+    <p class="modal-help" style="margin: 0 0 16px;">
+      Type a <strong>Customer Name</strong> and pick from the suggestions (sourced from
+      <code>orders.json</code>) — <strong>Material Name</strong> then only suggests materials that
+      customer has actually ordered, and <strong>Finish / Surface</strong> only suggests finishes
+      seen for that customer + material. Delivery Address, Challan No., Qty, Expected Delivery
+      Time, and Remarks are always left blank for you to fill in. Click <strong>🖨 Print</strong>
+      when ready — it's formatted for A4 landscape.
+    </p>
+  </div>
+
+  <div id="sheet" class="sheet">
+    <div class="sheet-header">
+      <div class="company-name">STONEDGE PRIVATE LIMITED</div>
+      <div class="sheet-title">MATERIAL DISPATCH SHEET</div>
+      <div class="sheet-meta">
+        <label>Date: <input type="date" id="sheetDate" class="meta-input" /></label>
+        <label>Page: <input type="text" id="sheetPage" class="meta-input meta-input-narrow" /></label>
+      </div>
+    </div>
+
+    <table id="sheetTable" class="sheet-table">
+      <thead>
+        <tr>
+          <th class="col-sr">Sr. No.</th>
+          <th class="col-customer">Customer Name</th>
+          <th class="col-material">Material Name</th>
+          <th class="col-finish">Thickness / Finish</th>
+          <th class="col-address">Delivery Address</th>
+          <th class="col-challan">Challan No.</th>
+          <th class="col-qty">Qty (SFT/PCS)</th>
+          <th class="col-time">Expected Delivery Time</th>
+          <th class="col-remarks">Remarks</th>
+        </tr>
+      </thead>
+      <tbody id="sheetBody"></tbody>
+    </table>
+
+    <p class="sheet-note">
+      <em>Note: Expected Delivery Time is the committed time by which material must reach the delivery site.</em>
+    </p>
+
+    <div class="sheet-signoff">
+      <div class="signoff-block">
+        <div class="signoff-line"><input type="text" class="signoff-input" placeholder="" /></div>
+        <div class="signoff-label">Issued By (Material Sent By)</div>
+      </div>
+      <div class="signoff-block">
+        <div class="signoff-line"><input type="text" class="signoff-input" placeholder="" /></div>
+        <div class="signoff-label">Checked By (Material Checked By)</div>
+      </div>
+      <div class="signoff-block">
+        <div class="signoff-line"><input type="text" class="signoff-input" placeholder="" /></div>
+        <div class="signoff-label">Received By (Driver / Customer)</div>
+      </div>
+    </div>
+  </div>
+
+  <datalist id="customerNames"></datalist>
+
+  <script src="dispatch-sheet.js"></script>
+</body>
+</html>

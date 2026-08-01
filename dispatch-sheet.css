@@ -1,0 +1,187 @@
+/* Material Dispatch Sheet — screen + print styling */
+
+.sheet {
+  background: #fff;
+  max-width: 1400px;
+  margin: 0 auto 40px;
+  padding: 24px 28px;
+  border: 1px solid var(--border, #d8dee5);
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #111;
+}
+
+.sheet-header {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.sheet-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
+}
+
+.sheet-meta {
+  display: flex;
+  justify-content: flex-start;
+  gap: 28px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.meta-input {
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 13px;
+  font-family: inherit;
+  padding: 1px 4px;
+  background: transparent;
+  min-width: 130px;
+}
+.meta-input-narrow { min-width: 70px; }
+
+.sheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 12px;
+}
+
+.sheet-table th,
+.sheet-table td {
+  border: 1px solid #000;
+  padding: 5px 6px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.sheet-table thead th {
+  background: #1f2b3d;
+  color: #fff;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.col-sr { width: 40px; text-align: center; }
+.col-customer { width: 12%; }
+.col-material { width: 12%; }
+.col-finish { width: 11%; }
+.col-address { width: 17%; }
+.col-challan { width: 9%; }
+.col-qty { width: 8%; }
+.col-time { width: 12%; }
+.col-remarks { width: 19%; }
+
+.sr-cell {
+  text-align: center;
+  font-weight: 600;
+}
+
+.cell-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  font-family: inherit;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.cell-input:focus {
+  outline: 1px solid #1f6feb;
+  background: #eef4ff;
+}
+
+.sheet-note {
+  font-size: 11.5px;
+  margin: 10px 2px 18px;
+}
+
+.sheet-signoff {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.signoff-block {
+  flex: 1;
+  text-align: center;
+}
+
+.signoff-line {
+  border-bottom: 1px solid #000;
+  min-height: 26px;
+  margin-bottom: 4px;
+}
+
+.signoff-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-size: 13px;
+  font-family: inherit;
+  padding: 2px;
+}
+.signoff-input:focus { outline: none; background: #eef4ff; }
+
+.signoff-label {
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+/* ---------------- print ---------------- */
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .sheet {
+    box-shadow: none;
+    border: none;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cell-input,
+  .meta-input,
+  .signoff-input {
+    outline: none !important;
+    background: transparent !important;
+  }
+
+  .sheet-table {
+    font-size: 11px;
+  }
+
+  .sheet-table thead th {
+    background: #1f2b3d !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
