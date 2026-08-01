@@ -215,13 +215,44 @@ async function commitOrdersToGitHub(message) {
     // serve the OLD orders.json — this snapshot lets us show the correct,
     // just-saved data anyway instead of appearing to have "lost" it.
     stashLastSavedSnapshot(payload);
-    setSaveStatus("Saved to orders.json ✓ (GitHub Pages will redeploy shortly)", "success");
+    setSaveStatus("Saved ✓ — committed to orders.json. Checking when it's live…", "success");
+    watchForRedeploy(payload);
     return true;
   } catch (err) {
     setSaveStatus("Save failed: " + err.message, "error");
     return false;
   } finally {
     ghBusy = false;
+  }
+}
+
+let redeployWatchToken = 0;
+
+// After a save, quietly re-check the live orders.json every few seconds
+// until it matches what we just committed, then say so. This is what makes
+// the refresh "as soon as it's saved" visible/confirmed, on top of the app
+// already showing the new data instantly in this tab without any refresh.
+async function watchForRedeploy(expectedRows) {
+  const myToken = ++redeployWatchToken; // cancel any earlier in-flight watch
+  const deadline = Date.now() + 2 * 60 * 1000; // give up after 2 minutes
+  const expectedJson = JSON.stringify(expectedRows);
+
+  while (Date.now() < deadline) {
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+    if (myToken !== redeployWatchToken) return; // a newer save superseded this watch
+
+    try {
+      const res = await fetch(`orders.json?t=${Date.now()}`, { cache: "no-store" });
+      const liveData = await res.json();
+      if (JSON.stringify(liveData) === expectedJson) {
+        if (myToken === redeployWatchToken) {
+          setSaveStatus("✅ Live — GitHub Pages has redeployed with your latest save.", "success");
+        }
+        return;
+      }
+    } catch (e) {
+      // transient network hiccup — just try again on the next tick
+    }
   }
 }
 

@@ -73,14 +73,40 @@ that browser (or its dev tools) could read it, so use a token scoped to
 this one repo, and sign out ("GitHub settings" → "Sign out") on shared
 computers.
 
-Because the write goes straight to the repo, GitHub Pages will take about a
-minute to redeploy after a save before other visitors — or this same
-browser, if you refresh — see the change from the server. To avoid that
-looking like the save "didn't work" if you refresh too soon, the app
-remembers exactly what you last saved (in `localStorage`, for 5 minutes)
-and will show that instead of a stale server copy until GitHub Pages
-catches up. The Delivery Planner page checks the same local record, so a
-date you just saved shows up there too even before Pages has redeployed.
+## Why the table sometimes seems to show "old" data after a refresh
+
+Two separate things are going on here, and the app handles both automatically:
+
+1. **This tab, right now:** every edit, add, and delete updates what you see
+   on screen immediately — that's local, instant, and doesn't touch the
+   network at all. You never need to refresh to see your own change in the
+   tab you made it in.
+2. **The saved file, everywhere else:** clicking "💾 Save Changes" (or
+   Save on Add Order) writes straight to `orders.json` in your GitHub repo,
+   but GitHub Pages then has to rebuild and redeploy the site before that
+   new file is actually served — that typically takes under a minute, but
+   can occasionally take a couple of minutes. Until it does, anyone loading
+   the page fresh (including you, if you hit refresh) — will still be
+   served the previous version of `orders.json` by GitHub's servers. This
+   isn't a caching bug in the app; it's how any static site hosted on
+   GitHub Pages works, and it can't be skipped from the browser side.
+
+To stop that redeploy delay from looking like lost data, the app does two
+things after every save:
+- It remembers exactly what was just saved (in this browser's
+  `localStorage`). If this page — or the Delivery Planner page — is
+  reloaded before GitHub Pages has caught up, it shows that remembered
+  version instead of the stale one the server is still returning, for up
+  to 5 minutes after the save.
+- It quietly re-checks the live `orders.json` every few seconds in the
+  background and shows **"✅ Live — GitHub Pages has redeployed with your
+  latest save"** once the server is actually caught up, so you have a
+  clear signal instead of having to guess and refresh repeatedly.
+
+The one case this can't cover: a *different* browser or device loading the
+page before GitHub Pages redeploys will still briefly see the old data —
+there's no way around that without a real backend, since the "local
+memory" trick only exists in the browser that made the save.
 
 ## Run locally
 No build step needed. From this folder:
