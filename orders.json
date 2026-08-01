@@ -54,9 +54,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 800,
-  "Dispatched Qty": 104,
-  "Balance Qty": 696,
-  "% Dispatched": 0.13,
+  "Dispatched Qty": 525,
+  "Balance Qty": 275,
+  "% Dispatched": 0.65625,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -65,7 +65,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 11,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "10 Pc Ready Site Rain Issue",
+  "Remarks / Notes": "This Matrial Continue Ready But Rain Delay Issue )",
   "Contact Number": 6353631020
  },
  {
@@ -88,7 +88,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "( Dr Sir Confirm Thus order )",
+  "Remarks / Notes": "( Dr Sir Confirm This\n order )",
   "Contact Number": 8511305158
  },
  {
@@ -472,14 +472,14 @@
   "Balance Qty": 30,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "No",
+  "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 30,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Om Ji Order The Material",
+  "Expected Delivery Date": "2026-08-02",
+  "Remarks / Notes": "Om Ji Order The Material ( Material Come To Stock And He Go But Rain Issue )",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -514,9 +514,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 2450,
-  "Dispatched Qty": 0,
-  "Balance Qty": 2450,
-  "% Dispatched": 0,
+  "Dispatched Qty": 2174.49,
+  "Balance Qty": 275.5100000000002,
+  "% Dispatched": 0.8875469387755102,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -525,7 +525,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 13,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Delivery After Payment Reacived",
+  "Remarks / Notes": "Delivery After Payment Reacived ( Balance Material Dispatch After Recived Payment )",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -567,11 +567,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 24,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "2nd No Stock Area Mahes Ji Will Be Take A Process",
+  "Remarks / Notes": "2nd No Stock Area Mahes Ji Will Be Take A Process ( Matrial Ready But Dispatch Material After Recive Payment )",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -617,7 +617,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Dr Sir Order",
+  "Remarks / Notes": "Dr Sir Order ( This Material Not To Be Stock To This Material Come And Process )",
   "Contact Number": "Darshan Sir - 9724338968"
  },
  {
@@ -709,7 +709,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 13,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "21 July 1000 Sft Deliverd And Balance Maertial Dispatch After Aproval  On site eng.",
+  "Remarks / Notes": "21 July 500 Sft Deliverd And Balance Maertial Dispatch After Aproval  On site eng.( Rain Issue Om JI Look Tis Site )",
   "Contact Number": "Gunjan Sir - 7984252106"
  },
  {
@@ -725,14 +725,14 @@
   "Balance Qty": 2500,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "No",
+  "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 2500,
   "Available Qty": "",
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 13,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Dr Sir Order",
+  "Remarks / Notes": "Process 1St Stock Area 600 Sft Ready To Be Deliverd But Rain Issue So Site Eng. Biren Sir Confirm To Send Material On Site ( Om Ji Look This Site )",
   "Contact Number": "Gunjan Sir - 7984252106"
  },
  {
@@ -1192,7 +1192,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 205,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "I Will Talk To Darshan Sir Rajkot He Say I Will Confirm 1 to 2 Days )",
   "Contact Number": "Jaydeep Sir - 9638429880"
  },
  {
@@ -1227,18 +1227,18 @@
   "Is New Customer": "Yes",
   "Unit": "PCS",
   "Order Qty": 1,
-  "Dispatched Qty": 0,
-  "Balance Qty": 1,
-  "% Dispatched": 0,
+  "Dispatched Qty": 1,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Completed",
   "Machine Processing Required": "Yes",
   "Days Since Order": 4,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "2 no Stock Area",
+  "Remarks / Notes": "Done",
   "Contact Number": "Jaydeep Sir - 9638429880"
  },
  {
@@ -1476,7 +1476,7 @@
   "Order Date": "2026-07-29",
   "Customer Name": "Mas Hq",
   "Material Name": "Millennium Ivory",
-  "Finish / Surface": "",
+  "Finish / Surface": "Polish",
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 1200,
@@ -1491,7 +1491,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ask Anil And Confirm Date",
+  "Remarks / Notes": "As Per Om JI Material Come Stonedge 2 & 3 Days Then I Plan Material Dispatch On Site )",
   "Contact Number": "Parth Shah - 9687670435"
  },
  {
@@ -1675,7 +1675,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "As Per Mahes JI 500 Sft  Ready By  29 July And Delverd 30 July On Site",
+  "Remarks / Notes": "As Per Mahes JI 500 Sft  Ready By  29 July And Delverd 30 July On Site ( Balance Material Send On Site 2 Ya 3 Days )",
   "Contact Number": "Vijay Sir - 8238211864"
  },
  {
@@ -1785,12 +1785,12 @@
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
-  "Available Qty": "",
+  "Available Qty": 0,
   "Order Status": "In Process",
   "Machine Processing Required": "Yes",
   "Days Since Order": 71,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Take in process from tomorrow.\nExpected Delivery on 22 July\nLot 103 ( Rain Delay Process not Done Expected Delivery 2 Aug )",
+  "Remarks / Notes": "Take in process from tomorrow.\nExpected Delivery on 22 July\nLot 103 ( Rain Delay Process not Done Expected Delivery 2 Aug ) ( Rain In Continue So Material Can Not Be Process So Expect Delivery Time Change As Per Anil )",
   "Contact Number": ""
  },
  {
@@ -1813,7 +1813,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 71,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "As per Anil it will go with Treventine on 2 Aug",
+  "Remarks / Notes": "As per Anil it will go with Treventine on 2 Aug ( Rain In continue So Material Not Be Deleverd This Material And Grey Travertine Go One Vehical )",
   "Contact Number": ""
  },
  {
@@ -1836,7 +1836,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 71,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR will order and on basis of DR input commit to client.",
+  "Remarks / Notes": "DR will order and on basis of DR input commit to client ( I Will Confirm Ordre Dr Sir And Clint Will BE Confirm This Material When To Send )",
   "Contact Number": ""
  },
  {
@@ -1950,7 +1950,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 89,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-05",
   "Remarks / Notes": "Ready To Dispatch Material On 5 Aug",
   "Contact Number": ""
  },
@@ -1974,7 +1974,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 89,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DJ will confirm date",
+  "Remarks / Notes": "DJ will confirm date ( And Clint Said This Material Use To Last Option So Clint onfirm Date When I Send The Material)",
   "Contact Number": ""
  },
  {
@@ -1997,7 +1997,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 66,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR to order. Iran",
+  "Remarks / Notes": "DR to order. Iran ( Material In The Way As Dr Sir )",
   "Contact Number": ""
  },
  {
@@ -2019,7 +2019,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 66,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-10",
   "Remarks / Notes": "Next Deliverd Material 10 Aug",
   "Contact Number": ""
  },
@@ -2077,10 +2077,10 @@
   "Finish / Surface": "Plant",
   "Is New Customer": "Yes",
   "Unit": "SFT",
-  "Order Qty": 2200,
+  "Order Qty": 2190.27,
   "Dispatched Qty": 2190.27,
-  "Balance Qty": 9.73,
-  "% Dispatched": 0.9955772727,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -2123,10 +2123,10 @@
   "Finish / Surface": "Polish",
   "Is New Customer": "No",
   "Unit": "SFT",
-  "Order Qty": 600,
+  "Order Qty": 537,
   "Dispatched Qty": 537,
-  "Balance Qty": 63,
-  "% Dispatched": 0.895,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -2151,10 +2151,10 @@
   "Balance Qty": 1200,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "No",
+  "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 1200,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 27,
   "Expected Delivery Date": "",
@@ -2204,7 +2204,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 50,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Matrial Ready Site Eng Darshan Sir Aproval This Material Send To Site",
   "Contact Number": ""
  },
  {
@@ -2365,7 +2365,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 34,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "OM/ DR to Order.",
+  "Remarks / Notes": "OM/ DR to Order. ( As Per Om Ji Devesh Sir   Say After Payment Reacive Thamn Material Ordre )",
   "Contact Number": ""
  },
  {
@@ -2384,11 +2384,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "In Process",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 34,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Material Ready",
+  "Remarks / Notes": "Material Ready ( After Payment Reacive Then Material Dispatch )",
   "Contact Number": ""
  },
  {
@@ -2396,7 +2396,7 @@
   "Order Date": "2026-06-27",
   "Customer Name": "Hetraj Sir",
   "Material Name": "Monalisa",
-  "Finish / Surface": "",
+  "Finish / Surface": "Polish",
   "Is New Customer": "Yes",
   "Unit": "SFT",
   "Order Qty": 60,
@@ -2411,7 +2411,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 34,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Material Ready",
+  "Remarks / Notes": "Material Ready ( After Payment Reacive Then Material Dispatch )",
   "Contact Number": ""
  },
  {
@@ -2419,7 +2419,7 @@
   "Order Date": "2026-06-27",
   "Customer Name": "Hetraj Sir",
   "Material Name": "Quartz Green",
-  "Finish / Surface": "",
+  "Finish / Surface": "Plant",
   "Is New Customer": "Yes",
   "Unit": "SFT",
   "Order Qty": 48,
@@ -2430,11 +2430,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 34,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Material Ready",
+  "Remarks / Notes": "Material Ready ( After Payment Reacive Then Material Dispatch )",
   "Contact Number": ""
  },
  {
@@ -2457,7 +2457,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 73,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Site Eng Say First Payment Done Then Material On Site 1 Day After Confirm ( And Classic Ivory Add 500 But Order Not Be pending Group So i HAve Not Add This Material Pending Order",
   "Contact Number": ""
  },
  {
@@ -2476,11 +2476,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "In Process",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 73,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Site Eng Say First Payment Done Then Material On Site 1 Day After Confirm ( And Classic Ivory Add 500 But Order Not Be pending Group So i HAve Not Add This Material Pending Order",
   "Contact Number": ""
  },
  {
@@ -2503,7 +2503,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 19,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "( 21 July Deliverd )",
+  "Remarks / Notes": "( 21 July Deliverd ) ( As Per OM Ji Dr Sir Confirm And Then Order Deliverd After Payment Recived  )",
   "Contact Number": ""
  },
  {
@@ -2515,9 +2515,9 @@
   "Is New Customer": "Yes",
   "Unit": "SFT",
   "Order Qty": 2000,
-  "Dispatched Qty": 515,
-  "Balance Qty": 1485,
-  "% Dispatched": 0.2575,
+  "Dispatched Qty": 0,
+  "Balance Qty": 2000,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -2525,8 +2525,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 15,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "M- Ivory 500 Sft 21 july Dispatch, 25 july 500 Sft , 28 July 500 Sft , 1 Aug 500 Sft Dispatch ( 1 Pc Dispatch 18July As Per Sample  )",
+  "Expected Delivery Date": "2026-08-02",
+  "Remarks / Notes": "Old Lot Material Reject New Lot MAterial Process And Dispatch 2Aug",
   "Contact Number": ""
  },
  {
@@ -2572,7 +2572,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ready on 1 Aug",
+  "Remarks / Notes": "Ready on 1 Aug ( Rain Deley So Material Not Be Ready Epxect Delivery 03 Aug )",
   "Contact Number": ""
  },
  {
@@ -2595,7 +2595,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ready on 1 Aug",
+  "Remarks / Notes": "Ready on 1 Aug ( Rain Deley So Material Not Be Ready Epxect Delivery 03 Aug )",
   "Contact Number": ""
  },
  {
@@ -2618,7 +2618,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ready on 1 Aug",
+  "Remarks / Notes": "Ready on 1 Aug ( Rain Deley So Material Not Be Ready Epxect Delivery 03 Aug )",
   "Contact Number": ""
  },
  {
@@ -2726,7 +2726,7 @@
   "Balance Qty": 3000,
   "% Dispatched": 0,
   "Rate (per Unit)": 192,
-  "Stock Yard Available": "No",
+  "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 3000,
   "Available Qty": "",
   "Order Status": "Pending",
@@ -2756,7 +2756,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 15,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Process On 1 Aug As Per Anil",
+  "Remarks / Notes": "1St Stock Area First Process Galaxy Black Ice Canvas Then He Process To Be Plan )",
   "Contact Number": ""
  },
  {
@@ -2768,18 +2768,18 @@
   "Is New Customer": "Yes",
   "Unit": "SFT",
   "Order Qty": 180,
-  "Dispatched Qty": 0,
-  "Balance Qty": 180,
-  "% Dispatched": 0,
+  "Dispatched Qty": 219,
+  "Balance Qty": -39,
+  "% Dispatched": 1.2166666666666666,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Completed",
   "Machine Processing Required": "No",
   "Days Since Order": 16,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "Done ( As Per Anil Dj Say Send Extra Sft I Will Talk To Clint )",
   "Contact Number": ""
  },
  {
@@ -2802,7 +2802,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 205,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "DR",
+  "Remarks / Notes": "I Will Talk To Darshan Sir Rajkot He Say I Will Confirm 1 to 2 Days )",
   "Contact Number": ""
  },
  {
@@ -2894,7 +2894,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 28,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Call On Friday",
+  "Remarks / Notes": "I Will Cll The Clint And He Say Cll On Monday And Confirm",
   "Contact Number": ""
  },
  {
@@ -2917,7 +2917,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 28,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Call On Friday",
+  "Remarks / Notes": "I Will Cll The Clint And He Say Cll On Monday And Confirm",
   "Contact Number": ""
  },
  {
