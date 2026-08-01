@@ -473,7 +473,7 @@ function closeAddOrderModal() {
   document.getElementById("addOrderModal").classList.remove("open");
 }
 
-function handleAddOrderSubmit(e) {
+async function handleAddOrderSubmit(e) {
   e.preventDefault();
 
   const form = e.target;
@@ -496,14 +496,29 @@ function handleAddOrderSubmit(e) {
   row["% Dispatched"] = orderQty > 0 ? dispatchedQty / orderQty : 0;
   row["Days Since Order"] = daysSince(row["Order Date"]);
 
-  // Add locally and reflect it right away — click "Save Changes" in the top
-  // bar afterwards to commit it (and any other pending edits) to orders.json.
+  // Add it locally and reflect it right away...
   rawData = rawData.concat([row]);
   markDirty();
-
-  closeAddOrderModal();
   buildFilterRow();
   applyAll();
+
+  // ...then try to save it to orders.json immediately, so clicking "Save"
+  // here actually saves. If we're not signed in yet, this opens the GitHub
+  // sign-in dialog instead (the new order stays in the list either way —
+  // "💾 Save Changes" in the top bar remains available as a fallback).
+  const submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.disabled = true;
+  submitBtn.textContent = "Saving…";
+  const ok = await commitOrdersToGitHub(
+    `Add order for ${row["Customer Name"]} (Sr. No. ${row["Sr. No."]})`
+  );
+  submitBtn.disabled = false;
+  submitBtn.textContent = "Save";
+  if (ok) {
+    unsavedChanges = false;
+    updateSaveChangesButton();
+  }
+  closeAddOrderModal();
 }
 
 /* ---------------- export to Excel ---------------- */
