@@ -350,6 +350,18 @@ textarea.cell-edit-input {
   box-shadow: 0 10px 40px rgba(0,0,0,0.25);
 }
 
+/* The form must also be a flex column that fills the modal, so its body can
+   scroll while the header/footer (with the Save button) always stay
+   visible — without this, a tall form pushes the footer past max-height
+   and it gets clipped instead of the body scrolling. */
+.modal > form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
 .modal-header {
   display: flex;
   align-items: center;
@@ -373,9 +385,12 @@ textarea.cell-edit-input {
 .modal-body {
   padding: 16px 18px;
   overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px 14px;
+  align-content: start;
 }
 
 .form-field {
@@ -405,6 +420,7 @@ textarea.cell-edit-input {
   gap: 10px;
   padding: 14px 18px;
   border-top: 1px solid var(--border);
+  flex: 0 0 auto;
 }
 
 @media (max-width: 640px) {
@@ -417,6 +433,7 @@ textarea.cell-edit-input {
 .modal-body-single .form-field { margin-bottom: 12px; }
 
 .modal-help {
+  flex: 0 0 auto;
   font-size: 12.5px;
   color: #52606d;
   background: #f4f6f8;
