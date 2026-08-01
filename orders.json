@@ -3931,5 +3931,28 @@
   "Expected Delivery Date": "2026-08-02",
   "Remarks / Notes": "This material Deliverd to Rk Gota To Anandna Woodland Direct On Site",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 174,
+  "Order Date": "2026-07-31",
+  "Customer Name": "Hiren Sir Bhuj",
+  "Material Name": "Expo Grey",
+  "Finish / Surface": "Silken Linea",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 80,
+  "Dispatched Qty": 0,
+  "Balance Qty": 80,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Dj Sir confirm To Lot On Process Then I Have Confirmed To Anil The Material Process ( This Qty to Pending Group 70 To 80 Sft )",
+  "Contact Number": ""
  }
 ]
