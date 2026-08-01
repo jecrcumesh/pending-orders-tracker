@@ -3885,5 +3885,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Gd Brown In A Stock But As Per Om Ji 1 Gadi Direct Deliverd On Site  From Outside )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 172,
+  "Order Date": "2026-07-30",
+  "Customer Name": "Psp Project",
+  "Material Name": "Pluto White",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 0,
+  "Dispatched Qty": "",
+  "Balance Qty": 0,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 0,
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om JI Confirm Date This Material Which Date Has Go On Site",
+  "Contact Number": ""
  }
 ]
