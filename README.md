@@ -57,8 +57,10 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
   finishes seen for that exact customer + material — the same cascading
   logic as picking a real order line. Delivery Address, Challan No., Qty,
   Expected Delivery Time, and Remarks are always blank for manual entry
-  (on screen or by hand after printing), same as the paper form. Use
-  "+ Add Row" / "− Remove Row" to size the sheet, then **"🖨 Print"**.
+  (on screen or by hand after printing), same as the paper form. Each row
+  has a 🎨 color swatch to highlight it any color you like (✕ clears it) —
+  handy for flagging urgent or problem deliveries; the color prints too.
+  Use "+ Add Row" / "− Remove Row" to size the sheet, then **"🖨 Print"**.
 
 ## Sign in with a GitHub token (required to click "Save Changes")
 Editing, adding, and deleting work locally without signing in — you only

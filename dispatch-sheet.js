@@ -58,6 +58,10 @@ function addRow() {
   const finishListId = `finishList-${idx}`;
 
   tr.innerHTML = `
+    <td class="col-color">
+      <input type="color" class="color-input" value="#ffffff" title="Pick a color to highlight this row" />
+      <button type="button" class="color-clear-btn" title="Clear row color">✕</button>
+    </td>
     <td class="col-sr sr-cell"></td>
     <td class="col-customer">
       <input type="text" class="cell-input customer-input" list="customerNames" />
@@ -77,6 +81,16 @@ function addRow() {
     <td class="col-remarks"><input type="text" class="cell-input" /></td>
   `;
   tbody.appendChild(tr);
+
+  const colorInput = tr.querySelector(".color-input");
+  const colorClearBtn = tr.querySelector(".color-clear-btn");
+  colorInput.addEventListener("input", () => {
+    tr.style.backgroundColor = colorInput.value;
+  });
+  colorClearBtn.addEventListener("click", () => {
+    tr.style.backgroundColor = "";
+    colorInput.value = "#ffffff";
+  });
 
   const customerInput = tr.querySelector(".customer-input");
   const materialInput = tr.querySelector(".material-input");
@@ -120,9 +134,14 @@ function renumberRows() {
 }
 
 function clearSheet() {
-  if (!confirm("Clear everything typed into this sheet?")) return;
+  if (!confirm("Clear everything typed into this sheet, including row colors?")) return;
   document.querySelectorAll("#sheetBody .cell-input").forEach((inp) => (inp.value = ""));
   document.querySelectorAll(".signoff-input").forEach((inp) => (inp.value = ""));
+  document.querySelectorAll("#sheetBody tr").forEach((tr) => {
+    tr.style.backgroundColor = "";
+    const colorInput = tr.querySelector(".color-input");
+    if (colorInput) colorInput.value = "#ffffff";
+  });
 }
 
 function setDefaultDate() {

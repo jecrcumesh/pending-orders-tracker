@@ -76,20 +76,45 @@
   text-align: center;
 }
 
+.col-color { width: 30px; text-align: center; padding: 3px 4px; }
 .col-sr { width: 40px; text-align: center; }
 .col-customer { width: 12%; }
 .col-material { width: 12%; }
 .col-finish { width: 11%; }
-.col-address { width: 17%; }
+.col-address { width: 15%; }
 .col-challan { width: 9%; }
 .col-qty { width: 8%; }
 .col-time { width: 12%; }
-.col-remarks { width: 19%; }
+.col-remarks { width: 17%; }
 
 .sr-cell {
   text-align: center;
   font-weight: 600;
 }
+
+.color-input {
+  width: 22px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid #999;
+  border-radius: 3px;
+  cursor: pointer;
+  background: none;
+  display: block;
+  margin: 0 auto;
+}
+.color-clear-btn {
+  display: block;
+  margin: 3px auto 0;
+  border: none;
+  background: transparent;
+  color: #8a96a3;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+.color-clear-btn:hover { color: #cf222e; }
 
 .cell-input {
   width: 100%;
@@ -181,6 +206,19 @@
 
   .sheet-table thead th {
     background: #1f2b3d !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Keep the color-picker column's cells in the grid (so header and body
+     columns stay aligned) but hide the picker itself — the chosen color is
+     already visible as the row's own background tint, which we force to
+     actually print below. */
+  .col-color * {
+    visibility: hidden;
+  }
+
+  .sheet-table tbody tr {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
