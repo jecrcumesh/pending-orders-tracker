@@ -3977,5 +3977,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Dj Confim Date And I Will Send Material As Per  Plan",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 176,
+  "Order Date": "2026-04-24",
+  "Customer Name": "Aditya Sir",
+  "Material Name": "Red Mandana",
+  "Finish / Surface": "Swan Finish",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 7000,
+  "Dispatched Qty": 4945,
+  "Balance Qty": 2055,
+  "% Dispatched": 0.7064285714285714,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 101,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
