@@ -4138,5 +4138,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 184,
+  "Order Date": "2026-08-05",
+  "Customer Name": "Yogesh  Kalavadia",
+  "Material Name": "Cream Karaman",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 2,
+  "Dispatched Qty": 0,
+  "Balance Qty": 2,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 0,
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
