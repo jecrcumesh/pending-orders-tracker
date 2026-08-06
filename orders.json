@@ -4230,5 +4230,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 188,
+  "Order Date": "2026-08-05",
+  "Customer Name": "Akash Bhai",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": 0,
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 0,
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready For Dispatcch",
+  "Contact Number": ""
  }
 ]
