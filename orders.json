@@ -4069,5 +4069,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Dj Sir confirm To Lot On Process Then I Have Confirmed To Anil The Material Process ( This Qty to Pending Group 70 To 80 Sft )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 181,
+  "Order Date": "2026-08-02",
+  "Customer Name": "Parkash Bhai ( Times Villa )",
+  "Material Name": "Ten Brown",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": 0,
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 500,
+  "Available Qty": 0,
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
