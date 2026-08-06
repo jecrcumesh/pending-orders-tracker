@@ -4092,5 +4092,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 182,
+  "Order Date": "2026-08-02",
+  "Customer Name": "Parkash Bhai ( Times Villa )",
+  "Material Name": "Ten Brown",
+  "Finish / Surface": "River Wash",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": 0,
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": 500,
+  "Available Qty": 0,
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
