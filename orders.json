@@ -4161,5 +4161,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 185,
+  "Order Date": "2026-08-05",
+  "Customer Name": "Yogesh  Kalavadia",
+  "Material Name": "Cream Karaman",
+  "Finish / Surface": "Chisel",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": 0,
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 0,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
