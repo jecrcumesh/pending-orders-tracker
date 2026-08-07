@@ -2204,7 +2204,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 50,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Matrial Ready Site Eng Darshan Sir Aproval This Material Send To Site",
+  "Remarks / Notes": "Matrial Ready .Site Eng Darshan Sir Aproval This Material Send To Site",
   "Contact Number": ""
  },
  {
@@ -3964,18 +3964,18 @@
   "Is New Customer": "Yes",
   "Unit": "",
   "Order Qty": 220,
-  "Dispatched Qty": "",
-  "Balance Qty": 220,
-  "% Dispatched": 0,
+  "Dispatched Qty": 210,
+  "Balance Qty": 10,
+  "% Dispatched": 0.9545454545454546,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Completed",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Dj Confim Date And I Will Send Material As Per  Plan",
+  "Expected Delivery Date": "2026-08-04",
+  "Remarks / Notes": "Done",
   "Contact Number": ""
  },
  {
