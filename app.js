@@ -119,7 +119,9 @@ async function ghFetchFile(cfg) {
   });
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
-    throw new Error(body.message || `GitHub GET failed (${res.status})`);
+    const err = new Error(body.message || `GitHub GET failed (${res.status})`);
+    err.status = res.status;
+    throw err;
   }
   const json = await res.json();
   return { sha: json.sha, data: JSON.parse(b64DecodeUtf8(json.content)) };
@@ -147,9 +149,40 @@ async function ghPutFile(cfg, dataArray, message, sha) {
   );
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
-    throw new Error(body.message || `GitHub PUT failed (${res.status})`);
+    const err = new Error(body.message || `GitHub PUT failed (${res.status})`);
+    err.status = res.status;
+    throw err;
   }
   return res.json();
+}
+
+// GitHub rejects a write whenever the file's real sha (on the server) no
+// longer matches the sha we last read — i.e. something else changed the
+// file in between our read and our write (another tab, another device, a
+// save that landed a moment earlier). That check is exactly what stops a
+// save from silently overwriting someone else's change, so we keep it —
+// but instead of surfacing that as a failure, we transparently re-read the
+// now-current file and retry the write with the fresh sha a few times
+// before giving up. This is what "many times" failing on a 409 needs: the
+// data itself was never at risk (GitHub always refused the wrong-sha
+// write), it just needed a retry with the latest sha.
+async function ghPutFileWithRetry(cfg, dataArray, message, onRetry) {
+  const maxAttempts = 5;
+  let lastErr;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const latest = await ghFetchFile(cfg);
+      const result = await ghPutFile(cfg, dataArray, message, latest.sha);
+      return result;
+    } catch (err) {
+      lastErr = err;
+      const isConflict = err.status === 409 || /does not match/i.test(err.message || "");
+      if (!isConflict || attempt === maxAttempts) throw err;
+      if (onRetry) onRetry(attempt, maxAttempts);
+      await new Promise((resolve) => setTimeout(resolve, 500 * attempt));
+    }
+  }
+  throw lastErr;
 }
 
 function isConnected() {
@@ -203,11 +236,13 @@ async function commitOrdersToGitHub(message) {
   ghBusy = true;
   setSaveStatus("Saving to GitHub…", "info");
   try {
-    // Always fetch the latest sha right before writing to avoid 409 conflicts.
-    const latest = await ghFetchFile(ghConfig);
-    ghLatestSha = latest.sha;
     const payload = rawData.map(cleanRowForSave);
-    const result = await ghPutFile(ghConfig, payload, message, ghLatestSha);
+    const result = await ghPutFileWithRetry(ghConfig, payload, message, (attempt, max) => {
+      setSaveStatus(
+        `Someone/something else saved a moment before you — retrying with the latest version (${attempt}/${max})…`,
+        "info"
+      );
+    });
     ghLatestSha = result.content ? result.content.sha : null;
     // Remember exactly what we just saved. GitHub Pages can take up to a
     // couple of minutes to redeploy, so if this page (or the Delivery
@@ -219,7 +254,13 @@ async function commitOrdersToGitHub(message) {
     watchForRedeploy(payload);
     return true;
   } catch (err) {
-    setSaveStatus("Save failed: " + err.message, "error");
+    const isConflict = err.status === 409 || /does not match/i.test(err.message || "");
+    setSaveStatus(
+      isConflict
+        ? "Save failed after retrying: another save keeps landing at the same time. Click \"Save Changes\" again — your edits are still here, nothing was lost."
+        : "Save failed: " + err.message,
+      "error"
+    );
     return false;
   } finally {
     ghBusy = false;
