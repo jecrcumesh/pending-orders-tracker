@@ -4437,5 +4437,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Done",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 197,
+  "Order Date": "2026-08-06",
+  "Customer Name": "Bharat Sir ( Times Villa )",
+  "Material Name": "Asroriya Pink",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": 1,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 0,
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Done",
+  "Contact Number": ""
  }
 ]
