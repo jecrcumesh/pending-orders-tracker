@@ -4529,5 +4529,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "2 No Stock Area And Mahesh Ji Take Plan",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 201,
+  "Order Date": "2026-08-07",
+  "Customer Name": "Varun Bhai",
+  "Material Name": "Lavender Grey",
+  "Finish / Surface": "",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "In Process",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
