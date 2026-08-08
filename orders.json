@@ -4276,5 +4276,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 190,
+  "Order Date": "2026-08-06",
+  "Customer Name": "Rutvik Sir",
+  "Material Name": "Rustic Crystallo ( 2 CM )",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 600,
+  "Dispatched Qty": "",
+  "Balance Qty": 600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Full Lot Dispatch",
+  "Contact Number": ""
  }
 ]
