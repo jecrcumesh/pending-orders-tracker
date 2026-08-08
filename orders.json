@@ -4299,5 +4299,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Full Lot Dispatch",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 191,
+  "Order Date": "2026-08-06",
+  "Customer Name": "SKD",
+  "Material Name": "Bulgario Grey",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 6,
+  "Dispatched Qty": 0,
+  "Balance Qty": 6,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-08-08",
+  "Remarks / Notes": "Today Dispatch This Material",
+  "Contact Number": ""
  }
 ]
