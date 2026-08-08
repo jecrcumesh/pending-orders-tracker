@@ -4575,5 +4575,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Ordre By Ramesh Ji",
   "Contact Number": "Naresh Bhai - 7574863826"
+ },
+ {
+  "Sr. No.": 203,
+  "Order Date": "2026-08-07",
+  "Customer Name": "Biren Sir - Senor 10 Floor",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 180,
+  "Dispatched Qty": "",
+  "Balance Qty": 180,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Per Customer Size Issu First Size Confirm Then Material Dispatch",
+  "Contact Number": ""
  }
 ]
