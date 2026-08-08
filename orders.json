@@ -4690,5 +4690,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Materia Size 22x22 As Per Devesh Sir Will Vendor Done This Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 208,
+  "Order Date": "2026-08-08",
+  "Customer Name": "Sayaji Hotel Ltd Uadipur",
+  "Material Name": "Volakas White",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 4510,
+  "Dispatched Qty": "",
+  "Balance Qty": 4510,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR Sir And DJ Sir Given This Order Material",
+  "Contact Number": ""
  }
 ]
