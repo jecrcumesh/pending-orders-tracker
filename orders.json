@@ -4667,5 +4667,28 @@
   "Expected Delivery Date": "2026-08-07",
   "Remarks / Notes": "09Aug Dispatch",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 207,
+  "Order Date": "2026-08-08",
+  "Customer Name": "Akiya 3",
+  "Material Name": "Kota",
+  "Finish / Surface": "Rough",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 45,
+  "Dispatched Qty": "",
+  "Balance Qty": 45,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Materia Size 22x22 As Per Devesh Sir Will Vendor Done This Material",
+  "Contact Number": ""
  }
 ]
