@@ -4552,5 +4552,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 202,
+  "Order Date": "2026-08-07",
+  "Customer Name": "Naresh Bhai",
+  "Material Name": "Kota Stone",
+  "Finish / Surface": "",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 20,
+  "Dispatched Qty": "",
+  "Balance Qty": 20,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Ordre By Ramesh Ji",
+  "Contact Number": "Naresh Bhai - 7574863826"
  }
 ]
