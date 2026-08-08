@@ -4621,5 +4621,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready But Bulgario Cream First Size Confirm Then Hi Go",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 205,
+  "Order Date": "2026-08-07",
+  "Customer Name": "Biren Sir",
+  "Material Name": "Adunik Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "95",
+  "Order Qty": "",
+  "Dispatched Qty": "",
+  "Balance Qty": 0,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "First Bulgario Cream Size Confirm Then Hi Will Go",
+  "Contact Number": ""
  }
 ]
