@@ -4414,5 +4414,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Odrer BY Rk Gota",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 196,
+  "Order Date": "2026-08-06",
+  "Customer Name": "Mr Bharat Bhai ( Times Villa )",
+  "Material Name": "Asroriya Ivory",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": 1,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Done",
+  "Contact Number": ""
  }
 ]
