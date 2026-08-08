@@ -4506,5 +4506,28 @@
   "Expected Delivery Date": "2026-08-09",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 200,
+  "Order Date": "2026-08-07",
+  "Customer Name": "Zade- Chirag Bhai ( Bunglow )",
+  "Material Name": "Raw Silk",
+  "Finish / Surface": "Ice Canvas",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 3000,
+  "Dispatched Qty": 0,
+  "Balance Qty": 3000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "2 No Stock Area And Mahesh Ji Take Plan",
+  "Contact Number": ""
  }
 ]
