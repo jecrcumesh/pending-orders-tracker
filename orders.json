@@ -4184,5 +4184,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 186,
+  "Order Date": "2026-08-05",
+  "Customer Name": "Ghanshyam Bhai",
+  "Material Name": "Silk Ivory",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "",
+  "Unit": "",
+  "Order Qty": "",
+  "Dispatched Qty": "",
+  "Balance Qty": 0,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
