@@ -4132,11 +4132,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Expected Delivery Date": "2026-08-11",
+  "Remarks / Notes": "Deliverd 11  Aug",
   "Contact Number": ""
  },
  {
@@ -4155,11 +4155,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Expected Delivery Date": "2026-08-11",
+  "Remarks / Notes": "Deliverd 11  Aug",
   "Contact Number": ""
  },
  {
@@ -4178,11 +4178,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Expected Delivery Date": "2026-08-11",
+  "Remarks / Notes": "Deliverd 11  Aug",
   "Contact Number": ""
  },
  {
