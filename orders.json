@@ -4805,5 +4805,28 @@
   "Expected Delivery Date": "2026-08-20",
   "Remarks / Notes": "As Per Client Recived Material 20 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 213,
+  "Order Date": "2026-05-20",
+  "Customer Name": "Varun Sir",
+  "Material Name": "Blue Marfo",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "",
+  "Order Qty": 320,
+  "Dispatched Qty": "",
+  "Balance Qty": 320,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 82,
+  "Expected Delivery Date": "2026-08-20",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
