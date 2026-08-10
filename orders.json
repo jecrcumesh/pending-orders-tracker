@@ -4813,7 +4813,7 @@
   "Material Name": "Blue Marfo",
   "Finish / Surface": "Plant",
   "Is New Customer": "Yes",
-  "Unit": "",
+  "Unit": "SFT",
   "Order Qty": 320,
   "Dispatched Qty": "",
   "Balance Qty": 320,
@@ -4826,7 +4826,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 82,
   "Expected Delivery Date": "2026-08-20",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "As Per Client Recived Material 20 Aug",
   "Contact Number": ""
  },
  {
@@ -4836,7 +4836,7 @@
   "Material Name": "Camoufalz",
   "Finish / Surface": "Plant",
   "Is New Customer": "Yes",
-  "Unit": "",
+  "Unit": "SFT",
   "Order Qty": 800,
   "Dispatched Qty": "",
   "Balance Qty": 800,
@@ -4849,7 +4849,30 @@
   "Machine Processing Required": "No",
   "Days Since Order": 82,
   "Expected Delivery Date": "2026-08-20",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "As Per Client Recived Material 20 Aug",
+  "Contact Number": ""
+ },
+ {
+  "Sr. No.": 215,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Raj Bhai ( Shivalik )",
+  "Material Name": "Micheal Angelo",
+  "Finish / Surface": "Texture",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "2026-08-11",
+  "Remarks / Notes": "This Material Dispatch 11 Aug ( But Anil Process Then He Go Otherwise Not Go )",
   "Contact Number": ""
  }
 ]
