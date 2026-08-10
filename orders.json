@@ -2548,7 +2548,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 16,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "Ready\nKurshil Sir will confirm the delivery date",
   "Contact Number": ""
  },
@@ -2571,7 +2571,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "Ready on 1 Aug ( Rain Deley So Material Not Be Ready Epxect Delivery 03 Aug ).\nKurshil Sir will confirm the delivery date",
   "Contact Number": ""
  },
@@ -2591,11 +2591,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "In Process",
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Ready on 1 Aug ( Rain Deley So Material Not Be Ready Epxect Delivery 03 Aug ).\nKurshil Sir will confirm the delivery date",
+  "Expected Delivery Date": "2026-08-12",
+  "Remarks / Notes": "As Per Anil Rain Depand",
   "Contact Number": ""
  },
  {
@@ -2617,7 +2617,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "Ready on 1 Aug ( Rain Deley So Material Not Be Ready Epxect Delivery 03 Aug ).\nKurshil Sir will confirm the delivery date",
   "Contact Number": ""
  },
@@ -2640,7 +2640,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 16,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "Ready.\nKurshil Sir will confirm the delivery date",
   "Contact Number": ""
  },
