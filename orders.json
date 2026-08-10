@@ -4204,7 +4204,7 @@
   "Order Status": "In Process",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "",
   "Contact Number": ""
  },
@@ -4227,7 +4227,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "",
   "Contact Number": ""
  },
