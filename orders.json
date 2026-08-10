@@ -4021,7 +4021,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "As Per Client The Delivery Date Talk To Vikash",
   "Contact Number": ""
  },
  {
@@ -4332,18 +4332,18 @@
   "Is New Customer": "Yes",
   "Unit": "PCS",
   "Order Qty": 5,
-  "Dispatched Qty": 0,
-  "Balance Qty": 5,
-  "% Dispatched": 0,
+  "Dispatched Qty": 5,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "In Process",
+  "Order Status": "Completed",
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Done",
   "Contact Number": ""
  },
  {
