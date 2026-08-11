@@ -4890,7 +4890,7 @@
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
-  "Available Qty": "",
+  "Available Qty": 0,
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 100,
