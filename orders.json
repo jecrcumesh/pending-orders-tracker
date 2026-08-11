@@ -4897,5 +4897,28 @@
   "Expected Delivery Date": "2026-08-11",
   "Remarks / Notes": "Done",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 217,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Raj Bhai ( Shivalik )",
+  "Material Name": "Adhunik Grey",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As per Anil Micheal Angelo Ready Then He Will Go Together",
+  "Contact Number": ""
  }
 ]
