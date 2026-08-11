@@ -5081,5 +5081,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Anil Told Then He Take a plan",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 225,
+  "Order Date": "2026-08-11",
+  "Customer Name": "Ayansh Aura",
+  "Material Name": "Burberry Light ( Neo )",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1150,
+  "Dispatched Qty": "",
+  "Balance Qty": 1150,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "2026-08-11",
+  "Remarks / Notes": "Material Ready Ask For DR Sir When He Delivery",
+  "Contact Number": ""
  }
 ]
