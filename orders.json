@@ -5058,5 +5058,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Anil Told This Material When He Take Plan",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 224,
+  "Order Date": "2026-08-11",
+  "Customer Name": "Parikh E State",
+  "Material Name": "Red Lavente",
+  "Finish / Surface": "Vtf",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Anil Told Then He Take a plan",
+  "Contact Number": ""
  }
 ]
