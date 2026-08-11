@@ -5122,9 +5122,9 @@
   "To Be Ordered Qty": "",
   "Available Qty": "",
   "Order Status": "Ready",
-  "Machine Processing Required": "",
+  "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "Ask Devesh Sir When Hi Delivery",
   "Contact Number": ""
  }
