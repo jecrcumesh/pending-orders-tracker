@@ -5058,5 +5058,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Saturday Dispatch",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 224,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Varun bhai",
+  "Material Name": "White travertine",
+  "Finish / Surface": "leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 120,
+  "Dispatched Qty": "",
+  "Balance Qty": 120,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
