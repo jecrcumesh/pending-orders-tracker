@@ -5012,5 +5012,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": "9662008885"
+ },
+ {
+  "Sr. No.": 222,
+  "Order Date": "2026-08-12",
+  "Customer Name": "Kartik jain",
+  "Material Name": "Violet paradiso",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 130,
+  "Dispatched Qty": "",
+  "Balance Qty": 130,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "120/130 Sqft need",
+  "Contact Number": ""
  }
 ]
