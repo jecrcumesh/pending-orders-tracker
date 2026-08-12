@@ -5173,5 +5173,28 @@
   "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 229,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Semor The Gold",
+  "Material Name": "Sonata Grey",
+  "Finish / Surface": "VTF",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 350,
+  "Dispatched Qty": "",
+  "Balance Qty": 350,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
