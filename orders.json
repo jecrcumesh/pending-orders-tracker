@@ -4966,5 +4966,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Prakash Bhai provide final quantity",
   "Contact Number": "Yuvraj Bhai - 9909031575, Prakash Bhai - 9426557546"
+ },
+ {
+  "Sr. No.": 220,
+  "Order Date": "2026-08-11",
+  "Customer Name": "Parikh Estate",
+  "Material Name": "Red Lavente",
+  "Finish / Surface": "VTF",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
