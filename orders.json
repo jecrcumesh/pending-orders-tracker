@@ -4943,5 +4943,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Need 800-1000 Sft , but final Qty should be provided by Prakesh Bhai",
   "Contact Number": "Yuvraj Bhai - 9909031575, Prakash Bhai - 9426557546"
+ },
+ {
+  "Sr. No.": 219,
+  "Order Date": "2026-08-12",
+  "Customer Name": "Yuvraj Sir",
+  "Material Name": "Michael Angelo",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": "",
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Prakash Bhai provide final quantity",
+  "Contact Number": "Yuvraj Bhai - 9909031575, Prakash Bhai - 9426557546"
  }
 ]
