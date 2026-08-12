@@ -5035,5 +5035,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "120/130 Sqft need",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 223,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Jagruti ben p desai",
+  "Material Name": "Bulgario cream",
+  "Finish / Surface": "plant epoxy",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 410,
+  "Dispatched Qty": "",
+  "Balance Qty": 410,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Saturday Dispatch",
+  "Contact Number": ""
  }
 ]
