@@ -5081,5 +5081,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 225,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Raj sir (Shivalik)",
+  "Material Name": "M.angelo",
+  "Finish / Surface": "VTF",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-08-14",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
