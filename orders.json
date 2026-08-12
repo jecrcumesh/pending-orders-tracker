@@ -5127,5 +5127,28 @@
   "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 227,
+  "Order Date": "2026-08-10",
+  "Customer Name": "Raj sir (Shivalik)",
+  "Material Name": "P.White",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": 1,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-08-12",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
