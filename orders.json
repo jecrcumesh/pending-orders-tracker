@@ -5265,5 +5265,28 @@
   "Expected Delivery Date": "2026-08-14",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 233,
+  "Order Date": "2026-08-12",
+  "Customer Name": "SKPL",
+  "Material Name": "Icon Brown",
+  "Finish / Surface": "ice Canvas",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 3,
+  "Dispatched Qty": "",
+  "Balance Qty": 3,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "2026-08-14",
+  "Remarks / Notes": "Directly go from Mahadev Gota",
+  "Contact Number": ""
  }
 ]
