@@ -5196,5 +5196,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 230,
+  "Order Date": "2026-08-12",
+  "Customer Name": "Mohit Bhai/ Darshil Bhai",
+  "Material Name": "Orro Marine",
+  "Finish / Surface": "",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 35,
+  "Dispatched Qty": "",
+  "Balance Qty": 35,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
