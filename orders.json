@@ -4595,7 +4595,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-14",
   "Remarks / Notes": "As Per Customer Size Issu First Size Confirm Then Material Dispatch",
   "Contact Number": ""
  },
@@ -4618,7 +4618,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-14",
   "Remarks / Notes": "Material Ready But Bulgario Cream First Size Confirm Then Hi Go",
   "Contact Number": ""
  },
@@ -4641,7 +4641,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-14",
   "Remarks / Notes": "First Bulgario Cream Size Confirm Then Hi Will Go ( Freight And Lifiting Our Scope )",
   "Contact Number": ""
  },
