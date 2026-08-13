@@ -5219,5 +5219,28 @@
   "Expected Delivery Date": "2026-08-13",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 231,
+  "Order Date": "2026-08-11",
+  "Customer Name": "Aayansh Aura",
+  "Material Name": "Light Burbrry (Neo)",
+  "Finish / Surface": "",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1150,
+  "Dispatched Qty": "",
+  "Balance Qty": 1150,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-08-14",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
