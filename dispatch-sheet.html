@@ -23,10 +23,13 @@
       Type a <strong>Customer Name</strong> and pick from the suggestions (sourced from
       <code>orders.json</code>) — <strong>Material Name</strong> then only suggests materials that
       customer has actually ordered, and <strong>Finish / Surface</strong> only suggests finishes
-      seen for that customer + material. Delivery Address, Challan No., Qty, Expected Delivery
-      Time, and Remarks are always left blank for you to fill in. Use the <strong>🎨</strong>
-      swatch on a row to highlight it any color (✕ clears it) — the color prints too. Click
-      <strong>🖨 Print</strong> when ready — it's formatted for A4 landscape.
+      seen for that customer + material. If a customer has more than one material, pick the
+      first, type a <strong>comma</strong>, and it'll suggest the remaining ones for that
+      customer — keep adding commas for as many as you need (same trick works for multiple
+      finishes). Delivery Address, Qty, Expected Delivery Time, and Remarks are always left
+      blank for you to fill in. Use the <strong>🎨</strong> swatch on a row to highlight it any
+      color (✕ clears it) — the color prints too. Long text wraps instead of getting cut off
+      when you print. Click <strong>🖨 Print</strong> when ready — it's formatted for A4 landscape.
     </p>
   </div>
 
@@ -49,7 +52,6 @@
           <th class="col-material">Material Name</th>
           <th class="col-finish">Thickness / Finish</th>
           <th class="col-address">Delivery Address</th>
-          <th class="col-challan">Challan No.</th>
           <th class="col-qty">Qty (SFT/PCS)</th>
           <th class="col-time">Expected Delivery Time</th>
           <th class="col-remarks">Remarks</th>

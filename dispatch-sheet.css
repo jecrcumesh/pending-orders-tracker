@@ -78,14 +78,13 @@
 
 .col-color { width: 30px; text-align: center; padding: 3px 4px; }
 .col-sr { width: 40px; text-align: center; }
-.col-customer { width: 12%; }
-.col-material { width: 12%; }
+.col-customer { width: 17%; }
+.col-material { width: 17%; }
 .col-finish { width: 11%; }
 .col-address { width: 15%; }
-.col-challan { width: 9%; }
 .col-qty { width: 8%; }
-.col-time { width: 12%; }
-.col-remarks { width: 17%; }
+.col-time { width: 8%; }
+.col-remarks { width: 20%; }
 
 .sr-cell {
   text-align: center;
@@ -128,6 +127,17 @@
 .cell-input:focus {
   outline: 1px solid #1f6feb;
   background: #eef4ff;
+}
+
+/* Hidden on screen; swapped in for .cell-input when printing so long text
+   wraps onto multiple lines instead of being clipped by a single-line
+   input box. */
+.print-text {
+  display: none;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 12px;
 }
 
 .sheet-note {
@@ -198,6 +208,15 @@
   .signoff-input {
     outline: none !important;
     background: transparent !important;
+  }
+
+  /* Swap the single-line inputs for wrapped plain text so long content
+     wraps onto multiple lines on paper instead of getting cut off. */
+  .sheet-table .cell-input {
+    display: none !important;
+  }
+  .sheet-table .print-text {
+    display: block !important;
   }
 
   .sheet-table {

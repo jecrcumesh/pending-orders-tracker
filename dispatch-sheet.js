@@ -40,6 +40,20 @@ function fillDatalist(list, values) {
     .join("");
 }
 
+// Supports comma-separated multi-value entry: once you've typed one value
+// and a comma, suggest the *remaining* candidates (as full "already-typed,
+// next-candidate" strings, since that's what the browser's datalist needs
+// to match against and insert correctly).
+function commaAwareOptions(rawValue, candidateSet) {
+  const parts = rawValue.split(",").map((p) => p.trim()).filter((p) => p !== "");
+  const endsWithComma = /,\s*$/.test(rawValue);
+  const committedParts = endsWithComma ? parts : parts.slice(0, -1);
+  const usedLower = new Set(committedParts.map((p) => p.toLowerCase()));
+  const remaining = Array.from(candidateSet).filter((v) => !usedLower.has(v.toLowerCase()));
+  const prefix = committedParts.length ? committedParts.join(", ") + ", " : "";
+  return remaining.map((v) => prefix + v);
+}
+
 function escapeAttr(s) {
   return String(s)
     .replace(/&/g, "&amp;")
@@ -65,20 +79,22 @@ function addRow() {
     <td class="col-sr sr-cell"></td>
     <td class="col-customer">
       <input type="text" class="cell-input customer-input" list="customerNames" />
+      <span class="print-text"></span>
     </td>
     <td class="col-material">
       <input type="text" class="cell-input material-input" list="${materialListId}" />
       <datalist id="${materialListId}"></datalist>
+      <span class="print-text"></span>
     </td>
     <td class="col-finish">
       <input type="text" class="cell-input finish-input" list="${finishListId}" />
       <datalist id="${finishListId}"></datalist>
+      <span class="print-text"></span>
     </td>
-    <td class="col-address"><input type="text" class="cell-input" /></td>
-    <td class="col-challan"><input type="text" class="cell-input" /></td>
-    <td class="col-qty"><input type="text" class="cell-input" /></td>
-    <td class="col-time"><input type="text" class="cell-input" /></td>
-    <td class="col-remarks"><input type="text" class="cell-input" /></td>
+    <td class="col-address"><input type="text" class="cell-input" /><span class="print-text"></span></td>
+    <td class="col-qty"><input type="text" class="cell-input" /><span class="print-text"></span></td>
+    <td class="col-time"><input type="text" class="cell-input" /><span class="print-text"></span></td>
+    <td class="col-remarks"><input type="text" class="cell-input" /><span class="print-text"></span></td>
   `;
   tbody.appendChild(tr);
 
@@ -101,20 +117,32 @@ function addRow() {
   const refreshMaterialOptions = () => {
     const cust = customerInput.value.trim();
     const materials = customersToMaterials[cust] || new Set();
-    fillDatalist(materialList, materials);
+    fillDatalist(materialList, commaAwareOptions(materialInput.value, materials));
   };
   const refreshFinishOptions = () => {
     const cust = customerInput.value.trim();
-    const mat = materialInput.value.trim();
+    // Finish suggestions should be based on whichever material was typed
+    // most recently (last comma-separated entry so far), since that's the
+    // one the user is currently picking a finish for.
+    const matParts = materialInput.value.split(",").map((p) => p.trim()).filter((p) => p !== "");
+    const mat = matParts.length ? matParts[matParts.length - 1] : "";
     const finishes = comboToFinishes[comboKey(cust, mat)] || new Set();
-    fillDatalist(finishList, finishes);
+    fillDatalist(finishList, commaAwareOptions(finishInput.value, finishes));
   };
 
   customerInput.addEventListener("input", () => {
     refreshMaterialOptions();
     refreshFinishOptions();
   });
-  materialInput.addEventListener("input", refreshFinishOptions);
+  // Each field also needs to refresh its own suggestions as the user types
+  // past a comma within it (that's what makes "already typed, next comma"
+  // suggest the next remaining value instead of just filtering on the
+  // whole string).
+  materialInput.addEventListener("input", () => {
+    refreshMaterialOptions();
+    refreshFinishOptions();
+  });
+  finishInput.addEventListener("input", refreshFinishOptions);
 
   renumberRows();
 }
@@ -136,11 +164,26 @@ function renumberRows() {
 function clearSheet() {
   if (!confirm("Clear everything typed into this sheet, including row colors?")) return;
   document.querySelectorAll("#sheetBody .cell-input").forEach((inp) => (inp.value = ""));
+  document.querySelectorAll("#sheetBody .print-text").forEach((el) => (el.textContent = ""));
   document.querySelectorAll(".signoff-input").forEach((inp) => (inp.value = ""));
   document.querySelectorAll("#sheetBody tr").forEach((tr) => {
     tr.style.backgroundColor = "";
     const colorInput = tr.querySelector(".color-input");
     if (colorInput) colorInput.value = "#ffffff";
+  });
+}
+
+// Inputs render as a single line on screen (so the browser's own datalist
+// autocomplete keeps working), but that means long text just scrolls
+// sideways rather than wrapping — fine to edit, but it would get cut off
+// on a printed page. Right before printing, copy each input's current
+// value into a plain wrapped text element and show that instead; the print
+// CSS swaps which one is visible.
+function syncPrintText() {
+  document.querySelectorAll("#sheetBody td").forEach((td) => {
+    const input = td.querySelector(".cell-input");
+    const printSpan = td.querySelector(".print-text");
+    if (input && printSpan) printSpan.textContent = input.value;
   });
 }
 
@@ -172,7 +215,13 @@ function init() {
   document.getElementById("addRowBtn").addEventListener("click", addRow);
   document.getElementById("removeRowBtn").addEventListener("click", removeRow);
   document.getElementById("clearSheetBtn").addEventListener("click", clearSheet);
-  document.getElementById("printBtn").addEventListener("click", () => window.print());
+  document.getElementById("printBtn").addEventListener("click", () => {
+    syncPrintText();
+    window.print();
+  });
+  // Also catch printing triggered via Ctrl/Cmd+P or the browser's own menu,
+  // not just our button.
+  window.addEventListener("beforeprint", syncPrintText);
 }
 
 document.addEventListener("DOMContentLoaded", init);
