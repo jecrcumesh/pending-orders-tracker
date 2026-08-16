@@ -140,6 +140,20 @@
   font-size: 12px;
 }
 
+/* Rows auto-filled from tomorrow's Delivery Planner get a faint tint so
+   it's obvious at a glance which ones were typed in vs. pulled in
+   automatically; a manual row color (via the 🎨 picker) always overrides
+   this since it's set as an inline style. */
+.prefilled-row {
+  background: #eef6ff;
+}
+
+.prefill-note {
+  font-size: 12px;
+  color: #445;
+  margin: 0 0 12px;
+}
+
 .sheet-note {
   font-size: 11.5px;
   margin: 10px 2px 18px;
@@ -240,5 +254,12 @@
   .sheet-table tbody tr {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+
+  /* The auto-fill tint is just an on-screen hint — don't waste ink on it.
+     A row's manual 🎨 color (an inline style) still takes precedence and
+     prints normally. */
+  .prefilled-row {
+    background: transparent;
   }
 }

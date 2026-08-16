@@ -12,6 +12,7 @@
     <header class="topbar">
       <h1>Material Dispatch Sheet</h1>
       <div class="topbar-controls">
+        <button id="refillBtn" class="secondary-btn">🔄 Refill from Tomorrow's Plan</button>
         <button id="addRowBtn" class="secondary-btn">+ Add Row</button>
         <button id="removeRowBtn" class="secondary-btn">− Remove Row</button>
         <button id="clearSheetBtn" class="secondary-btn">Clear Sheet</button>
@@ -20,17 +21,22 @@
       </div>
     </header>
     <p class="modal-help" style="margin: 0 0 16px;">
-      Type a <strong>Customer Name</strong> and pick from the suggestions (sourced from
-      <code>orders.json</code>) — <strong>Material Name</strong> then only suggests materials that
-      customer has actually ordered, and <strong>Finish / Surface</strong> only suggests finishes
-      seen for that customer + material. If a customer has more than one material, pick the
-      first, type a <strong>comma</strong>, and it'll suggest the remaining ones for that
-      customer — keep adding commas for as many as you need (same trick works for multiple
-      finishes). Delivery Address, Qty, Expected Delivery Time, and Remarks are always left
-      blank for you to fill in. Use the <strong>🎨</strong> swatch on a row to highlight it any
-      color (✕ clears it) — the color prints too. Long text wraps instead of getting cut off
-      when you print. Click <strong>🖨 Print</strong> when ready — it's formatted for A4 landscape.
+      The sheet auto-fills with active orders (not Completed/Cancelled) whose
+      <strong>Expected Delivery Date</strong> is tomorrow — same rule as the Delivery Planner's
+      "Tomorrow" bucket — so you usually shouldn't need to type Customer/Material/Finish/Qty by
+      hand; those rows get a faint blue tint (not printed) so you can tell them apart from blank
+      ones. Click <strong>🔄 Refill from Tomorrow's Plan</strong> any time to re-pull the latest
+      data (this replaces everything currently on the sheet). You can still edit any pre-filled
+      cell, or type a new <strong>Customer Name</strong> from scratch and pick from the
+      suggestions — <strong>Material Name</strong> then only suggests materials that customer has
+      actually ordered, and <strong>Finish / Surface</strong> only suggests finishes seen for that
+      customer + material. If a customer has more than one material, pick the first, type a
+      <strong>comma</strong>, and it'll suggest the remaining ones — same trick works for multiple
+      finishes. Use the <strong>🎨</strong> swatch on a row to highlight it any color (✕ clears
+      it) — the color prints too. Long text wraps instead of getting cut off when you print.
+      Click <strong>🖨 Print</strong> when ready — it's formatted for A4 landscape.
     </p>
+    <p id="prefillNote" class="prefill-note"></p>
   </div>
 
   <div id="sheet" class="sheet">

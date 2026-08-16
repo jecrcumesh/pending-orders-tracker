@@ -1,15 +1,52 @@
 /* Material Dispatch Sheet
    Printable A4 sheet, styled after Stonedge's paper dispatch form. Customer
    Name / Material Name / Finish-Surface are suggested from orders.json
-   (each level filtered by the one before it); every other field is left
-   blank for manual entry, on paper or on screen.
+   (each level filtered by the one before it). Rows due tomorrow (per the
+   same logic as the Delivery Planner) are pre-filled automatically to cut
+   down on retyping; every other field is left blank for manual entry.
 */
 
 const DEFAULT_ROWS = 10;
+const EXTRA_BLANK_ROWS = 5; // added after any auto-filled rows, for walk-ins/extras
+const INACTIVE_STATUSES = ["Completed", "Cancelled"];
 
 let customersToMaterials = {}; // customer -> Set of material names
 let comboToFinishes = {}; // "customer||material" -> Set of finishes
 let rowCount = 0;
+
+function tomorrowKey() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  d.setDate(d.getDate() + 1);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+// Same rule as the Delivery Planner's "Tomorrow" bucket: active orders
+// (not Completed/Cancelled) whose Expected Delivery Date is tomorrow.
+function ordersDueTomorrow(orders) {
+  const key = tomorrowKey();
+  return orders.filter(
+    (o) =>
+      !INACTIVE_STATUSES.includes(o["Order Status"]) &&
+      (o["Expected Delivery Date"] || "") === key
+  );
+}
+
+function orderToPrefill(o) {
+  const qty = o["Balance Qty"] !== "" && o["Balance Qty"] !== undefined ? o["Balance Qty"] : o["Order Qty"];
+  const unit = o["Unit"] || "";
+  return {
+    customer: o["Customer Name"] || "",
+    material: o["Material Name"] || "",
+    finish: o["Finish / Surface"] || "",
+    address: o["Contact Number"] || "",
+    qty: qty !== "" && qty !== undefined && qty !== null ? `${qty}${unit ? " " + unit : ""}` : "",
+    remarks: o["Remarks / Notes"] || "",
+  };
+}
 
 function comboKey(customer, material) {
   return `${customer}||${material}`;
@@ -62,11 +99,12 @@ function escapeAttr(s) {
     .replace(/"/g, "&quot;");
 }
 
-function addRow() {
+function addRow(prefill) {
   rowCount += 1;
   const idx = rowCount;
   const tbody = document.getElementById("sheetBody");
   const tr = document.createElement("tr");
+  if (prefill) tr.classList.add("prefilled-row");
 
   const materialListId = `materialList-${idx}`;
   const finishListId = `finishList-${idx}`;
@@ -91,10 +129,10 @@ function addRow() {
       <datalist id="${finishListId}"></datalist>
       <span class="print-text"></span>
     </td>
-    <td class="col-address"><input type="text" class="cell-input" /><span class="print-text"></span></td>
-    <td class="col-qty"><input type="text" class="cell-input" /><span class="print-text"></span></td>
-    <td class="col-time"><input type="text" class="cell-input" /><span class="print-text"></span></td>
-    <td class="col-remarks"><input type="text" class="cell-input" /><span class="print-text"></span></td>
+    <td class="col-address"><input type="text" class="cell-input address-input" /><span class="print-text"></span></td>
+    <td class="col-qty"><input type="text" class="cell-input qty-input" /><span class="print-text"></span></td>
+    <td class="col-time"><input type="text" class="cell-input time-input" /><span class="print-text"></span></td>
+    <td class="col-remarks"><input type="text" class="cell-input remarks-input" /><span class="print-text"></span></td>
   `;
   tbody.appendChild(tr);
 
@@ -143,6 +181,19 @@ function addRow() {
     refreshFinishOptions();
   });
   finishInput.addEventListener("input", refreshFinishOptions);
+
+  if (prefill) {
+    customerInput.value = prefill.customer || "";
+    materialInput.value = prefill.material || "";
+    finishInput.value = prefill.finish || "";
+    tr.querySelector(".address-input").value = prefill.address || "";
+    tr.querySelector(".qty-input").value = prefill.qty || "";
+    tr.querySelector(".remarks-input").value = prefill.remarks || "";
+    // Setting .value programmatically doesn't fire "input" events, so the
+    // cascading suggestion lists need to be refreshed by hand.
+    refreshMaterialOptions();
+    refreshFinishOptions();
+  }
 
   renumberRows();
 }
@@ -196,25 +247,56 @@ function setDefaultDate() {
   el.value = `${y}-${m}-${d}`;
 }
 
-function init() {
-  setDefaultDate();
+function populateRows(orders) {
+  const tbody = document.getElementById("sheetBody");
+  tbody.innerHTML = "";
+  rowCount = 0;
 
-  fetch(`orders.json?t=${Date.now()}`, { cache: "no-store" })
+  const dueTomorrow = ordersDueTomorrow(orders);
+  dueTomorrow.forEach((o) => addRow(orderToPrefill(o)));
+
+  const blankCount = dueTomorrow.length ? EXTRA_BLANK_ROWS : DEFAULT_ROWS;
+  for (let i = 0; i < blankCount; i++) addRow();
+
+  const note = document.getElementById("prefillNote");
+  if (note) {
+    note.textContent = dueTomorrow.length
+      ? `📅 Pre-filled ${dueTomorrow.length} order${dueTomorrow.length === 1 ? "" : "s"} due tomorrow (${tomorrowKey()}) from the Delivery Planner, plus ${blankCount} blank row${blankCount === 1 ? "" : "s"} for anything else.`
+      : `No active orders are due tomorrow (${tomorrowKey()}) yet, so the sheet starts blank.`;
+  }
+}
+
+function loadOrdersAndPopulate() {
+  return fetch(`orders.json?t=${Date.now()}`, { cache: "no-store" })
     .then((r) => r.json())
     .then((orders) => {
       buildLookups(orders);
       fillDatalist(document.getElementById("customerNames"), Object.keys(customersToMaterials));
-      for (let i = 0; i < DEFAULT_ROWS; i++) addRow();
+      populateRows(orders);
     })
     .catch(() => {
       // Even if orders.json can't be loaded, the sheet should still work —
-      // just without autocomplete suggestions.
-      for (let i = 0; i < DEFAULT_ROWS; i++) addRow();
+      // just without autocomplete suggestions or pre-filled rows.
+      populateRows([]);
     });
+}
 
-  document.getElementById("addRowBtn").addEventListener("click", addRow);
+function init() {
+  setDefaultDate();
+  loadOrdersAndPopulate();
+
+  document.getElementById("addRowBtn").addEventListener("click", () => addRow());
   document.getElementById("removeRowBtn").addEventListener("click", removeRow);
   document.getElementById("clearSheetBtn").addEventListener("click", clearSheet);
+  document.getElementById("refillBtn").addEventListener("click", () => {
+    if (
+      confirm(
+        "Replace everything currently on the sheet with tomorrow's Delivery Planner orders (plus a few blank rows)?"
+      )
+    ) {
+      loadOrdersAndPopulate();
+    }
+  });
   document.getElementById("printBtn").addEventListener("click", () => {
     syncPrintText();
     window.print();
