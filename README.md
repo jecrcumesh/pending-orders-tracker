@@ -51,16 +51,31 @@ all original 20 columns preserved, plus a new **Expected Delivery Date** column.
   day, so you can plan deliveries at a glance. Has its own Excel export too.
 - **Material Dispatch Sheet page** (📄 button, opens in a new tab). A
   printable, A4-landscape sheet matching the paper Stonedge dispatch form.
-  Type a Customer Name and pick from the autocomplete suggestions (pulled
-  from `orders.json`); Material Name then only suggests materials that
-  customer has actually ordered, and Finish / Surface only suggests
-  finishes seen for that exact customer + material — the same cascading
-  logic as picking a real order line. Delivery Address, Challan No., Qty,
-  Expected Delivery Time, and Remarks are always blank for manual entry
-  (on screen or by hand after printing), same as the paper form. Each row
-  has a 🎨 color swatch to highlight it any color you like (✕ clears it) —
-  handy for flagging urgent or problem deliveries; the color prints too.
-  Use "+ Add Row" / "− Remove Row" to size the sheet, then **"🖨 Print"**.
+  **It auto-fills on load** with every active order (not
+  Completed/Cancelled) whose Expected Delivery Date is tomorrow — the exact
+  same rule as the Delivery Planner's "Tomorrow" bucket — so most of the
+  sheet is prepared for you: Customer Name, Material Name, Finish / Surface,
+  Qty (from Balance Qty + Unit), and Delivery Address (from Contact Number)
+  are pre-filled; Expected Delivery Time and Remarks are always left blank
+  for manual entry, even on auto-filled rows. Auto-filled rows get a faint
+  blue tint on screen (not printed) so you can spot them, and a few extra
+  blank rows are added after them for anything that comes up. Click
+  **"🔄 Refill from Tomorrow's Plan"** any time to re-pull the latest data —
+  this replaces everything currently on the sheet, so use it before you've
+  made manual edits you want to keep. If nothing's due tomorrow yet, the
+  sheet just starts blank like before. Every field, pre-filled or not,
+  stays editable: type a Customer Name and pick from the autocomplete
+  suggestions (pulled from `orders.json`); Material Name then only suggests
+  materials that customer has actually ordered, and Finish / Surface only
+  suggests finishes seen for that exact customer + material — the same
+  cascading logic as picking a real order line. **Rows auto-sort by
+  Expected Delivery Time** — fill it in (or change it) on any row and the
+  sheet re-sorts earliest-to-latest automatically; text that isn't a
+  recognizable time (e.g. "ASAP") sorts after timed rows, and blank rows
+  stay at the bottom. Each row has a 🎨 color
+  swatch to highlight it any color you like (✕ clears it) — handy for
+  flagging urgent or problem deliveries; the color prints too. Use
+  "+ Add Row" / "− Remove Row" to resize the sheet, then **"🖨 Print"**.
 
 ## Sign in with a GitHub token (required to click "Save Changes")
 Editing, adding, and deleting work locally without signing in — you only
@@ -122,6 +137,54 @@ The one case this can't cover: a *different* browser or device loading the
 page before GitHub Pages redeploys will still briefly see the old data —
 there's no way around that without a real backend, since the "local
 memory" trick only exists in the browser that made the save.
+
+## "Save failed: orders.json does not match &lt;sha&gt;"
+
+This error means GitHub refused the write because the copy of `orders.json`
+on the server had already changed since the app last read it — most often
+because it was open in another tab, another browser, or on another device
+(phone + laptop, or two people) at the same time, and a save from there
+landed a few seconds earlier. **This is GitHub protecting your data, not
+losing it** — a mismatched-sha write is always rejected outright, so
+nothing ever gets silently overwritten.
+
+The app now retries this automatically: on a conflict it quietly re-reads
+the file's current version and re-attempts the save (up to 5 times, a
+moment apart), so a save that collides with another one resolves itself
+without you needing to notice or click anything twice. You'll only see an
+error if it still can't get a clean write after those retries — in that
+case your edits are still sitting safely in this tab (nothing is lost),
+and clicking "💾 Save Changes" again will pick up the latest version and
+try once more.
+
+If you're hitting this constantly rather than occasionally, it usually
+means this tracker is genuinely being edited from more than one place at
+once — which is expected with concurrent editors on a single shared file;
+just re-clicking Save resolves it every time.
+
+## JSON vs. Excel as the saved format
+
+Short answer: **keep `orders.json` as the file the app reads and writes.**
+Switching that to an `.xlsx` file wouldn't fix the conflict error above —
+GitHub's same-sha protection applies to any file type equally, JSON or
+Excel — and it would trade away things JSON is better at here:
+
+- **Reliability of round-tripping.** The app writes JSON in exactly the
+  shape it expects to read back. An `.xlsx` file, once someone opens and
+  re-saves it in Excel, can pick up merged cells, extra header/summary
+  rows, or reordered columns — exactly the kind of formatting quirks that
+  made the original source spreadsheet fragile to parse in the first
+  place. JSON has no such ambiguity.
+- **Size and speed.** JSON is plain text and tiny; `.xlsx` is a zipped
+  binary format, larger and slower to read/write over the API for no
+  benefit here.
+- **Git-friendliness.** JSON changes are at least somewhat readable in a
+  diff; `.xlsx` is opaque binary, so you'd lose the ability to see what
+  changed in a commit.
+
+If you want an Excel copy for your own records, that's what **"⬇ Export
+All"** is for — it converts the live JSON into a proper `.xlsx` on demand,
+without making Excel the thing that's actually being edited and synced.
 
 ## Run locally
 No build step needed. From this folder:

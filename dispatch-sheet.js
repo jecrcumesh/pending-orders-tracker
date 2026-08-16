@@ -183,6 +183,11 @@ function addRow(prefill) {
   });
   finishInput.addEventListener("input", refreshFinishOptions);
 
+  const timeInput = tr.querySelector(".time-input");
+  // Re-sort once the user finishes typing/leaves the field (not on every
+  // keystroke, so the row doesn't jump out from under them mid-edit).
+  timeInput.addEventListener("change", sortRowsByTime);
+
   if (prefill) {
     customerInput.value = prefill.customer || "";
     materialInput.value = prefill.material || "";
@@ -197,6 +202,71 @@ function addRow(prefill) {
     refreshFinishOptions();
   }
 
+  renumberRows();
+}
+
+// Expected Delivery Time is free text (e.g. "10:30 AM", "14:00", "2 PM",
+// "1400"), so before sorting we try to turn it into minutes-since-midnight.
+// Anything that doesn't match a recognizable time format is treated as
+// "unparseable" rather than dropped, so it still sorts predictably.
+function parseTimeToMinutes(raw) {
+  const v = (raw || "").trim();
+  if (!v) return null;
+
+  let m = v.match(/^(\d{1,2}):(\d{2})\s*(AM|PM|am|pm)?$/);
+  if (m) {
+    let h = parseInt(m[1], 10);
+    const min = parseInt(m[2], 10);
+    const ap = m[3] ? m[3].toUpperCase() : null;
+    if (ap === "PM" && h < 12) h += 12;
+    if (ap === "AM" && h === 12) h = 0;
+    if (h >= 0 && h < 24 && min >= 0 && min < 60) return h * 60 + min;
+  }
+
+  m = v.match(/^(\d{1,2})\s*(AM|PM|am|pm)$/);
+  if (m) {
+    let h = parseInt(m[1], 10);
+    const ap = m[2].toUpperCase();
+    if (ap === "PM" && h < 12) h += 12;
+    if (ap === "AM" && h === 12) h = 0;
+    if (h >= 0 && h < 24) return h * 60;
+  }
+
+  m = v.match(/^(\d{1,2})(\d{2})$/);
+  if (m) {
+    const h = parseInt(m[1], 10);
+    const min = parseInt(m[2], 10);
+    if (h < 24 && min < 60) return h * 60 + min;
+  }
+
+  return NaN; // text we couldn't parse as a time
+}
+
+// Sorts rows by Expected Delivery Time: recognizable times first
+// (earliest to latest), then unparseable text (alphabetically), then blank
+// rows last — so the sheet always reads top-to-bottom in delivery order.
+function sortRowsByTime() {
+  const tbody = document.getElementById("sheetBody");
+  const rows = Array.from(tbody.children);
+
+  const ranked = rows.map((tr, originalIndex) => {
+    const raw = tr.querySelector(".time-input").value;
+    const minutes = parseTimeToMinutes(raw);
+    let rank;
+    if (raw.trim() === "") rank = 2;
+    else if (Number.isNaN(minutes)) rank = 1;
+    else rank = 0;
+    return { tr, rank, minutes: rank === 0 ? minutes : 0, raw: raw.trim().toLowerCase(), originalIndex };
+  });
+
+  ranked.sort((a, b) => {
+    if (a.rank !== b.rank) return a.rank - b.rank;
+    if (a.rank === 0) return a.minutes - b.minutes;
+    if (a.rank === 1) return a.raw < b.raw ? -1 : a.raw > b.raw ? 1 : 0;
+    return a.originalIndex - b.originalIndex; // blanks: keep their relative order
+  });
+
+  ranked.forEach((r) => tbody.appendChild(r.tr)); // appendChild moves existing nodes
   renumberRows();
 }
 
