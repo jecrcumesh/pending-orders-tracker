@@ -2522,7 +2522,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Cancelled",
+  "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 15,
   "Expected Delivery Date": "2026-08-02",
