@@ -1323,14 +1323,14 @@
   "Balance Qty": 300,
   "% Dispatched": 0.925,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "Partially Available",
+  "Stock Yard Available": "",
   "To Be Ordered Qty": 300,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Completed",
   "Machine Processing Required": "No",
   "Days Since Order": 33,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "As per Raju  bhai he will confirm if more material needed or not",
+  "Remarks / Notes": "As per Raju  bhai he will confirm if more material needed or not.\nAs of now Marking Complete as Client dont need more",
   "Contact Number": "Mayank Sir - 9316823321"
  },
  {
@@ -4941,7 +4941,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Need 800-1000 Sft , but final Qty should be provided by Prakesh Bhai",
+  "Remarks / Notes": "Need 800-1000 Sft , but final Qty should be provided by Prakesh Bhai.\nVikas will talk to Prakesh Bhai",
   "Contact Number": "Yuvraj Bhai - 9909031575, Prakash Bhai - 9426557546"
  },
  {
@@ -4964,7 +4964,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Prakash Bhai provide final quantity",
+  "Remarks / Notes": "Prakash Bhai provide final quantity.\nVikas will talk to Prakesh Bhai",
   "Contact Number": "Yuvraj Bhai - 9909031575, Prakash Bhai - 9426557546"
  },
  {
@@ -5190,7 +5190,7 @@
   "Stock Yard Available": "",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "2026-08-17",
