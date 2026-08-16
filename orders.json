@@ -5288,5 +5288,28 @@
   "Expected Delivery Date": "2026-08-15",
   "Remarks / Notes": "Directly go from Mahadev Gota",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 234,
+  "Order Date": "2026-08-15",
+  "Customer Name": "Jai Patel",
+  "Material Name": "Abstract Black",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 140,
+  "Dispatched Qty": "",
+  "Balance Qty": 140,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "In Process",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "2026-08-17",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
