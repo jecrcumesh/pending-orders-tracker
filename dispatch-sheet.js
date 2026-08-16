@@ -44,7 +44,8 @@ function orderToPrefill(o) {
     finish: o["Finish / Surface"] || "",
     address: o["Contact Number"] || "",
     qty: qty !== "" && qty !== undefined && qty !== null ? `${qty}${unit ? " " + unit : ""}` : "",
-    remarks: o["Remarks / Notes"] || "",
+    // Remarks is always left blank on the sheet for manual entry — not
+    // pulled from the order's own Remarks / Notes.
   };
 }
 
@@ -188,7 +189,8 @@ function addRow(prefill) {
     finishInput.value = prefill.finish || "";
     tr.querySelector(".address-input").value = prefill.address || "";
     tr.querySelector(".qty-input").value = prefill.qty || "";
-    tr.querySelector(".remarks-input").value = prefill.remarks || "";
+    // Remarks is intentionally left blank, even on auto-filled rows —
+    // it's always for manual entry.
     // Setting .value programmatically doesn't fire "input" events, so the
     // cascading suggestion lists need to be refreshed by hand.
     refreshMaterialOptions();
