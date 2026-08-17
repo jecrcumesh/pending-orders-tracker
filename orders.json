@@ -5334,5 +5334,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Dr Sir Confirm Order When Material Have Come Stonedge",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 236,
+  "Order Date": "2026-08-08",
+  "Customer Name": "Swapnil Bhai",
+  "Material Name": "Monalisa",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1200,
+  "Dispatched Qty": 0,
+  "Balance Qty": 1200,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 1200,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 9,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR Sir ConfirmThis Material When His Come",
+  "Contact Number": ""
  }
 ]
