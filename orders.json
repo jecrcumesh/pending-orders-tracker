@@ -5702,5 +5702,28 @@
   "Expected Delivery Date": "2026-08-25",
   "Remarks / Notes": "As Per Anil Material Ready 25 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 252,
+  "Order Date": "2026-08-17",
+  "Customer Name": "Psp Project",
+  "Material Name": "Grigiyo Morroco",
+  "Finish / Surface": "Flooring",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 645,
+  "Dispatched Qty": "",
+  "Balance Qty": 645,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 645,
+  "Available Qty": 0,
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR Sir Purchase Material Then He Go On Site",
+  "Contact Number": ""
  }
 ]
