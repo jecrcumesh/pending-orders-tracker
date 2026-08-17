@@ -5380,5 +5380,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "DR Sir Condirm This Order When He Come",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 238,
+  "Order Date": "2026-08-08",
+  "Customer Name": "Anamya",
+  "Material Name": "Bellescimo",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 10000,
+  "Dispatched Qty": "",
+  "Balance Qty": 10000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 10000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 9,
+  "Expected Delivery Date": "2026-08-18",
+  "Remarks / Notes": "As Per Om Ji 18 Aug Gadi come On Site",
+  "Contact Number": ""
  }
 ]
