@@ -387,7 +387,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care",
+  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care. As per Vikas Material is not available in RK , it will take 2 days by RK",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -1859,7 +1859,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care",
+  "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care.\nMaterial is not available in RK , it will take 2 days by RK.\nMaterial is not available in RK , it will take 2 days by RK",
   "Contact Number": ""
  },
  {
@@ -1871,9 +1871,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 600,
-  "Dispatched Qty": 0,
-  "Balance Qty": 600,
-  "% Dispatched": 0,
+  "Dispatched Qty": 550,
+  "Balance Qty": 50,
+  "% Dispatched": 0.9166666666666666,
   "Rate (per Unit)": "",
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 600,
@@ -1882,7 +1882,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site\nVikas Will take care",
+  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site\nVikas Will take care.\n550 Sqft delivered on 14 Aug",
   "Contact Number": ""
  },
  {
