@@ -387,7 +387,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care. As per Vikas Material is not available in RK , it will take 2 days by RK",
+  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -1859,7 +1859,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care.\nMaterial is not available in RK , it will take 2 days by RK.\nMaterial is not available in RK , it will take 2 days by RK",
+  "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care",
   "Contact Number": ""
  },
  {
@@ -1871,9 +1871,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 600,
-  "Dispatched Qty": 550,
-  "Balance Qty": 50,
-  "% Dispatched": 0.9166666666666666,
+  "Dispatched Qty": 0,
+  "Balance Qty": 600,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 600,
@@ -1882,7 +1882,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site\nVikas Will take care.\n550 Sqft delivered on 14 Aug",
+  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site\nVikas Will take care",
   "Contact Number": ""
  },
  {
@@ -3261,8 +3261,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 10,
-  "Expected Delivery Date": "2026-08-20",
-  "Remarks / Notes": "Send it on 20th Aug as per DJ",
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Cll The Clint And TAke A Dispatch Plan",
   "Contact Number": ""
  },
  {
@@ -5062,7 +5062,7 @@
  {
   "Sr. No.": 224,
   "Order Date": "2026-08-10",
-  "Customer Name": "Varun bhai (Boteshwar Builder)",
+  "Customer Name": "Varun bhai",
   "Material Name": "White travertine",
   "Finish / Surface": "leather",
   "Is New Customer": "No",
@@ -5075,11 +5075,11 @@
   "Stock Yard Available": "",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "",
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Need to take in Delivery Plan",
+  "Remarks / Notes": "",
   "Contact Number": ""
  },
  {
@@ -5308,7 +5308,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "2026-08-17",
+  "Expected Delivery Date": "2026-08-18",
   "Remarks / Notes": "",
   "Contact Number": ""
  }
