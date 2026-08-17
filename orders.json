@@ -5029,7 +5029,7 @@
   "Stock Yard Available": "",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "",
+  "Order Status": "Completed",
   "Machine Processing Required": "",
   "Days Since Order": 0,
   "Expected Delivery Date": "2026-08-14",
@@ -5153,7 +5153,7 @@
  },
  {
   "Sr. No.": 228,
-  "Order Date": "",
+  "Order Date": "2026-08-10",
   "Customer Name": "Raj Sir (Shivalik)",
   "Material Name": "Astoriya Pink",
   "Finish / Surface": "Canvas",
@@ -5169,7 +5169,7 @@
   "Available Qty": "",
   "Order Status": "Completed",
   "Machine Processing Required": "",
-  "Days Since Order": "",
+  "Days Since Order": 7,
   "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "",
   "Contact Number": ""
