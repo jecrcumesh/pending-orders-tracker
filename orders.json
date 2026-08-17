@@ -2515,9 +2515,9 @@
   "Is New Customer": "Yes",
   "Unit": "SFT",
   "Order Qty": 2000,
-  "Dispatched Qty": 0,
-  "Balance Qty": 2000,
-  "% Dispatched": 0,
+  "Dispatched Qty": 1000,
+  "Balance Qty": 1000,
+  "% Dispatched": 0.5,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -2525,8 +2525,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
-  "Expected Delivery Date": "2026-08-17",
-  "Remarks / Notes": "500 Sqft will be deliver 17 Aug.\nNext 500 22 Aug.",
+  "Expected Delivery Date": "2026-08-18",
+  "Remarks / Notes": "This Material Dispatch 18 Aug",
   "Contact Number": ""
  },
  {
