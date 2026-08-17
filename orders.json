@@ -5518,5 +5518,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "As Per Dr Sir Material Loading 18-08-2026 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 244,
+  "Order Date": "2026-08-13",
+  "Customer Name": "Swapnil Bhai",
+  "Material Name": "Colonial White",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 2500,
+  "Dispatched Qty": "",
+  "Balance Qty": 2500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 2500,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Per",
+  "Contact Number": ""
  }
 ]
