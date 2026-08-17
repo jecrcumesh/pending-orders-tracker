@@ -5748,5 +5748,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "DR Sir Purchase Material Then He Process On Stock Area",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 254,
+  "Order Date": "2026-08-17",
+  "Customer Name": "Swapnil Bhai",
+  "Material Name": "Yellow Kota",
+  "Finish / Surface": "River Wash",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 110,
+  "Dispatched Qty": "",
+  "Balance Qty": 110,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 110,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready Ramesh Ji  ( Size - 22\"x 22\" )",
+  "Contact Number": ""
  }
 ]
