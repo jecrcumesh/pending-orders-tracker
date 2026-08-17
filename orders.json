@@ -5311,5 +5311,28 @@
   "Expected Delivery Date": "2026-08-18",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 235,
+  "Order Date": "2026-08-08",
+  "Customer Name": "Swapnil Bhai",
+  "Material Name": "Monalisa",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 2400,
+  "Dispatched Qty": "",
+  "Balance Qty": 2400,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 2400,
+  "Available Qty": 0,
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 9,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Dr Sir Confirm Order When Material Have Come Stonedge",
+  "Contact Number": ""
  }
 ]
