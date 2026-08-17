@@ -5679,5 +5679,28 @@
   "Expected Delivery Date": "2026-08-18",
   "Remarks / Notes": "Devesh Sir Confirm Lot Material Dispatch 18 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 251,
+  "Order Date": "2026-08-15",
+  "Customer Name": "Nivid Sir",
+  "Material Name": "Camafluz",
+  "Finish / Surface": "Vtf Smooth",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 120,
+  "Dispatched Qty": "",
+  "Balance Qty": 120,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-08-25",
+  "Remarks / Notes": "As Per Anil Material Ready 25 Aug",
+  "Contact Number": ""
  }
 ]
