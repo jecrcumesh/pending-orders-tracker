@@ -5633,5 +5633,28 @@
   "Expected Delivery Date": "2026-08-22",
   "Remarks / Notes": "As Per Anil This Material Ready For 22 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 249,
+  "Order Date": "2026-08-13",
+  "Customer Name": "Ratnakar Artesia",
+  "Material Name": "Aalmond Travertine",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "Size 24\" X 105 \" As Per Anil Material Ready 22 Aug",
+  "Contact Number": ""
  }
 ]
