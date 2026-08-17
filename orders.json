@@ -5075,11 +5075,11 @@
   "Stock Yard Available": "",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "",
+  "Order Status": "Pending",
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Need to take in Delivery Plan",
   "Contact Number": ""
  },
  {
