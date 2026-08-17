@@ -5495,5 +5495,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "DR Sir Comfirm Lot And Anil Take Process Then He Will Go ( Labour Issue )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 243,
+  "Order Date": "2026-08-13",
+  "Customer Name": "Zade Luxuria",
+  "Material Name": "Lyca Beige",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 3000,
+  "Dispatched Qty": "",
+  "Balance Qty": 3000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 3000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Per Dr Sir Material Loading 18-08-2026 Aug",
+  "Contact Number": ""
  }
 ]
