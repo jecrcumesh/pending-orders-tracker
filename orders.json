@@ -5725,5 +5725,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "DR Sir Purchase Material Then He Go On Site",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 253,
+  "Order Date": "2026-08-17",
+  "Customer Name": "Psp Project",
+  "Material Name": "Grigiyo Morroco",
+  "Finish / Surface": "Polish ( Dedo )",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1076,
+  "Dispatched Qty": "",
+  "Balance Qty": 1076,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 1076,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR Sir Purchase Material Then He Process On Stock Area",
+  "Contact Number": ""
  }
 ]
