@@ -5541,5 +5541,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "As Per",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 245,
+  "Order Date": "2026-08-13",
+  "Customer Name": "Jay Bhai ( Time )",
+  "Material Name": "Portugal Mocha ( 20mm )",
+  "Finish / Surface": "",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 7000,
+  "Dispatched Qty": "",
+  "Balance Qty": 7000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 7000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "First 1 Slab Semple Goes 19 Aug And Pas The Sample Then Material When Go",
+  "Contact Number": ""
  }
 ]
