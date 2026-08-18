@@ -202,7 +202,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 7,
-  "Expected Delivery Date": "2026-08-22",
+  "Expected Delivery Date": "2026-08-18",
   "Remarks / Notes": "Will Check Agian On Moanday",
   "Contact Number": 9825584250
  },
@@ -340,7 +340,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 3,
-  "Expected Delivery Date": "2026-08-19",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "Gota RK Stone.Direct Delivery to site",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
@@ -387,7 +387,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care. Material Not Avilable As Per Him His Coming Two Days",
+  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -1812,7 +1812,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 71,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-17",
   "Remarks / Notes": "As Per Site Eng Material Not Requird On Site First Parovity Grey Travertine Then He Go",
   "Contact Number": ""
  },
@@ -1835,8 +1835,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 71,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "As Per Site Eng Material Not Requird On Site First priority Grey Travertine Then He Go",
+  "Expected Delivery Date": "2026-08-17",
+  "Remarks / Notes": "As Per Site Eng Material Not Requird On Site First Parovity Grey Travertine Then He Go",
   "Contact Number": ""
  },
  {
@@ -1859,7 +1859,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care. Material Not Avilable As Per Him His Coming Two Days",
+  "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care",
   "Contact Number": ""
  },
  {
@@ -1882,7 +1882,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care. Material Not Avilable As Per Him His Coming Two Days",
+  "Remarks / Notes": "Gota RK Stone.Direct Delivery to site\nVikas Will take care",
   "Contact Number": ""
  },
  {
@@ -2502,7 +2502,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 19,
-  "Expected Delivery Date": "2026-08-18",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "( 21 July Deliverd ) ( As Per OM Ji Dr Sir Confirm And Then Order Deliverd After Payment Recived  )",
   "Contact Number": ""
  },
@@ -2571,7 +2571,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
-  "Expected Delivery Date": "2026-08-18",
+  "Expected Delivery Date": "2026-08-13",
   "Remarks / Notes": "3pc of 175 Sqft delivered. remaing 1 Slab will be deliver 13 Aug",
   "Contact Number": ""
  },
@@ -2594,7 +2594,7 @@
   "Order Status": "In Process",
   "Machine Processing Required": "Yes",
   "Days Since Order": 16,
-  "Expected Delivery Date": "2026-08-18",
+  "Expected Delivery Date": "2026-08-13",
   "Remarks / Notes": "Expected tomorrow 13 Aug",
   "Contact Number": ""
  },
@@ -3182,14 +3182,14 @@
   "Is New Customer": "Yes",
   "Unit": "PCS",
   "Order Qty": 1,
-  "Dispatched Qty": 1,
-  "Balance Qty": 0,
-  "% Dispatched": 1,
+  "Dispatched Qty": 0,
+  "Balance Qty": 1,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 29,
   "Expected Delivery Date": "2026-08-11",
@@ -3997,7 +3997,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 101,
-  "Expected Delivery Date": "2026-08-20",
+  "Expected Delivery Date": "2026-08-16",
   "Remarks / Notes": "Size Issue Om Ji Order This Material",
   "Contact Number": ""
  },
@@ -4206,7 +4206,7 @@
   "Days Since Order": 3,
   "Expected Delivery Date": "2026-08-11",
   "Remarks / Notes": "Done",
-  "Contact Number": "Done"
+  "Contact Number": ""
  },
  {
   "Sr. No.": 187,
@@ -4224,12 +4224,12 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 3,
   "Expected Delivery Date": "2026-08-11",
   "Remarks / Notes": "Done",
-  "Contact Number": "Done"
+  "Contact Number": ""
  },
  {
   "Sr. No.": 188,
@@ -4286,14 +4286,14 @@
   "Is New Customer": "No",
   "Unit": "PCS",
   "Order Qty": 8,
-  "Dispatched Qty": 8,
-  "Balance Qty": 0,
-  "% Dispatched": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 8,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 2,
   "Expected Delivery Date": "2026-08-13",
@@ -4480,7 +4480,7 @@
   "Order Status": "In Process",
   "Machine Processing Required": "No",
   "Days Since Order": 2,
-  "Expected Delivery Date": "2026-08-20",
+  "Expected Delivery Date": "2026-08-14",
   "Remarks / Notes": "Issue With Material due to Rusting in Material ( Return This Material Site To Stonedge 19 Aug )",
   "Contact Number": "9099961879"
  },
@@ -4539,14 +4539,14 @@
   "Is New Customer": "Yes",
   "Unit": "PCS",
   "Order Qty": 1,
-  "Dispatched Qty": 1,
-  "Balance Qty": 0,
-  "% Dispatched": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "2026-08-17",
@@ -4665,7 +4665,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "2026-08-11",
-  "Remarks / Notes": "Material Ready But Payment Issue",
+  "Remarks / Notes": "11 Aug Dispatch",
   "Contact Number": ""
  },
  {
@@ -5183,14 +5183,14 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 350,
-  "Dispatched Qty": 350,
-  "Balance Qty": 0,
-  "% Dispatched": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 350,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "Ready",
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "2026-08-17",
@@ -5309,7 +5309,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
   "Expected Delivery Date": "2026-08-18",
-  "Remarks / Notes": "Material Dispatch 18 Aug",
+  "Remarks / Notes": "",
   "Contact Number": ""
  },
  {
@@ -5770,6 +5770,29 @@
   "Days Since Order": 0,
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready Ramesh Ji  ( Size - 22\"x 22\" )",
+  "Contact Number": ""
+ },
+ {
+  "Sr. No.": 255,
+  "Order Date": "2026-08-17",
+  "Customer Name": "Psp Project",
+  "Material Name": "Pietra Armani",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 3,
+  "Dispatched Qty": "",
+  "Balance Qty": 3,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Ready For 1 No Stock Area",
   "Contact Number": ""
  }
 ]
