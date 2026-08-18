@@ -5840,5 +5840,28 @@
   "Expected Delivery Date": "2026-08-15",
   "Remarks / Notes": "This Material Deliverd Done ( Bring The Stand Back From The Site. )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 258,
+  "Order Date": "2026-08-18",
+  "Customer Name": "Kurshil sir",
+  "Material Name": "Classic Ivory",
+  "Finish / Surface": "Double Polish",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 9,
+  "Dispatched Qty": "",
+  "Balance Qty": 9,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Anil And Date Confirm When Have Material Ready",
+  "Contact Number": ""
  }
 ]
