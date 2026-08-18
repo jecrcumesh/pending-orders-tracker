@@ -5794,5 +5794,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Ready For 1 No Stock Area",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 256,
+  "Order Date": "2026-08-17",
+  "Customer Name": "Psp Project",
+  "Material Name": "Pietra Armani",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ask Anil Then Delivery Date Confirm",
+  "Contact Number": ""
  }
 ]
