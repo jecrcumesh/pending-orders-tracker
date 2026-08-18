@@ -5863,5 +5863,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "As Anil And Date Confirm When Have Material Ready",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 259,
+  "Order Date": "2026-08-18",
+  "Customer Name": "Siddhart Sir ( Bhumit Bhai )",
+  "Material Name": "Gd Brown Polish",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 2500,
+  "Dispatched Qty": "",
+  "Balance Qty": 2500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As For Om Ji  And Confirm This Material Direct On Site Ya 2nd No Stock Area",
+  "Contact Number": ""
  }
 ]
