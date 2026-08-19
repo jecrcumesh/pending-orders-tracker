@@ -4654,7 +4654,7 @@
   "Is New Customer": "Yes",
   "Unit": "PCS",
   "Order Qty": 1,
-  "Dispatched Qty": "",
+  "Dispatched Qty": 0,
   "Balance Qty": 1,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
