@@ -4549,7 +4549,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 1,
-  "Expected Delivery Date": "2026-08-17",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "Expected 17 Aug\n.Slab Is Under 50 Patiya",
   "Contact Number": ""
  },
@@ -4802,8 +4802,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 82,
-  "Expected Delivery Date": "2026-08-20",
-  "Remarks / Notes": "As Per Client Recived Material 20 Aug",
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "As Per Client Recived Material 22 Aug",
   "Contact Number": ""
  },
  {
@@ -4825,8 +4825,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 82,
-  "Expected Delivery Date": "2026-08-20",
-  "Remarks / Notes": "As Per Client Recived Material 20 Aug",
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "As Per Client Recived Material 22 Aug",
   "Contact Number": ""
  },
  {
@@ -4848,8 +4848,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 82,
-  "Expected Delivery Date": "2026-08-20",
-  "Remarks / Notes": "As Per Client Recived Material 20 Aug",
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "As Per Client Recived Material 22Aug",
   "Contact Number": ""
  },
  {
