@@ -4055,9 +4055,9 @@
   "Finish / Surface": "Riverwash",
   "Is New Customer": "No",
   "Unit": "SFT",
-  "Order Qty": "",
+  "Order Qty": 400,
   "Dispatched Qty": "",
-  "Balance Qty": 0,
+  "Balance Qty": 400,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
@@ -4067,7 +4067,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ask To Deepak Sir, Need to check with RR for quntatity",
+  "Remarks / Notes": "Ask To Deepak Sir, 18 mm,Quantity in sqm",
   "Contact Number": ""
  },
  {
@@ -4078,9 +4078,9 @@
   "Finish / Surface": "Riverwash",
   "Is New Customer": "No",
   "Unit": "SFT",
-  "Order Qty": "",
+  "Order Qty": 360,
   "Dispatched Qty": "",
-  "Balance Qty": 0,
+  "Balance Qty": 360,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
@@ -4090,7 +4090,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ask To Deepak Sir, Ask To Deepak Sir, Need to check with RR for quntatity",
+  "Remarks / Notes": "Ask To Deepak Sir, Ask To Deepak Sir, 18 mm. Quantity in sqm",
   "Contact Number": ""
  },
  {
@@ -4101,9 +4101,9 @@
   "Finish / Surface": "Polish",
   "Is New Customer": "No",
   "Unit": "SFT",
-  "Order Qty": "",
+  "Order Qty": 112,
   "Dispatched Qty": "",
-  "Balance Qty": 0,
+  "Balance Qty": 112,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
@@ -4113,7 +4113,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Ask To Deepak Sir, Ask To Deepak Sir, Need to check with RR for quntatity",
+  "Remarks / Notes": "Ask To Deepak Sir, Ask To Deepak Sir, 18 mm",
   "Contact Number": ""
  },
  {
