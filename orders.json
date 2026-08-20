@@ -6047,5 +6047,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "8 X 5 = 1 Sheet",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 267,
+  "Order Date": "2026-08-19",
+  "Customer Name": "Vasubhai. R. Villa",
+  "Material Name": "Shiva Gold",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 211,
+  "Dispatched Qty": "",
+  "Balance Qty": 211,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ask Anil Then Confirm Delivery Date",
+  "Contact Number": ""
  }
 ]
