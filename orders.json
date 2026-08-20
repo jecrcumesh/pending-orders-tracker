@@ -6139,5 +6139,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ask Devesh Sir Then Confirm Lot And Told Anil",
   "Contact Number": "9723030070"
+ },
+ {
+  "Sr. No.": 271,
+  "Order Date": "2026-08-19",
+  "Customer Name": "Shubham Anthem",
+  "Material Name": "Z- Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "2026-08-21",
+  "Remarks / Notes": "Material Ready Dispatch 21 Aug",
+  "Contact Number": ""
  }
 ]
