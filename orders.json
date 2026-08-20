@@ -5390,9 +5390,9 @@
   "Is New Customer": "",
   "Unit": "SFT",
   "Order Qty": 10000,
-  "Dispatched Qty": "",
-  "Balance Qty": 10000,
-  "% Dispatched": 0,
+  "Dispatched Qty": 9064,
+  "Balance Qty": 936,
+  "% Dispatched": 0.9064,
   "Rate (per Unit)": "",
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 10000,
@@ -5400,8 +5400,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 9,
-  "Expected Delivery Date": "2026-08-19",
-  "Remarks / Notes": "As Per Om Ji 18 Aug Gadi come On Site( Gadi On Site 19 Aug )",
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Per Om Ji 18 Aug Gadi come On Site( Gadi On Site 19 Aug )( Next Deliverd Material Ask For DR Sir )",
   "Contact Number": ""
  },
  {
