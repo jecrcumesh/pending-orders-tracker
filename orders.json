@@ -6162,5 +6162,28 @@
   "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "Material Ready Dispatch 21 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 272,
+  "Order Date": "2026-08-19",
+  "Customer Name": "Kumar Iyer",
+  "Material Name": "P White",
+  "Finish / Surface": "Rough",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 90,
+  "Dispatched Qty": "",
+  "Balance Qty": 90,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ask Anil And Confirm Date",
+  "Contact Number": ""
  }
 ]
