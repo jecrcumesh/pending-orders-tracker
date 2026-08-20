@@ -5955,5 +5955,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "50-60 Piller Everday 4 Days Loading Gadi First Follow Up Date 20-08-2026.",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 263,
+  "Order Date": "2026-08-19",
+  "Customer Name": "Tata Lothal",
+  "Material Name": "Yellow Stone",
+  "Finish / Surface": "Cladding",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1500,
+  "Dispatched Qty": "",
+  "Balance Qty": 1500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 1500,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Order By Amrita Cladding",
+  "Contact Number": ""
  }
 ]
