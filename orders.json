@@ -6185,5 +6185,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ask Anil And Confirm Date ( Material Size Please Check stonedge Pending Group )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 273,
+  "Order Date": "2026-08-20",
+  "Customer Name": "Parkh E state",
+  "Material Name": "Mint Ivory",
+  "Finish / Surface": "Rock Face",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 300,
+  "Dispatched Qty": "",
+  "Balance Qty": 300,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 300,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ordre Placed at Amrita Bhaiya",
+  "Contact Number": ""
  }
 ]
