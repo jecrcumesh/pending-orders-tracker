@@ -3768,7 +3768,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 57,
   "Expected Delivery Date": "2026-08-18",
-  "Remarks / Notes": "Start process from 8 Aug .",
+  "Remarks / Notes": "Start process from 18 Aug .",
   "Contact Number": ""
  },
  {
@@ -4054,10 +4054,10 @@
   "Material Name": "Raw Silk Granite )",
   "Finish / Surface": "Riverwash",
   "Is New Customer": "No",
-  "Unit": "SFT",
-  "Order Qty": "",
+  "Unit": "Sqmt",
+  "Order Qty": 400,
   "Dispatched Qty": "",
-  "Balance Qty": 0,
+  "Balance Qty": 400,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
@@ -4067,7 +4067,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Email sent to get Work Order on 20 Aug",
+  "Remarks / Notes": "Ask To Deepak Sir",
   "Contact Number": ""
  },
  {
@@ -4077,10 +4077,10 @@
   "Material Name": "Crysral White Granite",
   "Finish / Surface": "Riverwash",
   "Is New Customer": "No",
-  "Unit": "SFT",
-  "Order Qty": "",
+  "Unit": "Sqmt",
+  "Order Qty": 360,
   "Dispatched Qty": "",
-  "Balance Qty": 0,
+  "Balance Qty": 360,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
@@ -4090,7 +4090,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Email sent to get Work Order on 20 Aug",
+  "Remarks / Notes": "Ask To Deepak Sir",
   "Contact Number": ""
  },
  {
@@ -4100,10 +4100,10 @@
   "Material Name": "Steel Grey",
   "Finish / Surface": "Polish",
   "Is New Customer": "No",
-  "Unit": "SFT",
-  "Order Qty": "",
+  "Unit": "Sqmt",
+  "Order Qty": 112,
   "Dispatched Qty": "",
-  "Balance Qty": 0,
+  "Balance Qty": 112,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "",
@@ -4113,7 +4113,7 @@
   "Machine Processing Required": "",
   "Days Since Order": 2,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Email sent to get Work Order on 20 Aug",
+  "Remarks / Notes": "Ask To Deepak Sir",
   "Contact Number": ""
  },
  {
@@ -5930,7 +5930,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "4 Truck Ordered by DR. Expected One truck unload by Saturday",
+  "Remarks / Notes": "4 Truck Order One Week One Gadi Loading",
   "Contact Number": ""
  },
  {
@@ -5976,7 +5976,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Order to Amrita Cladding last discussed on 19 Aug. Expected Delivery after 10 days.",
+  "Remarks / Notes": "Order By Amrita Cladding",
   "Contact Number": ""
  },
  {
@@ -5999,7 +5999,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Order to Amrita Wall Cladding, \nTruck loaded today as per Akash and unload by Tomorrow Evening.\nEmail sent to get Work Order on 20 Aug",
+  "Remarks / Notes": "Order By Amrita Wall Clading",
   "Contact Number": ""
  },
  {
@@ -6022,7 +6022,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "10 X 5 = 3 Sheet.\nAakash is working with vendor to get quotation for final SS rate.",
+  "Remarks / Notes": "10 X 5 = 3 Sheet",
   "Contact Number": ""
  },
  {
@@ -6045,7 +6045,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "8 X 5 = 1 Sheet.\nAakash is working with vendor to get quotation for final SS rate.",
+  "Remarks / Notes": "8 X 5 = 1 Sheet",
   "Contact Number": ""
  },
  {
