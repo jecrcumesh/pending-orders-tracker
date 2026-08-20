@@ -329,9 +329,9 @@
   "Finish / Surface": "Mirror",
   "Is New Customer": "No",
   "Unit": "SFT",
-  "Order Qty": 400,
+  "Order Qty": 300,
   "Dispatched Qty": 0,
-  "Balance Qty": 400,
+  "Balance Qty": 300,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "No",
@@ -1146,7 +1146,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 89,
   "Expected Delivery Date": "2026-08-18",
-  "Remarks / Notes": "DR Sir Order This Material",
+  "Remarks / Notes": "DR Sir Order This Material ( 200 Sft Order Balance",
   "Contact Number": "Himanshu Sir - 7984225075"
  },
  {
