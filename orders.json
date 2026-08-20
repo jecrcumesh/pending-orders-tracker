@@ -202,7 +202,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 7,
-  "Expected Delivery Date": "2026-08-23",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "Will Check Agian On Moanday",
   "Contact Number": 9825584250
  },
@@ -1789,7 +1789,7 @@
   "Order Status": "In Process",
   "Machine Processing Required": "Yes",
   "Days Since Order": 71,
-  "Expected Delivery Date": "2026-08-25",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "5 Pc Deliverd on 12 Aug . Next 3 slab will go along with Kairaya Green .",
   "Contact Number": ""
  },
@@ -1812,7 +1812,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 71,
-  "Expected Delivery Date": "2026-08-25",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "As Per Site Eng Material Not Requird On Site First Parovity Grey Travertine Then He Go",
   "Contact Number": ""
  },
@@ -1858,7 +1858,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
-  "Expected Delivery Date": "2026-08-27",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care",
   "Contact Number": ""
  },
@@ -3261,7 +3261,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 10,
-  "Expected Delivery Date": "2026-08-24",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "Material Ready",
   "Contact Number": ""
  },
@@ -4526,7 +4526,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "2 No Stock Area And Mahesh Ji Take Plan",
   "Contact Number": ""
  },
@@ -5906,7 +5906,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "",
   "Days Since Order": 141,
-  "Expected Delivery Date": "2026-08-23",
+  "Expected Delivery Date": "2026-08-20",
   "Remarks / Notes": "Lot 43 & Lot 74( As Per DR Sir No Single Slab Dispatch Without Payment",
   "Contact Number": ""
  },
