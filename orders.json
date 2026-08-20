@@ -6001,5 +6001,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Order By Amrita Wall Clading",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 265,
+  "Order Date": "2026-08-19",
+  "Customer Name": "Tata Lothal",
+  "Material Name": "S S Sheet 304 Grade 6mm Thickness",
+  "Finish / Surface": "",
+  "Is New Customer": "No",
+  "Unit": "",
+  "Order Qty": 3,
+  "Dispatched Qty": "",
+  "Balance Qty": 3,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "10 X 5 = 3 Sheet",
+  "Contact Number": ""
  }
 ]
