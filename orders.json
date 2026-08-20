@@ -6093,5 +6093,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ask Anil Then confirm Date And Lot Confirmation By Dj",
   "Contact Number": "9723030070"
+ },
+ {
+  "Sr. No.": 269,
+  "Order Date": "2026-08-19",
+  "Customer Name": "Manoj Sir ( Swati Premier )",
+  "Material Name": "Vanill Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Ready But It Will Be Sent Along With The Other Material That Is Currently Being Prepared",
+  "Contact Number": ""
  }
 ]
