@@ -6208,5 +6208,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ordre Placed at Amrita Bhaiya",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 274,
+  "Order Date": "2026-08-20",
+  "Customer Name": "Uttara Mam",
+  "Material Name": "Grey Corners",
+  "Finish / Surface": "",
+  "Is New Customer": "Yes",
+  "Unit": "",
+  "Order Qty": 60,
+  "Dispatched Qty": "",
+  "Balance Qty": 60,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Order Placed At Amrita Bhaiya",
+  "Contact Number": ""
  }
 ]
