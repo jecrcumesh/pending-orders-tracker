@@ -502,7 +502,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 17,
   "Expected Delivery Date": "2026-08-21",
-  "Remarks / Notes": "DR to Order. It will go directly to site",
+  "Remarks / Notes": "DR to Order. It will go directly to site.\nTruck will load 21 or 22 Aug",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -6280,7 +6280,7 @@
  },
  {
   "Sr. No.": 277,
-  "Order Date": "2026-08-20",
+  "Order Date": "",
   "Customer Name": "Tata Lothal",
   "Material Name": "Rubber Flooring",
   "Finish / Surface": "",
@@ -6296,7 +6296,7 @@
   "Available Qty": "",
   "Order Status": "",
   "Machine Processing Required": "",
-  "Days Since Order": 1,
+  "Days Since Order": "",
   "Expected Delivery Date": "",
   "Remarks / Notes": "Revised Quotiton Sent On 20Aug  Material Unit 285 Sqmt",
   "Contact Number": ""
@@ -6322,29 +6322,6 @@
   "Days Since Order": 1,
   "Expected Delivery Date": "",
   "Remarks / Notes": "Mail Sent With Ref. Images For 40mm Thick Netural\nRough Beige Sand Stone To Get The Aproval",
-  "Contact Number": ""
- },
- {
-  "Sr. No.": 279,
-  "Order Date": "2026-08-20",
-  "Customer Name": "Tata Agra",
-  "Material Name": "Rate Amendment",
-  "Finish / Surface": "",
-  "Is New Customer": "",
-  "Unit": "",
-  "Order Qty": "",
-  "Dispatched Qty": "",
-  "Balance Qty": 0,
-  "% Dispatched": 0,
-  "Rate (per Unit)": "",
-  "Stock Yard Available": "",
-  "To Be Ordered Qty": "",
-  "Available Qty": "",
-  "Order Status": "",
-  "Machine Processing Required": "",
-  "Days Since Order": 1,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Mail Sent To Amendment Of Piller Columes Ss Camp\nAnd Stair Case",
   "Contact Number": ""
  }
 ]
