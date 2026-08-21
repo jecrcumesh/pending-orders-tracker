@@ -502,7 +502,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 17,
   "Expected Delivery Date": "2026-08-21",
-  "Remarks / Notes": "DR to Order. It will go directly to site.\nTruck will load 21 or 22 Aug",
+  "Remarks / Notes": "DR to Order. It will go directly to site",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -4914,7 +4914,7 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 400,
   "Available Qty": "",
-  "Order Status": "In Process",
+  "Order Status": "Completed",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "2026-08-21",
@@ -5930,7 +5930,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "4 Truck Ordered by DR. Expected One truck unload by Monday.",
+  "Remarks / Notes": "4 Truck Ordered by DR. Expected One truck unload by Saturday",
   "Contact Number": ""
  },
  {
@@ -5953,7 +5953,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "50-60 Piller Everday 4 Days Loading.\n21 Truck -59 Piller deliver on 21 Aug. Next will be after 4 days",
+  "Remarks / Notes": "50-60 Piller Everday 4 Days Loading Gadi First Follow Up Date 20-08-2026.",
   "Contact Number": ""
  },
  {
@@ -5999,7 +5999,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Order to Amrita Wall Cladding, \nTruck reached and unload on 21 Aug.\nEmail sent to get Work Order on 20 Aug",
+  "Remarks / Notes": "Order to Amrita Wall Cladding, \nTruck loaded today as per Akash and unload by Tomorrow Evening.\nEmail sent to get Work Order on 20 Aug",
   "Contact Number": ""
  },
  {
@@ -6280,7 +6280,7 @@
  },
  {
   "Sr. No.": 277,
-  "Order Date": "",
+  "Order Date": "2026-08-20",
   "Customer Name": "Tata Lothal",
   "Material Name": "Rubber Flooring",
   "Finish / Surface": "",
@@ -6296,7 +6296,7 @@
   "Available Qty": "",
   "Order Status": "",
   "Machine Processing Required": "",
-  "Days Since Order": "",
+  "Days Since Order": 1,
   "Expected Delivery Date": "",
   "Remarks / Notes": "Revised Quotiton Sent On 20Aug  Material Unit 285 Sqmt",
   "Contact Number": ""
@@ -6322,6 +6322,29 @@
   "Days Since Order": 1,
   "Expected Delivery Date": "",
   "Remarks / Notes": "Mail Sent With Ref. Images For 40mm Thick Netural\nRough Beige Sand Stone To Get The Aproval",
+  "Contact Number": ""
+ },
+ {
+  "Sr. No.": 279,
+  "Order Date": "2026-08-20",
+  "Customer Name": "Tata Agra",
+  "Material Name": "Rate Amendment",
+  "Finish / Surface": "",
+  "Is New Customer": "",
+  "Unit": "",
+  "Order Qty": "",
+  "Dispatched Qty": "",
+  "Balance Qty": 0,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Mail Sent To Amendment Of Piller Columes Ss Camp\nAnd Stair Case",
   "Contact Number": ""
  }
 ]
