@@ -5857,10 +5857,10 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 0,
-  "Expected Delivery Date": "2026-08-22",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "As Anil And Date Confirm When Have Material Ready",
   "Contact Number": ""
  },
@@ -5883,7 +5883,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-25",
   "Remarks / Notes": "DR Sir Purchase This Material Then Hi Go",
   "Contact Number": ""
  },
@@ -6274,7 +6274,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "The Material Is ready but the payment has not been Received yet dispatch will be done after recive the payment",
   "Contact Number": "Hardik Sir - 9825805349"
  },
