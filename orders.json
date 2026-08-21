@@ -340,7 +340,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 3,
-  "Expected Delivery Date": "2026-08-22",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "Gota RK Stone.Direct Delivery to site",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
@@ -386,7 +386,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 23,
-  "Expected Delivery Date": "2026-08-22",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "Gota RK Stone.Direct Delivery to site.\nVikas Will take care",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
@@ -501,8 +501,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 17,
-  "Expected Delivery Date": "2026-08-22",
-  "Remarks / Notes": "DR to Order. It will go directly to site",
+  "Expected Delivery Date": "2026-08-21",
+  "Remarks / Notes": "DR to Order. It will go directly to site.\nTruck will load 21 or 22 Aug",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
  {
@@ -1273,9 +1273,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 860.8,
-  "Dispatched Qty": 528.82,
-  "Balance Qty": 331.9799999999999,
-  "% Dispatched": 0.6143355018587362,
+  "Dispatched Qty": 0,
+  "Balance Qty": 860.8,
+  "% Dispatched": 0,
   "Rate (per Unit)": 381.3,
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 860.8,
@@ -1434,14 +1434,14 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 5500,
-  "Dispatched Qty": 5500,
-  "Balance Qty": 0,
-  "% Dispatched": 1,
+  "Dispatched Qty": 4166,
+  "Balance Qty": 1334,
+  "% Dispatched": 0.7574545454545455,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 2,
   "Expected Delivery Date": "2026-08-17",
@@ -2640,7 +2640,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 16,
-  "Expected Delivery Date": "2026-08-21",
+  "Expected Delivery Date": "2026-08-12",
   "Remarks / Notes": "Ready.\nKurshil Sir will confirm the delivery date ( Matrial Go But Size Big So Can't Lift in 9 Floor So Mateial Cut Then He Go )",
   "Contact Number": ""
  },
@@ -2870,7 +2870,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 28,
-  "Expected Delivery Date": "2026-08-23",
+  "Expected Delivery Date": "2026-08-22",
   "Remarks / Notes": "DR Sir Order This Material Expect Date 22 Aug",
   "Contact Number": ""
  },
@@ -3261,7 +3261,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 10,
-  "Expected Delivery Date": "2026-08-23",
+  "Expected Delivery Date": "2026-08-21",
   "Remarks / Notes": "Material Ready",
   "Contact Number": ""
  },
@@ -3767,7 +3767,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 57,
-  "Expected Delivery Date": "2026-08-22",
+  "Expected Delivery Date": "2026-08-18",
   "Remarks / Notes": "Start process from 8 Aug .",
   "Contact Number": ""
  },
@@ -4516,9 +4516,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 3000,
-  "Dispatched Qty": 551,
-  "Balance Qty": 2449,
-  "% Dispatched": 0.18366666666666667,
+  "Dispatched Qty": 0,
+  "Balance Qty": 3000,
+  "% Dispatched": 0,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
@@ -4802,8 +4802,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 82,
-  "Expected Delivery Date": "2026-08-23",
-  "Remarks / Notes": "As Per Client Recived Material 23 Aug",
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "As Per Client Recived Material 22 Aug",
   "Contact Number": ""
  },
  {
@@ -4825,8 +4825,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 82,
-  "Expected Delivery Date": "2026-08-23",
-  "Remarks / Notes": "As Per Client Recived Material 23Aug",
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "As Per Client Recived Material 22 Aug",
   "Contact Number": ""
  },
  {
@@ -4848,8 +4848,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 82,
-  "Expected Delivery Date": "2026-08-23",
-  "Remarks / Notes": "As Per Client Recived Material 23Aug",
+  "Expected Delivery Date": "2026-08-22",
+  "Remarks / Notes": "As Per Client Recived Material 22Aug",
   "Contact Number": ""
  },
  {
@@ -4914,7 +4914,7 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 400,
   "Available Qty": "",
-  "Order Status": "Completed",
+  "Order Status": "In Process",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "2026-08-21",
@@ -5857,10 +5857,10 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 0,
-  "Expected Delivery Date": "2026-08-21",
+  "Expected Delivery Date": "2026-08-22",
   "Remarks / Notes": "As Anil And Date Confirm When Have Material Ready",
   "Contact Number": ""
  },
@@ -5883,7 +5883,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "2026-08-25",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "DR Sir Purchase This Material Then Hi Go",
   "Contact Number": ""
  },
@@ -5930,7 +5930,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "4 Truck Ordered by DR. Expected One truck unload by Saturday",
+  "Remarks / Notes": "4 Truck Ordered by DR. Expected One truck unload by Monday.",
   "Contact Number": ""
  },
  {
@@ -5953,7 +5953,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "50-60 Piller Everday 4 Days Loading Gadi First Follow Up Date 20-08-2026.",
+  "Remarks / Notes": "50-60 Piller Everday 4 Days Loading.\n21 Truck -59 Piller deliver on 21 Aug. Next will be after 4 days",
   "Contact Number": ""
  },
  {
@@ -5999,7 +5999,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Order to Amrita Wall Cladding, \nTruck loaded today as per Akash and unload by Tomorrow Evening.\nEmail sent to get Work Order on 20 Aug",
+  "Remarks / Notes": "Order to Amrita Wall Cladding, \nTruck reached and unload on 21 Aug.\nEmail sent to get Work Order on 20 Aug",
   "Contact Number": ""
  },
  {
@@ -6022,7 +6022,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "10 X 5 = 3 Sheet.\nAakash is working with vendor to get quotation for final SS rate.",
+  "Remarks / Notes": "10 X 5 = 3 Sheet.\nAakash is working with vendor to get quotation for final SS rate. Rate 248",
   "Contact Number": ""
  },
  {
@@ -6045,7 +6045,7 @@
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "8 X 5 = 1 Sheet.\nAakash is working with vendor to get quotation for final SS rate.",
+  "Remarks / Notes": "8 X 5 = 1 Sheet.\nAakash is working with vendor to get quotation for final SS rate. Rate 248",
   "Contact Number": ""
  },
  {
@@ -6098,7 +6098,7 @@
   "Sr. No.": 269,
   "Order Date": "2026-08-19",
   "Customer Name": "Manoj Sir ( Swati Premier )",
-  "Material Name": "Vanilla Cream",
+  "Material Name": "Vanill Cream",
   "Finish / Surface": "Plant",
   "Is New Customer": "No",
   "Unit": "PCS",
@@ -6274,13 +6274,13 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
-  "Expected Delivery Date": "2026-08-22",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "The Material Is ready but the payment has not been Received yet dispatch will be done after recive the payment",
   "Contact Number": "Hardik Sir - 9825805349"
  },
  {
   "Sr. No.": 277,
-  "Order Date": "2026-08-20",
+  "Order Date": "",
   "Customer Name": "Tata Lothal",
   "Material Name": "Rubber Flooring",
   "Finish / Surface": "",
@@ -6296,7 +6296,7 @@
   "Available Qty": "",
   "Order Status": "",
   "Machine Processing Required": "",
-  "Days Since Order": 1,
+  "Days Since Order": "",
   "Expected Delivery Date": "",
   "Remarks / Notes": "Revised Quotiton Sent On 20Aug  Material Unit 285 Sqmt",
   "Contact Number": ""
@@ -6322,29 +6322,6 @@
   "Days Since Order": 1,
   "Expected Delivery Date": "",
   "Remarks / Notes": "Mail Sent With Ref. Images For 40mm Thick Netural\nRough Beige Sand Stone To Get The Aproval",
-  "Contact Number": ""
- },
- {
-  "Sr. No.": 279,
-  "Order Date": "2026-08-20",
-  "Customer Name": "Tata Agra",
-  "Material Name": "Rate Amendment",
-  "Finish / Surface": "",
-  "Is New Customer": "",
-  "Unit": "",
-  "Order Qty": "",
-  "Dispatched Qty": "",
-  "Balance Qty": 0,
-  "% Dispatched": 0,
-  "Rate (per Unit)": "",
-  "Stock Yard Available": "",
-  "To Be Ordered Qty": "",
-  "Available Qty": "",
-  "Order Status": "",
-  "Machine Processing Required": "",
-  "Days Since Order": 1,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Mail Sent To Amendment Of Piller Columes Ss Camp\nAnd Stair Case",
   "Contact Number": ""
  }
 ]
