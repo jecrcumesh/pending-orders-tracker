@@ -6461,5 +6461,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Order Given By DR Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 285,
+  "Order Date": "2026-08-22",
+  "Customer Name": "Goyal & Co. ( Titanium World Tower )",
+  "Material Name": "Enotic Red Alaska",
+  "Finish / Surface": "Polish UNcut Slab",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 100,
+  "Dispatched Qty": "",
+  "Balance Qty": 100,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 100,
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Ordre Given By DR Sir",
+  "Contact Number": ""
  }
 ]
