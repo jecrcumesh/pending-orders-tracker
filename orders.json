@@ -6438,5 +6438,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Order By DR Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 284,
+  "Order Date": "2026-08-22",
+  "Customer Name": "Goyal & Co. ( Titanium World Tower )",
+  "Material Name": "Enotic Red Alaska",
+  "Finish / Surface": "Hydro Coral Finish Un Cut Slab",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 250,
+  "Dispatched Qty": "",
+  "Balance Qty": 250,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Order Given By DR Sir",
+  "Contact Number": ""
  }
 ]
