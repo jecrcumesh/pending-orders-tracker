@@ -6530,5 +6530,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Ready For Mahadev Granite Gota ( 25 Aug Dispatch This Material )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 288,
+  "Order Date": "2026-08-24",
+  "Customer Name": "Hasmukh Bhai Times",
+  "Material Name": "GD brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 600,
+  "Dispatched Qty": 600,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Done",
+  "Contact Number": ""
  }
 ]
