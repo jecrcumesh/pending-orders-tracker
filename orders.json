@@ -6622,5 +6622,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Size 70x53 52 Nos Linea",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 292,
+  "Order Date": "2026-08-25",
+  "Customer Name": "The Palace ( Block B )",
+  "Material Name": "Travertine",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 53,
+  "Dispatched Qty": "",
+  "Balance Qty": 53,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 53,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Size 94x32 nos 53 order by DR Sir This Material",
+  "Contact Number": ""
  }
 ]
