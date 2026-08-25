@@ -6576,5 +6576,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ask Anil Then He Process Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 290,
+  "Order Date": "2026-08-25",
+  "Customer Name": "Vimal Bhai",
+  "Material Name": "P - White",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 180,
+  "Dispatched Qty": "",
+  "Balance Qty": 180,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Ready",
+  "Contact Number": ""
  }
 ]
