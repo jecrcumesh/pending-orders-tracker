@@ -2660,7 +2660,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Cancelled",
   "Machine Processing Required": "Yes",
   "Days Since Order": 33,
   "Expected Delivery Date": "",
