@@ -6507,5 +6507,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Done",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 287,
+  "Order Date": "2026-08-23",
+  "Customer Name": "Skpl",
+  "Material Name": "Icon Brown",
+  "Finish / Surface": "Ice Canvas",
+  "Is New Customer": "No",
+  "Unit": "",
+  "Order Qty": 5,
+  "Dispatched Qty": "",
+  "Balance Qty": 5,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Ready For Mahadev Granite Gota ( 25 Aug Dispatch This Material )",
+  "Contact Number": ""
  }
 ]
