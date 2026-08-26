@@ -6685,7 +6685,7 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": "",
   "Available Qty": 0,
-  "Order Status": "In Process",
+  "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
