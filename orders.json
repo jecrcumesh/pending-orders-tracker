@@ -6714,5 +6714,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "First We Will Tally The Infrabuild Material That Is Currently Being Processed If Any Material Is Left Over We Will Use That Same Material For The Remaimimg Work.",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 296,
+  "Order Date": "2026-08-26",
+  "Customer Name": "Ayansh Aura",
+  "Material Name": "Tarvertine",
+  "Finish / Surface": "Linea",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 180,
+  "Dispatched Qty": "",
+  "Balance Qty": 180,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Process By Anil And Take Plan",
+  "Contact Number": ""
  }
 ]
