@@ -6737,5 +6737,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Process By Anil And Take Plan",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 297,
+  "Order Date": "2026-08-26",
+  "Customer Name": "Goyal & Co ( Nirvana Developers - Rivera Uno",
+  "Material Name": "Bottochino Marble Unpolished 17mm Plus Thick",
+  "Finish / Surface": "Unpolised",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 40000,
+  "Dispatched Qty": "",
+  "Balance Qty": 40000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 40000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Order By Dr Sir",
+  "Contact Number": ""
  }
 ]
