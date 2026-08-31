@@ -6760,5 +6760,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Order By Dr Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 298,
+  "Order Date": "2026-08-24",
+  "Customer Name": "Tata Lothal",
+  "Material Name": "Crystal White Granite",
+  "Finish / Surface": "Riverwashed",
+  "Is New Customer": "No",
+  "Unit": "SQMT",
+  "Order Qty": 145,
+  "Dispatched Qty": "",
+  "Balance Qty": 145,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 7,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "East Courtyard",
+  "Contact Number": ""
  }
 ]
