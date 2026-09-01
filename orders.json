@@ -1812,7 +1812,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 71,
-  "Expected Delivery Date": "2026-08-21",
+  "Expected Delivery Date": "",
   "Remarks / Notes": "As Per Site Eng Material Not Requird On Site First Parovity Grey Travertine Then He Go",
   "Contact Number": ""
  },
@@ -1858,7 +1858,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 23,
-  "Expected Delivery Date": "2026-08-21",
+  "Expected Delivery Date": "2026-09-03",
   "Remarks / Notes": "Purchase On Gota To Stonedge Then He Will Process ( 12 Aug Purchase )\nVikas Will take care",
   "Contact Number": ""
  },
