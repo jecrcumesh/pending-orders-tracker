@@ -7036,5 +7036,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "DR Sir Ask Then Confirm Delivery Date",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 311,
+  "Order Date": "2026-09-01",
+  "Customer Name": "DR. Rashmin Sadrani Sir",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 3000,
+  "Dispatched Qty": "",
+  "Balance Qty": 3000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 0,
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Ready",
+  "Contact Number": ""
  }
 ]
