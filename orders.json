@@ -6990,5 +6990,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Matreial 2 & 3 Days Come In Stock And Then He Dispatch",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 309,
+  "Order Date": "2026-09-01",
+  "Customer Name": "Jay Bhai ( Hebatpur )",
+  "Material Name": "Portugal Mocha 20mm",
+  "Finish / Surface": "",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 3800,
+  "Dispatched Qty": "",
+  "Balance Qty": 3800,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 3800,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR Sir Order This Material Gadi Come 2 & 3 Days Then He Go On Site",
+  "Contact Number": ""
  }
 ]
