@@ -6944,5 +6944,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Size ( 100/110x36/39 = 50 Pc ) This Material Ordre By Om Ji",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 307,
+  "Order Date": "2026-09-01",
+  "Customer Name": "Rutvik Bhai",
+  "Material Name": "Grey Emprador",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "Pcs",
+  "Order Qty": 2,
+  "Dispatched Qty": "",
+  "Balance Qty": 2,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Despatch Ask For DR Sir",
+  "Contact Number": ""
  }
 ]
