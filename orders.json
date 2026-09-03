@@ -7082,5 +7082,28 @@
   "Expected Delivery Date": "2026-09-04",
   "Remarks / Notes": "Material Is Ready And Dispatch 10 Aug",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 313,
+  "Order Date": "2026-09-03",
+  "Customer Name": "Chandresh Sir",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "Pcs",
+  "Order Qty": 60,
+  "Dispatched Qty": "",
+  "Balance Qty": 60,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 60,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Order By DR Sir",
+  "Contact Number": ""
  }
 ]
