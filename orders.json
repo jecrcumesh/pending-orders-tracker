@@ -6432,11 +6432,11 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Order Given By DR Sir",
+  "Expected Delivery Date": "2026-09-07",
+  "Remarks / Notes": "Dispatch 7 Sept",
   "Contact Number": ""
  },
  {
@@ -6455,11 +6455,11 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 100,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "",
   "Days Since Order": 0,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "This Ordre Given By DR Sir",
+  "Expected Delivery Date": "2026-09-07",
+  "Remarks / Notes": "Dispatch 7 Sept",
   "Contact Number": ""
  },
  {
