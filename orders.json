@@ -1789,7 +1789,7 @@
   "Order Status": "In Process",
   "Machine Processing Required": "Yes",
   "Days Since Order": 71,
-  "Expected Delivery Date": "2026-09-08",
+  "Expected Delivery Date": "2026-09-09",
   "Remarks / Notes": "As Per Anil Tusdaye ready For Dispatch Full Material",
   "Contact Number": ""
  },
@@ -3905,7 +3905,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 2,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-09-07",
   "Remarks / Notes": "Om JI Confirm Date This Material Which Date Has Go On Site",
   "Contact Number": ""
  },
@@ -5446,7 +5446,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 5,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-09-08",
   "Remarks / Notes": "Dispatch 7 SEPT",
   "Contact Number": "Gaurang Sir - 927616916"
  },
@@ -5469,7 +5469,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 5,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-09-08",
   "Remarks / Notes": "Dispatch 7 SEPT",
   "Contact Number": "Gaurang Sir - 927616916"
  },
