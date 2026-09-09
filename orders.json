@@ -7151,5 +7151,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready But Qty Not Confirm Junaid Bhai Confirm Qty And Then Send Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 316,
+  "Order Date": "2026-09-09",
+  "Customer Name": "Hiren Sir Bhuj",
+  "Material Name": "Beige Travertine",
+  "Finish / Surface": "Fluted",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 80,
+  "Dispatched Qty": "",
+  "Balance Qty": 80,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
