@@ -7174,5 +7174,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 317,
+  "Order Date": "2026-05-20",
+  "Customer Name": "Varun Sir",
+  "Material Name": "Camafluz",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 560,
+  "Dispatched Qty": 0,
+  "Balance Qty": 560,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 113,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Process Anil As Per Perivous Order Done",
+  "Contact Number": ""
  }
 ]
