@@ -7266,5 +7266,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ask Anil Then He Process Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 321,
+  "Order Date": "2026-09-10",
+  "Customer Name": "Goyal Majastica",
+  "Material Name": "Burberry",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "Pcs",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "2026-09-11",
+  "Remarks / Notes": "Material Ready Dispatch 11 Sept",
+  "Contact Number": ""
  }
 ]
