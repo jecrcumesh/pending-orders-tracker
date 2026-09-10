@@ -7220,5 +7220,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Order By DR Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 319,
+  "Order Date": "2026-09-08",
+  "Customer Name": "Aananda Sherin",
+  "Material Name": "R - Black",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 400,
+  "Dispatched Qty": "",
+  "Balance Qty": 400,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Order By Dr Sir",
+  "Contact Number": ""
  }
 ]
