@@ -7197,5 +7197,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Process Anil As Per Perivous Order Done",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 318,
+  "Order Date": "2026-09-08",
+  "Customer Name": "Aananda Sherin",
+  "Material Name": "R - Black",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": 0,
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 500,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Order By DR Sir",
+  "Contact Number": ""
  }
 ]
