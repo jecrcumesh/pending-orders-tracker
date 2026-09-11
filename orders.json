@@ -731,7 +731,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 13,
-  "Expected Delivery Date": "2026-09-11",
+  "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "Dispatch On 11SEPT",
   "Contact Number": "Gunjan Sir - 7984252106"
  },
@@ -1490,7 +1490,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
-  "Expected Delivery Date": "2026-09-11",
+  "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "Labour Issue",
   "Contact Number": "Parth Shah - 9687670435"
  },
@@ -4526,7 +4526,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "2026-09-11",
+  "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "2 No Stock Area And Mahesh Ji Take Plan",
   "Contact Number": ""
  },
@@ -5745,7 +5745,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 0,
-  "Expected Delivery Date": "2026-09-11",
+  "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "DR Sir Purchase Material Then He Process On Stock Area",
   "Contact Number": ""
  },
@@ -6941,7 +6941,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 1,
-  "Expected Delivery Date": "2026-09-11",
+  "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "Load on 8 Sept and unload on 11 Sept. Coming with SKPL Classic Ivory.350 Sft.Size ( 100/110x36/39 = 50 Pc ) This Material Ordre By Om Ji",
   "Contact Number": ""
  },
@@ -7286,7 +7286,7 @@
   "Order Status": "Ready",
   "Machine Processing Required": "",
   "Days Since Order": 0,
-  "Expected Delivery Date": "2026-09-11",
+  "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "Material Ready Dispatch 11 Sept",
   "Contact Number": ""
  }
