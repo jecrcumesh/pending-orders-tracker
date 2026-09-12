@@ -7289,5 +7289,28 @@
   "Expected Delivery Date": "2026-09-12",
   "Remarks / Notes": "Material Ready Dispatch 11 Sept",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 322,
+  "Order Date": "2026-09-10",
+  "Customer Name": "Arayan Bhai",
+  "Material Name": "Willam Grey",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "",
+  "Order Qty": 1150,
+  "Dispatched Qty": "",
+  "Balance Qty": 1150,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
