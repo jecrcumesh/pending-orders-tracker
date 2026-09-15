@@ -6941,8 +6941,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 113,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Material Process Anil As Per Perivous Order Done",
+  "Expected Delivery Date": "2026-09-25",
+  "Remarks / Notes": "Material Raedy 25 Sept",
   "Contact Number": ""
  },
  {
@@ -7007,10 +7007,10 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 31,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-09-16",
   "Remarks / Notes": "Ask Anil Then He Process Material",
   "Contact Number": ""
  },
