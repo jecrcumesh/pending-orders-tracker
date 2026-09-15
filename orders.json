@@ -1398,7 +1398,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
-  "Expected Delivery Date": "2026-09-12",
+  "Expected Delivery Date": "2026-09-17",
   "Remarks / Notes": "Lot Issu This Lot Full Comp Devesh Bhai Sing Other Lot Then He PRocess",
   "Contact Number": "Parth Shah - 9687670435"
  },
@@ -1628,8 +1628,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 71,
-  "Expected Delivery Date": "2026-09-08",
-  "Remarks / Notes": "As Per Site Eng Material Not Requird On Site First Parovity Grey Travertine Then He Go",
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Raady But Site Eng. Told Old Material",
   "Contact Number": ""
  },
  {
@@ -1648,7 +1648,7 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 400,
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 71,
   "Expected Delivery Date": "",
