@@ -4263,9 +4263,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 3000,
-  "Dispatched Qty": 500,
-  "Balance Qty": 2500,
-  "% Dispatched": 0.16666666666666666,
+  "Dispatched Qty": 1500,
+  "Balance Qty": 1500,
+  "% Dispatched": 0.5,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
@@ -4273,8 +4273,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "2026-09-12",
-  "Remarks / Notes": "2 No Stock Area And Mahesh Ji Take Plan",
+  "Expected Delivery Date": "2026-09-17",
+  "Remarks / Notes": "17 Sept Dispatch Material",
   "Contact Number": ""
  },
  {
