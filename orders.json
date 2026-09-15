@@ -3695,11 +3695,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Operater Isue",
+  "Remarks / Notes": "Material Ready",
   "Contact Number": ""
  },
  {
