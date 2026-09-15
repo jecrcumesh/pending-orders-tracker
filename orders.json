@@ -179,8 +179,8 @@
   "Order Status": "Ready",
   "Machine Processing Required": "No",
   "Days Since Order": 86,
-  "Expected Delivery Date": "2026-09-16",
-  "Remarks / Notes": "This Material Dispatch 16 Sept",
+  "Expected Delivery Date": "2026-09-17",
+  "Remarks / Notes": "This Material Dispatch 17 Sept",
   "Contact Number": 9825582998
  },
  {
@@ -659,11 +659,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 13,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "21 July 500 Sft Deliverd And Balance Maertial Dispatch After Aproval  On site eng.( Rain Issue Om JI Look Tis Site )",
+  "Remarks / Notes": "16 Sept Anil Take Process",
   "Contact Number": "Gunjan Sir - 7984252106"
  },
  {
