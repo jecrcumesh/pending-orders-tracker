@@ -6412,8 +6412,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "This Material Order By DR Sir ( Then He Will Go For Process )",
+  "Expected Delivery Date": "2026-09-21",
+  "Remarks / Notes": "Material Dispatch 21 Sept",
   "Contact Number": ""
  },
  {
@@ -6432,11 +6432,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "First Peroity Linea Then He Go",
+  "Expected Delivery Date": "2026-09-16",
+  "Remarks / Notes": "Material Ready",
   "Contact Number": ""
  },
  {
@@ -6455,11 +6455,11 @@
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "Pending",
+  "Order Status": "Ready",
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "Kaka On The Way Then He Process Material",
+  "Expected Delivery Date": "2026-09-16",
+  "Remarks / Notes": "Material Ready",
   "Contact Number": ""
  },
  {
