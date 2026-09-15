@@ -7082,5 +7082,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Payment Issue",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 324,
+  "Order Date": "2026-09-11",
+  "Customer Name": "Gunvant Sir",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1500,
+  "Dispatched Qty": 500,
+  "Balance Qty": 1000,
+  "% Dispatched": 0.3333333333333333,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "2026-09-16",
+  "Remarks / Notes": "Material Dispatch 16 Aug",
+  "Contact Number": ""
  }
 ]
