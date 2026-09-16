@@ -5022,9 +5022,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 9944,
-  "Dispatched Qty": 0,
-  "Balance Qty": 9944,
-  "% Dispatched": 0,
+  "Dispatched Qty": 508,
+  "Balance Qty": 9436,
+  "% Dispatched": 0.05108608205953339,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
@@ -5033,7 +5033,7 @@
   "Machine Processing Required": "Yes",
   "Days Since Order": 1,
   "Expected Delivery Date": "2026-09-05",
-  "Remarks / Notes": "Expected dispatch on 8 Sept as per Ramesh ji .This Material Order to  Ramesh JI Mateshwari .",
+  "Remarks / Notes": "Order To BagwanDas Dantali 508 Sft Deliverd on 14 Sept",
   "Contact Number": ""
  },
  {
