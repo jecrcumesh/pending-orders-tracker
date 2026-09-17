@@ -7220,5 +7220,28 @@
   "Expected Delivery Date": "2026-09-18",
   "Remarks / Notes": "Material Dispatch 18 Sept",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 331,
+  "Order Date": "2026-09-16",
+  "Customer Name": "Shivay ( Vipul Bhai )",
+  "Material Name": "Adhunik Grey",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1600,
+  "Dispatched Qty": "",
+  "Balance Qty": 1600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Per Om Ji Material Come 10 To 12 Days",
+  "Contact Number": ""
  }
 ]
