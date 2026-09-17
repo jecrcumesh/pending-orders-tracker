@@ -7197,5 +7197,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om Ji Care This Order",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 330,
+  "Order Date": "2026-09-16",
+  "Customer Name": "Shivay ( Vipul Bhai )",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 600,
+  "Dispatched Qty": "",
+  "Balance Qty": 600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "2026-09-18",
+  "Remarks / Notes": "Material Dispatch 18 Sept",
+  "Contact Number": ""
  }
 ]
