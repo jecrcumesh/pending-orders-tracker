@@ -7243,5 +7243,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "As Per Om Ji Material Come 10 To 12 Days",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 332,
+  "Order Date": "2026-09-15",
+  "Customer Name": "Green Craft Llp",
+  "Material Name": "Coffee Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1250,
+  "Dispatched Qty": "",
+  "Balance Qty": 1250,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Deepak Sir Order Material 10 To 11 Days Gaddi Come .",
+  "Contact Number": ""
  }
 ]
