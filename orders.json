@@ -7174,5 +7174,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om Ji Care This Order",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 329,
+  "Order Date": "2026-09-15",
+  "Customer Name": "Saheb Malhotra Sir ( Kasindra Site )",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 3000,
+  "Dispatched Qty": "",
+  "Balance Qty": 3000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om Ji Care This Order",
+  "Contact Number": ""
  }
 ]
