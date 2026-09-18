@@ -501,7 +501,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 2,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-09-19",
   "Remarks / Notes": "Done",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
@@ -524,7 +524,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 2,
-  "Expected Delivery Date": "2026-08-09",
+  "Expected Delivery Date": "2026-09-19",
   "Remarks / Notes": "Done",
   "Contact Number": "Chandrakant Sir - 9879983949"
  },
