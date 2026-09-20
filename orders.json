@@ -7358,5 +7358,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ready Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 337,
+  "Order Date": "2026-09-15",
+  "Customer Name": "Green Craft LLP",
+  "Material Name": "Kandla Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": "",
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 5,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ready Material",
+  "Contact Number": ""
  }
 ]
