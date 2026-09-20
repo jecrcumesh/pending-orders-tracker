@@ -7496,5 +7496,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 343,
+  "Order Date": "2026-09-17",
+  "Customer Name": "Soma  Mam",
+  "Material Name": "Teak Wood",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "",
+  "Order Qty": 170,
+  "Dispatched Qty": "",
+  "Balance Qty": 170,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Order By Deepak Sir",
+  "Contact Number": ""
  }
 ]
