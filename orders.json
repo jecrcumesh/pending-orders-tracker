@@ -7519,28 +7519,5 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Order By Deepak Sir",
   "Contact Number": ""
- },
- {
-  "Sr. No.": 344,
-  "Order Date": "2026-09-19",
-  "Customer Name": "Sunil Sir",
-  "Material Name": "Thasos White",
-  "Finish / Surface": "",
-  "Is New Customer": "",
-  "Unit": "",
-  "Order Qty": "",
-  "Dispatched Qty": "",
-  "Balance Qty": 0,
-  "% Dispatched": 0,
-  "Rate (per Unit)": "",
-  "Stock Yard Available": "",
-  "To Be Ordered Qty": "",
-  "Available Qty": "",
-  "Order Status": "",
-  "Machine Processing Required": "",
-  "Days Since Order": 1,
-  "Expected Delivery Date": "",
-  "Remarks / Notes": "",
-  "Contact Number": ""
  }
 ]
