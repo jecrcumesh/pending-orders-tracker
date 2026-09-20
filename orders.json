@@ -7312,5 +7312,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Purchase On Gota ( Ready And Cutting Stonedge Machine Area )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 335,
+  "Order Date": "2026-09-18",
+  "Customer Name": "Chintan Yagnik",
+  "Material Name": "Millenium Ivory",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "No",
+  "Unit": "Pcs",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
