@@ -7381,5 +7381,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ready Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 338,
+  "Order Date": "2026-09-18",
+  "Customer Name": "Rushil Sir Arch",
+  "Material Name": "Indian Mocha",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1360,
+  "Dispatched Qty": 0,
+  "Balance Qty": 1360,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ask Anil And Then Material Ready",
+  "Contact Number": ""
  }
 ]
