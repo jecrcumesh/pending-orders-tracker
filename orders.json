@@ -7519,5 +7519,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Order By Deepak Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 344,
+  "Order Date": "2026-09-18",
+  "Customer Name": "Sunil Sir  ( Arohi Avanya )",
+  "Material Name": "Bulgario Cream ( Lot 65  )",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1200,
+  "Dispatched Qty": 0,
+  "Balance Qty": 1200,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
