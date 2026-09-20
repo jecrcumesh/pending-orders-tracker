@@ -7289,5 +7289,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready But DR Sir And Dj Sir Confirm Lot Then Send Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 334,
+  "Order Date": "2026-09-18",
+  "Customer Name": "Rakesh Sir ( Kaddpa )",
+  "Material Name": "Kaddpa Stone",
+  "Finish / Surface": "Silky Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "Pcs",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Purchase On Gota ( Ready And Cutting Stonedge Machine Area )",
+  "Contact Number": ""
  }
 ]
