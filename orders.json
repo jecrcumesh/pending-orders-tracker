@@ -7335,5 +7335,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 336,
+  "Order Date": "2026-09-18",
+  "Customer Name": "Chintan Yagnik",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "Pcs",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ready Material",
+  "Contact Number": ""
  }
 ]
