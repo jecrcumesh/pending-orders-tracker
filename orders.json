@@ -7450,5 +7450,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready Ask",
   "Contact Number": "7984049080 - Sarvan Bhai"
+ },
+ {
+  "Sr. No.": 341,
+  "Order Date": "2026-09-17",
+  "Customer Name": "Soma  Mam",
+  "Material Name": "Monalisa Quarzite",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 350,
+  "Dispatched Qty": "",
+  "Balance Qty": 350,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready Ask Sarvan Bhai Site Eng. He Aproval Material Go Then Material Deliverd",
+  "Contact Number": ""
  }
 ]
