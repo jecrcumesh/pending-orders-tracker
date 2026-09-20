@@ -7565,5 +7565,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 346,
+  "Order Date": "2026-09-19",
+  "Customer Name": "Westland By Good Value",
+  "Material Name": "Ciral Grey ( Siren Grey  )",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": "",
+  "Dispatched Qty": "",
+  "Balance Qty": 0,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
