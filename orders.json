@@ -7542,5 +7542,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 345,
+  "Order Date": "2026-09-18",
+  "Customer Name": "Sunil Sir  ( Arohi Avanya )",
+  "Material Name": "Sky Storm",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 70,
+  "Dispatched Qty": "",
+  "Balance Qty": 70,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready",
+  "Contact Number": ""
  }
 ]
