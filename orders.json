@@ -7680,5 +7680,28 @@
   "Expected Delivery Date": "2026-09-24",
   "Remarks / Notes": "Material Raedy Dispatch 24 Sept  ( Lot 183 )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 352,
+  "Order Date": "2026-09-22",
+  "Customer Name": "Mas Villa",
+  "Material Name": "Millenium Ivory",
+  "Finish / Surface": "",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 48,
+  "Dispatched Qty": "",
+  "Balance Qty": 48,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready Deliverd 24 Sept",
+  "Contact Number": ""
  }
 ]
