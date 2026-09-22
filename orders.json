@@ -7726,5 +7726,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Materia Ready Payment First Then Material Will Be Dispatched",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 354,
+  "Order Date": "",
+  "Customer Name": "Dhruva Mam Arch ( Chetna Mam )",
+  "Material Name": "Exotic Shiva Ivory ( Shiva Gold )",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 131.94,
+  "Dispatched Qty": "",
+  "Balance Qty": 131.94,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": "",
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Raedy But First Payment Then Material Go",
+  "Contact Number": ""
  }
 ]
