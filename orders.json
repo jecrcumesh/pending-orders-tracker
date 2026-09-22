@@ -1825,9 +1825,9 @@
   "Is New Customer": "No",
   "Unit": "SFT",
   "Order Qty": 1300,
-  "Dispatched Qty": 0,
-  "Balance Qty": 1300,
-  "% Dispatched": 0,
+  "Dispatched Qty": 600,
+  "Balance Qty": 700,
+  "% Dispatched": 0.46153846153846156,
   "Rate (per Unit)": "",
   "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 0,
@@ -1835,8 +1835,8 @@
   "Order Status": "Pending",
   "Machine Processing Required": "Yes",
   "Days Since Order": 66,
-  "Expected Delivery Date": "2026-09-17",
-  "Remarks / Notes": "Material Process 17 Aug Deliverd 500 Sft",
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Machine Blade Has Been Changed The Required Blade Needs To BE Arranged Before The Processing Can Start",
   "Contact Number": ""
  },
  {
@@ -7608,7 +7608,7 @@
   "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 3,
-  "Expected Delivery Date": "",
+  "Expected Delivery Date": "2026-09-24",
   "Remarks / Notes": "Material Not A Stock As Per Om Ji Material Come 23 Sept The Go 24 Sept",
   "Contact Number": ""
  },
