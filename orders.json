@@ -7611,5 +7611,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Not A Stock As Per Om Ji Material Come 23 Sept The Go 24 Sept",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 349,
+  "Order Date": "2026-09-20",
+  "Customer Name": "Hiren Bhai ( Swati - 1502 )",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 3,
+  "Dispatched Qty": "",
+  "Balance Qty": 3,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "2026-09-23",
+  "Remarks / Notes": "Material Redy Dispatch 23 Sept",
+  "Contact Number": ""
  }
 ]
