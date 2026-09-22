@@ -1967,14 +1967,14 @@
   "Balance Qty": 1000,
   "% Dispatched": 0.3333333333333333,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "Yes",
-  "To Be Ordered Qty": 900,
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 1000,
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 1,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "Om Ji Order The Material",
+  "Remarks / Notes": "Materal Not A Stock As Per Om ji Material Come In Stock 1 Week",
   "Contact Number": ""
  },
  {
@@ -6823,11 +6823,11 @@
   "Stock Yard Available": "No",
   "To Be Ordered Qty": 60,
   "Available Qty": "",
-  "Order Status": "Ready",
+  "Order Status": "Pending",
   "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "This Material Order By DR Sir",
+  "Remarks / Notes": "As Per Om JI Gaddi Come 23 Sept",
   "Contact Number": ""
  },
  {
