@@ -7657,5 +7657,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "As Per anil Material Process 25 Sept Ready 26 Sept",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 351,
+  "Order Date": "2026-09-22",
+  "Customer Name": "Raj Sir Rancheda",
+  "Material Name": "Burberry Beige",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "PCS",
+  "Order Qty": 8,
+  "Dispatched Qty": "",
+  "Balance Qty": 8,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "2026-09-24",
+  "Remarks / Notes": "Material Raedy Dispatch 24 Sept  ( Lot 183 )",
+  "Contact Number": ""
  }
 ]
