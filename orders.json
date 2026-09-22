@@ -7749,5 +7749,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Raedy But First Payment Then Material Go",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 355,
+  "Order Date": "2026-09-22",
+  "Customer Name": "Devang Bhai",
+  "Material Name": "Grey Travertine",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 352.91,
+  "Dispatched Qty": "",
+  "Balance Qty": 352.91,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Anil Ask And Confirm Processing Date",
+  "Contact Number": ""
  }
 ]
