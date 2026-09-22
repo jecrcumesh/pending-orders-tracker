@@ -7588,5 +7588,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 348,
+  "Order Date": "2026-09-19",
+  "Customer Name": "Ankit Sir ( Times 40 ) ( 1902 )",
+  "Material Name": "P White",
+  "Finish / Surface": "Rough",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 2,
+  "Dispatched Qty": "",
+  "Balance Qty": 2,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Not A Stock As Per Om Ji Material Come 23 Sept The Go 24 Sept",
+  "Contact Number": ""
  }
 ]
