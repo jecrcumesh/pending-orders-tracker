@@ -7703,5 +7703,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready Deliverd 24 Sept ( Size - 6' x  2' = 48 Nos )",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 353,
+  "Order Date": "2026-09-22",
+  "Customer Name": "Amit Agrawal",
+  "Material Name": "Cream Caraman",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "Pcs",
+  "Order Qty": 12,
+  "Dispatched Qty": "",
+  "Balance Qty": 12,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Materia Ready Payment First Then Material Will Be Dispatched",
+  "Contact Number": ""
  }
 ]
