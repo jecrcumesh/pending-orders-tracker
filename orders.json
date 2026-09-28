@@ -7795,5 +7795,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Order Placed By Shubhas Choudhry",
   "Contact Number": "7426904272"
+ },
+ {
+  "Sr. No.": 358,
+  "Order Date": "2026-09-25",
+  "Customer Name": "Mas Hq",
+  "Material Name": "Honey Pearl",
+  "Finish / Surface": "Ice Canvas",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 2500,
+  "Dispatched Qty": "",
+  "Balance Qty": 2500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Order By  Deepak Sir",
+  "Contact Number": ""
  }
 ]
