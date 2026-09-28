@@ -7818,5 +7818,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Order By  Deepak Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 359,
+  "Order Date": "2026-09-25",
+  "Customer Name": "Mas Hq",
+  "Material Name": "Honey Pearl",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 600,
+  "Dispatched Qty": "",
+  "Balance Qty": 600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Order By Deepak Sir",
+  "Contact Number": ""
  }
 ]
