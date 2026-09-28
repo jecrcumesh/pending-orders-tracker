@@ -7749,5 +7749,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Anil Ask And Confirm Processing Date",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 356,
+  "Order Date": "2026-09-23",
+  "Customer Name": "Goyal & Co. ( Goyal Hariyana )",
+  "Material Name": "Silk Brown",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1600,
+  "Dispatched Qty": "",
+  "Balance Qty": 1600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 1600,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 5,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Order placed By Shubash Choudhry",
+  "Contact Number": ""
  }
 ]
