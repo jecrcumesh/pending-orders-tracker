@@ -7841,5 +7841,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Order By Deepak Sir",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 360,
+  "Order Date": "2026-09-26",
+  "Customer Name": "Aarsh Sir ( Sakar Healthcare )",
+  "Material Name": "Red Lavente",
+  "Finish / Surface": "VTF",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "2026-09-29",
+  "Remarks / Notes": "29 Sept Dispatch Material",
+  "Contact Number": ""
  }
 ]
