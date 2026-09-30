@@ -7887,5 +7887,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "1 Oct Material Come Stonedge Then He Process",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 362,
+  "Order Date": "2026-09-26",
+  "Customer Name": "Goverdhan Bhai",
+  "Material Name": "Camafluz",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "Pcs",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "2026-09-30",
+  "Remarks / Notes": "Materia Ready Dispatch 30 Sept",
+  "Contact Number": ""
  }
 ]
