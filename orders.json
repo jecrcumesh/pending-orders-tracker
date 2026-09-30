@@ -7979,5 +7979,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready Confirm Om ji Then he Go",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 366,
+  "Order Date": "2026-09-26",
+  "Customer Name": "Aadarsh Infra",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 5000,
+  "Dispatched Qty": "",
+  "Balance Qty": 5000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om Ji Take This Order",
+  "Contact Number": ""
  }
 ]
