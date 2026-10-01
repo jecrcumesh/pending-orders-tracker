@@ -8071,5 +8071,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om Ji Care This Order",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 370,
+  "Order Date": "2026-09-30",
+  "Customer Name": "Times Villa",
+  "Material Name": "Acmy Gold",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "Pcs",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Dispatch 2 Oct",
+  "Contact Number": ""
  }
 ]
