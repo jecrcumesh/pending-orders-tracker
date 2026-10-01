@@ -8094,5 +8094,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Dispatch 2 Oct",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 371,
+  "Order Date": "2026-09-30",
+  "Customer Name": "Westland By Good Value",
+  "Material Name": "Burberry Beige",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "",
+  "Unit": "PCS",
+  "Order Qty": 64,
+  "Dispatched Qty": "",
+  "Balance Qty": 64,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "2026-10-04",
+  "Remarks / Notes": "OM JI Aprove This Material THe He GO",
+  "Contact Number": ""
  }
 ]
