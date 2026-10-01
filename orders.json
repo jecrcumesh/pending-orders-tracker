@@ -8025,5 +8025,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready On 3 Oct\nCamouflage 2 Salb \nTelephone Blak",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 368,
+  "Order Date": "2026-09-29",
+  "Customer Name": "Westland By Good Value",
+  "Material Name": "Burberry Beige",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 27,
+  "Dispatched Qty": "",
+  "Balance Qty": 27,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Dispatch",
+  "Contact Number": ""
  }
 ]
