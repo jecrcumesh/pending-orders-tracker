@@ -8117,5 +8117,28 @@
   "Expected Delivery Date": "2026-10-04",
   "Remarks / Notes": "OM JI Aprove This Material THe He GO",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 372,
+  "Order Date": "2026-10-01",
+  "Customer Name": "Samridh Sir",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1100,
+  "Dispatched Qty": "",
+  "Balance Qty": 1100,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready Devesh Sir Okey This Lot Then He GO  \nLot - 00005\nLot - 00065",
+  "Contact Number": ""
  }
 ]
