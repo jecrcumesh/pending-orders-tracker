@@ -2450,7 +2450,7 @@
   "Balance Qty": 2200,
   "% Dispatched": 0.5,
   "Rate (per Unit)": 192,
-  "Stock Yard Available": "Yes",
+  "Stock Yard Available": "No",
   "To Be Ordered Qty": 3000,
   "Available Qty": "",
   "Order Status": "Pending",
