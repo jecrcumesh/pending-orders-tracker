@@ -8048,5 +8048,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Dispatch",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 369,
+  "Order Date": "2026-09-29",
+  "Customer Name": "Zade Luxuria",
+  "Material Name": "Raw Silk",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 13000,
+  "Dispatched Qty": "",
+  "Balance Qty": 13000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 13000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om Ji Care This Order",
+  "Contact Number": ""
  }
 ]
