@@ -8186,5 +8186,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Anil Take Plan Then I take Plan And Go",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 375,
+  "Order Date": "2026-09-24",
+  "Customer Name": "Shivay ( Vipul Sir )",
+  "Material Name": "Adhunik Grey",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1600,
+  "Dispatched Qty": "",
+  "Balance Qty": 1600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 9,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om Ji Care This Order As Per Om JI Material Raecived 7 Days",
+  "Contact Number": ""
  }
 ]
