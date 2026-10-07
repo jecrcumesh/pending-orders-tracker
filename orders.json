@@ -8209,5 +8209,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om Ji Care This Order As Per Om JI Material Raecived 7 Days",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 376,
+  "Order Date": "2026-10-02",
+  "Customer Name": "Jignesh hai ( Vastral )",
+  "Material Name": "Paradiso",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": "",
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "",
+  "Days Since Order": 5,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Payment Issue",
+  "Contact Number": ""
  }
 ]
