@@ -8370,5 +8370,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "1000 Sft Ready Material Go Then Next Material Ready",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 383,
+  "Order Date": "2026-10-05",
+  "Customer Name": "Times Trinity",
+  "Material Name": "GD Brown",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 6000,
+  "Dispatched Qty": "",
+  "Balance Qty": 6000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": 6000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om JI Order This Material",
+  "Contact Number": ""
  }
 ]
