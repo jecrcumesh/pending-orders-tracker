@@ -8255,5 +8255,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "DR sir Confrm Qty",
   "Contact Number": "`"
+ },
+ {
+  "Sr. No.": 378,
+  "Order Date": "2026-10-03",
+  "Customer Name": "Parikh E State",
+  "Material Name": "Mint Ivory",
+  "Finish / Surface": "Rock Face",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 1200,
+  "Dispatched Qty": "",
+  "Balance Qty": 1200,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 1200,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Order Placed By Amrita Bhaiya",
+  "Contact Number": ""
  }
 ]
