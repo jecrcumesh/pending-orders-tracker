@@ -8232,5 +8232,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Payment Issue",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 377,
+  "Order Date": "2026-10-02",
+  "Customer Name": "Swati - 18",
+  "Material Name": "Green Lavente",
+  "Finish / Surface": "VTF",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": "",
+  "Dispatched Qty": "",
+  "Balance Qty": 0,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 5,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR sir Confrm Qty",
+  "Contact Number": "`"
  }
 ]
