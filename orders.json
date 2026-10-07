@@ -8324,5 +8324,28 @@
   "Expected Delivery Date": "2026-10-14",
   "Remarks / Notes": "As Per Anil This Material Ready For 13 Oct",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 381,
+  "Order Date": "2026-10-03",
+  "Customer Name": "Anuj Bhaiya",
+  "Material Name": "Rosso Lavente",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 230,
+  "Dispatched Qty": "",
+  "Balance Qty": 230,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "First Perioty White Travertine Then He Go Together",
+  "Contact Number": ""
  }
 ]
