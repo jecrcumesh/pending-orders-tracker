@@ -8439,5 +8439,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Materia Ready But The Payment Must BE Received Before The Material Can Be Disptched",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 386,
+  "Order Date": "2026-10-05",
+  "Customer Name": "Parkash Bhai ( Malay Bhai Arch )",
+  "Material Name": "Light Burberry Beige",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 570,
+  "Dispatched Qty": "",
+  "Balance Qty": 570,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 6,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Materia Ready But The Payment Must BE Received Before The Material Can Be Disptched",
+  "Contact Number": ""
  }
 ]
