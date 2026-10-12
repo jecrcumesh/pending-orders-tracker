@@ -8623,5 +8623,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Material Ready Dispatch 14/10/2026",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 394,
+  "Order Date": "2026-10-09",
+  "Customer Name": "Niketu Sir ( Swati Senor )",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "Pcs",
+  "Order Qty": 17,
+  "Dispatched Qty": "",
+  "Balance Qty": 17,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "2026-10-13",
+  "Remarks / Notes": "MAterial Raedy Dispatch 13 Oct",
+  "Contact Number": ""
  }
 ]
