@@ -8669,5 +8669,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om Ji Order This Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 396,
+  "Order Date": "2026-10-10",
+  "Customer Name": "Ravish Sir ( PMC Shailesh Bhai )",
+  "Material Name": "R Black",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 400,
+  "Dispatched Qty": "",
+  "Balance Qty": 400,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 400,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "This Material Order By Om Ji",
+  "Contact Number": ""
  }
 ]
