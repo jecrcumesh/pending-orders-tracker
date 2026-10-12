@@ -8646,5 +8646,28 @@
   "Expected Delivery Date": "2026-10-13",
   "Remarks / Notes": "MAterial Raedy Dispatch 13 Oct",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 395,
+  "Order Date": "2026-10-10",
+  "Customer Name": "Ravish Sir ( PMC Shailesh Bhai )",
+  "Material Name": "R Black",
+  "Finish / Surface": "Laptro / Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 500,
+  "Dispatched Qty": "",
+  "Balance Qty": 500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 500,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om Ji Order This Material",
+  "Contact Number": ""
  }
 ]
