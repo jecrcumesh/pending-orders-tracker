@@ -8577,5 +8577,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Om Ji Order This Material",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 392,
+  "Order Date": "2026-10-08",
+  "Customer Name": "Ayansh Aura",
+  "Material Name": "Travertine",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 250,
+  "Dispatched Qty": 250,
+  "Balance Qty": 0,
+  "% Dispatched": 1,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Completed",
+  "Machine Processing Required": "",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
