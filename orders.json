@@ -8554,5 +8554,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Materia Ready But The Payment Must BE Received Before The Material Can Be Disptched",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 391,
+  "Order Date": "2026-10-08",
+  "Customer Name": "Mas Hq",
+  "Material Name": "Honey Pearl",
+  "Finish / Surface": "Ice Canvas",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 20000,
+  "Dispatched Qty": "",
+  "Balance Qty": 20000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 20000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Om Ji Order This Material",
+  "Contact Number": ""
  }
 ]
