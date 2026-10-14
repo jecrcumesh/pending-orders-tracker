@@ -8692,5 +8692,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "This Material Order By Om Ji",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 397,
+  "Order Date": "2026-10-12",
+  "Customer Name": "Chintan Parikh Trust ( Uttra Mam )",
+  "Material Name": "Dyna Blue",
+  "Finish / Surface": "Ice Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 4500,
+  "Dispatched Qty": "",
+  "Balance Qty": 4500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 4500,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Ome JI  Order This MAterial",
+  "Contact Number": ""
  }
 ]
