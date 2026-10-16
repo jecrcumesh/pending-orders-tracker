@@ -8715,5 +8715,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Ome JI  Order This MAterial",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 398,
+  "Order Date": "2026-10-13",
+  "Customer Name": "Lakshdeep Delivery",
+  "Material Name": "Jeselmer Yellow",
+  "Finish / Surface": "",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1600,
+  "Dispatched Qty": "",
+  "Balance Qty": 1600,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
