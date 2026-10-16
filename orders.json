@@ -8830,5 +8830,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 403,
+  "Order Date": "2026-10-15",
+  "Customer Name": "Gaurav Sir",
+  "Material Name": "Almond travertine",
+  "Finish / Surface": "Canvas",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 90,
+  "Dispatched Qty": "",
+  "Balance Qty": 90,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 90,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
