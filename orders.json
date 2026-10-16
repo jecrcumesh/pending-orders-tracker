@@ -8807,5 +8807,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 402,
+  "Order Date": "2026-10-15",
+  "Customer Name": "Hashmukh BHai Shah",
+  "Material Name": "Taj Mahal",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 4,
+  "Dispatched Qty": "",
+  "Balance Qty": 4,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 4,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 1,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
