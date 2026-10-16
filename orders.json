@@ -8784,5 +8784,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 401,
+  "Order Date": "2026-10-14",
+  "Customer Name": "Pramukh One Tapi",
+  "Material Name": "Millennium Ivory",
+  "Finish / Surface": "Riverwash ( 50mm )",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 6000,
+  "Dispatched Qty": "",
+  "Balance Qty": 6000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": 6000,
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
