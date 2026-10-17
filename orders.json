@@ -8876,5 +8876,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 405,
+  "Order Date": "2026-10-14",
+  "Customer Name": "A Shiridhar Infracon LLP",
+  "Material Name": "Monalisa",
+  "Finish / Surface": "Flutd Grooving",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 450,
+  "Dispatched Qty": "",
+  "Balance Qty": 450,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
