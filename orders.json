@@ -8899,5 +8899,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 406,
+  "Order Date": "2026-10-15",
+  "Customer Name": "Times Trinity",
+  "Material Name": "Paradiso",
+  "Finish / Surface": "",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 1000,
+  "Dispatched Qty": "",
+  "Balance Qty": 1000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "DR Sir Confiremation This Order Polish Ya Other Finish",
+  "Contact Number": ""
  }
 ]
