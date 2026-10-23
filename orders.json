@@ -8945,5 +8945,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 408,
+  "Order Date": "2026-10-20",
+  "Customer Name": "DR Kuntal Shah",
+  "Material Name": "Fusion Thunder ( ave Grey )",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 1,
+  "Dispatched Qty": "",
+  "Balance Qty": 1,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Fluted - 94x69  One Slabs",
+  "Contact Number": ""
  }
 ]
