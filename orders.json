@@ -9014,5 +9014,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 411,
+  "Order Date": "2026-10-21",
+  "Customer Name": "Westland By Good Value",
+  "Material Name": "Ambaji White",
+  "Finish / Surface": "",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 2000,
+  "Dispatched Qty": "",
+  "Balance Qty": 2000,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "No",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 2,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Order Qty  1100 / 2000",
+  "Contact Number": ""
  }
 ]
