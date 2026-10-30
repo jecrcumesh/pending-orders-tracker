@@ -9037,5 +9037,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Order Qty  1100 / 2000",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 412,
+  "Order Date": "2026-10-26",
+  "Customer Name": "Gndhidham Client",
+  "Material Name": "ivory",
+  "Finish / Surface": "Polish",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 1500,
+  "Dispatched Qty": "",
+  "Balance Qty": 1500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "As Per DR Sir Ordre Not Done",
+  "Contact Number": ""
  }
 ]
