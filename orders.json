@@ -9106,5 +9106,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "First Perioty Payment Then Anil Take A Plan And Process",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 415,
+  "Order Date": "2026-10-27",
+  "Customer Name": "Hertage Reality",
+  "Material Name": "Turk Grey",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 247,
+  "Dispatched Qty": "",
+  "Balance Qty": 247,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 3,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material In Stock As Per Umesh Bhaiya Payment Neesd To Be Reived First",
+  "Contact Number": ""
  }
 ]
