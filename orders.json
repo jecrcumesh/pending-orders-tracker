@@ -9060,5 +9060,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "As Per DR Sir Ordre Not Done",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 413,
+  "Order Date": "2026-10-26",
+  "Customer Name": "Gandhidham Client",
+  "Material Name": "Paradiso",
+  "Finish / Surface": "Polissh",
+  "Is New Customer": "",
+  "Unit": "SFT",
+  "Order Qty": 1500,
+  "Dispatched Qty": "",
+  "Balance Qty": 1500,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 4,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready But Not Done This Order",
+  "Contact Number": ""
  }
 ]
