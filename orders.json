@@ -564,7 +564,7 @@
   "Balance Qty": 350,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "No",
+  "Stock Yard Available": "Yes",
   "To Be Ordered Qty": 2,
   "Available Qty": "",
   "Order Status": "Pending",
