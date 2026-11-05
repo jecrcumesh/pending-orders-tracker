@@ -9258,14 +9258,14 @@
   "Balance Qty": 318,
   "% Dispatched": 0,
   "Rate (per Unit)": "",
-  "Stock Yard Available": "",
+  "Stock Yard Available": "Yes",
   "To Be Ordered Qty": "",
   "Available Qty": "",
-  "Order Status": "",
-  "Machine Processing Required": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
   "Days Since Order": 0,
   "Expected Delivery Date": "",
-  "Remarks / Notes": "",
+  "Remarks / Notes": "Lot No Not Confirm",
   "Contact Number": ""
  }
 ]
