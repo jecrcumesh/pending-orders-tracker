@@ -9244,5 +9244,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 421,
+  "Order Date": "2026-11-05",
+  "Customer Name": "Dr Hiten Panchal Sir",
+  "Material Name": "Bulgario Cream",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "No",
+  "Unit": "SFT",
+  "Order Qty": 318,
+  "Dispatched Qty": "",
+  "Balance Qty": 318,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "",
+  "Machine Processing Required": "",
+  "Days Since Order": 0,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
