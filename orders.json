@@ -9175,5 +9175,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 418,
+  "Order Date": "2026-10-02",
+  "Customer Name": "Vishwesh Sir",
+  "Material Name": "Lyca Beige",
+  "Finish / Surface": "Plant",
+  "Is New Customer": "Yes",
+  "Unit": "PCS",
+  "Order Qty": 3,
+  "Dispatched Qty": "",
+  "Balance Qty": 3,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Ready",
+  "Machine Processing Required": "No",
+  "Days Since Order": 34,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "Material Ready",
+  "Contact Number": ""
  }
 ]
