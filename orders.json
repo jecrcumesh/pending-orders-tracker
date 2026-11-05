@@ -9221,5 +9221,28 @@
   "Expected Delivery Date": "",
   "Remarks / Notes": "Dining ( 8 FT x 3.5FT ) ( Center TAble ( 2FT x 3FT Only Dhar Polish ( Console Top 108",
   "Contact Number": ""
+ },
+ {
+  "Sr. No.": 420,
+  "Order Date": "2026-10-30",
+  "Customer Name": "Jagdish Sir",
+  "Material Name": "Portugal Mocha",
+  "Finish / Surface": "Leather",
+  "Is New Customer": "Yes",
+  "Unit": "SFT",
+  "Order Qty": 460,
+  "Dispatched Qty": "",
+  "Balance Qty": 460,
+  "% Dispatched": 0,
+  "Rate (per Unit)": "",
+  "Stock Yard Available": "Yes",
+  "To Be Ordered Qty": "",
+  "Available Qty": "",
+  "Order Status": "Pending",
+  "Machine Processing Required": "Yes",
+  "Days Since Order": 6,
+  "Expected Delivery Date": "",
+  "Remarks / Notes": "",
+  "Contact Number": ""
  }
 ]
